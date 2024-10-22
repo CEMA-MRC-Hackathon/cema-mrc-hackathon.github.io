@@ -1,0 +1,17 @@
+---
+title: "Hackathon Participants and Organising Committee"
+listing:
+  id: attendees
+  contents:
+    - "participants/*.qmd"
+  type: grid
+  image-height: 200px
+  fields: [image, title, subtitle, description]
+sidebar: false
+---
+
+The organising committee for the hackathon are listed below. Once attendees are 
+identified they will be added below too. 
+
+::: {#attendees}
+:::

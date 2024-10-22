@@ -1,0 +1,23 @@
+---
+title: "Registration"
+---
+
+## Join us!
+
+• **We want to**: Create free, open-source resources to support and facilitate evidence-informed decision making and address infectious disease policy needs in Kenya.
+
+• **We are looking for**: 
+
+  - **Public Health Decision-Makers:** Ministry of Health officials and public health specialists who provide insights based on real-world public health needs and ensure developed tools address practical challenges.
+
+  - **Developers and Technical Experts:** Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.
+
+  - **Academics and Researchers:** Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.
+
+• **We aim to**: maximize diversity in skills, experiences, and people.
+
+• **Applications close on the 20th November 2024**.
+
+## Registration
+
+Please register your interest using this [Google Form](https://forms.gle/25h717gF8jLzLRxp7).

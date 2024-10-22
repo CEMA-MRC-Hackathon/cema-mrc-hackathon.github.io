@@ -1,0 +1,17 @@
+---
+title: "Oliver (OJ) Watson"
+subtitle: "Imperial College London"
+image: headshots/oliver-watson.png
+description: "Organiser"
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://x.com/ojwatson92
+    - icon: github
+      text: Github
+      href: https://github.com/OJWatson
+---
+
+OJ Watson is a lecturer and Schmidt AI in science fellow at Imperial College London, with a background in infectious disease modelling in malaria, and interest in pandemic preparedness.

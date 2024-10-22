@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: ""
+  navbar:
+    background: "#4A5864"
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - register.qmd
+      - about.qmd
+  back-to-top-navigation: true
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+
