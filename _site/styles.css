@@ -4,6 +4,23 @@
   text-align: center;
 }
 
+.quarto-title-banner {
+  padding-top: 1.8em;
+  padding-bottom: 1.5em;
+}
+
+.quarto-grid-item, .card-img {
+  border-radius: 10px!important;
+}
+
+#quarto-announcement {
+  align-items: self-end;
+}
+
+.title, .lead {
+  color: black!important;
+}
+
 .description {
   text-align: center;
 }

@@ -2,9 +2,16 @@ project:
   type: website
 
 website:
+  announcement:
+    icon: megaphone
+    dismissable: true
+    content: "**Alert - Both this website and the hackathon it relates to are in development.**"
+    type: primary
+    position: below-navbar
   title: ""
   navbar:
     background: "#4A5864"
+    alignment: "right"
     pinned: true
     left:
       - href: index.qmd
@@ -13,11 +20,10 @@ website:
       - about.qmd
   back-to-top-navigation: true
 
-
 format:
   html:
     theme: cosmo
+    max-width: 200px
     css: styles.css
     toc: false
-
 
