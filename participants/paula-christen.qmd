@@ -1,0 +1,17 @@
+---
+title: "Paula Christen"
+subtitle: "CEMA"
+image: headshots/paula-christen.jpeg
+description: "Organiser"
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://x.com/paulachristen
+    - icon: github
+      text: Github
+      href: https://github.com/paulachristen
+---
+
+Paula Christen is social scientist and infectious disease epidemiologist specialized in researching, identifying and developing interventions enabling knowledge translation from infectious disease models to public health policy and programs.
