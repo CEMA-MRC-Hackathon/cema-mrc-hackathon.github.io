@@ -23,7 +23,6 @@ website:
 format:
   html:
     theme: cosmo
-    max-width: 200px
     css: styles.css
     toc: false
 
