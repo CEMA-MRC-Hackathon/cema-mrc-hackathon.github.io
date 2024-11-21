@@ -3,6 +3,8 @@ title: "Oliver (OJ) Watson"
 subtitle: "Imperial College London"
 image: headshots/oliver-watson.jpg
 description: "Organiser"
+categories:
+  - Organiser
 about:
   template: jolla
   links:

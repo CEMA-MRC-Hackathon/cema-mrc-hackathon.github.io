@@ -12,6 +12,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/paulachristen
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/paula-christen/
 ---
 
 Paula Christen is social scientist and infectious disease epidemiologist specialized in researching, identifying and developing interventions enabling knowledge translation from infectious disease models to public health policy and programs.
