@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -96,6 +96,15 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9PNE3YLQDG"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9PNE3YLQDG', { 'anonymize_ip': true});
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -151,7 +160,7 @@ window.Quarto = {
 <span class="menu-text">Registration</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link active" href="./particpants.html" aria-current="page"> 
 <span class="menu-text">Hackathon Participants and Organising Committee</span></a>
   </li>  
 </ul>
@@ -194,9 +203,9 @@ window.Quarto = {
 <p>The organising committee for the hackathon are listed below. Once attendees are identified they will be added below too.</p>
 <div id="listing-attendees" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732173931875" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="g-col-1" data-index="0" data-categories="Organiser" data-listing-file-modified-sort="1732192214537" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
 <a href="./participants/oliver-watson.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="./participants/headshots/oliver-watson.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
@@ -207,16 +216,18 @@ Oliver (OJ) Watson
 <div class="card-subtitle listing-subtitle">
 Imperial College London
 </div>
-<div class="card-text listing-description">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Organiser'); return false;">
 Organiser
+</div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732173931875" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732192214537" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
 <a href="./participants/paula-christen.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="./participants/headshots/paula-christen.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
@@ -226,9 +237,6 @@ Paula Christen
 </h5>
 <div class="card-subtitle listing-subtitle">
 CEMA
-</div>
-<div class="card-text listing-description">
-Organiser
 </div>
 </div>
 </div>
