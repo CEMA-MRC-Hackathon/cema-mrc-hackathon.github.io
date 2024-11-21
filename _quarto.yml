@@ -19,7 +19,7 @@ website:
       - register.qmd
       - particpants.qmd
   back-to-top-navigation: true
-  google-analytics:	G-M5HJBKLS0L
+  google-analytics:	G-N2S7VXS1QK
 format:
   html:
     theme: cosmo
