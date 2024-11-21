@@ -28,3 +28,7 @@
 .listing-subtitle {
   font-size: 80%;
 }
+
+.quarto-title .quarto-categories{
+  display: inline-grid;
+}
