@@ -1,0 +1,15 @@
+---
+title: "Waithera Mwangi"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/waithera-mwangi.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/waitherawmwangi/
+---
+
+Waithera is an Administration Officer at CEMA, dedicated to ensuring smooth operations and effective coordination for trainings that take place at the organisation.

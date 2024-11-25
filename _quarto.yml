@@ -2,12 +2,12 @@ project:
   type: website
 
 website:
-  announcement:
-    icon: megaphone
-    dismissable: true
-    content: "**Alert - Both this website and the hackathon it relates to are in development.**"
-    type: primary
-    position: below-navbar
+#  announcement:
+#    icon: megaphone
+#    dismissable: true
+#    content: "**Alert - Both this website and the hackathon it relates to are in development.**"
+#    type: primary
+#    position: below-navbar
   title: ""
   navbar:
     background: "#4A5864"
@@ -25,4 +25,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+    page-layout: full
 

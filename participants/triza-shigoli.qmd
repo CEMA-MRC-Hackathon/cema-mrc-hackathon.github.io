@@ -1,0 +1,15 @@
+---
+title: "Triza Shigoli"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/triza-shigoli.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/triza-shigoli/
+---
+
+Triza Shigoli is a Project Management and Organizational Development professional, and the Administrative Manager at the Center for Epidemiological Modelling and Analysis (CEMA), with experience in supporting the delivery of health research projects in collaboration with a multidisciplinary team of scientists and technical experts.

@@ -1,0 +1,12 @@
+---
+title: "Kemunto Ogutu"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/kemunto-ogutu.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+  links:
+---
+
+Kemunto is a communications professional working for the Center for Epidemiological Modeling and Analysis (CEMA) in the Health Communications department.

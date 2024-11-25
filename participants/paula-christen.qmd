@@ -1,7 +1,7 @@
 ---
 title: "Paula Christen"
-subtitle: "CEMA"
-image: headshots/paula-christen.jpeg
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA); Imperial College London"
+image: headshots/paula-christen.jpg
 categories:
   - Organiser
 about:

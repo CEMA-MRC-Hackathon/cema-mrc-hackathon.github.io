@@ -1,0 +1,18 @@
+---
+title: "Jeanette Dawa"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/jeanette-dawa.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/jeanette-dawa/
+    - icon: googlescholar
+      text: Googlescholar
+      href: https://scholar.google.com/citations?user=L1I0WJkAAAAJ&hl=en
+---
+
+Jeanette Dawa (MBChB, MSc, PhD) is a public health specialist/epidemiologist with a background in medicine, public health and infectious disease modelling.

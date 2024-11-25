@@ -1,0 +1,15 @@
+---
+title: "Mutono Nyamai"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/mutono-nyamai.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+  links:
+    - icon: googlescholar
+      text: Googlescholar
+      href: https://scholar.google.com/citations?user=DE4gTQYAAAAJ&hl=en
+---
+
+Mutono is a data scientist currently using applied epidemiological modelling techniques to provide evidence for control and elimination of Neglected Tropical Diseases.

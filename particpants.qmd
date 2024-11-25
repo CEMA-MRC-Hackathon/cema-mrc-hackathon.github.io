@@ -6,7 +6,7 @@ listing:
     - "participants/*.qmd"
   type: grid
   image-height: 200px
-  grid-columns: 3
+  grid-columns: 4
   grid-item-align: center
   fields: [image, title, subtitle, categories]
   categories: false
