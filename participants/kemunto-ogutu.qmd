@@ -6,7 +6,6 @@ categories:
   - Organiser
 about:
   template: jolla
-  links:
 ---
 
-Kemunto is a communications professional working for the Center for Epidemiological Modeling and Analysis (CEMA) in the Health Communications department.
+Kemunto is a communications professional working for the Center for Epidemiological Modelling and Analysis (CEMA) in the Health Communications department.

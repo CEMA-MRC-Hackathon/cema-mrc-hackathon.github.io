@@ -10,8 +10,8 @@ about:
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/jeanette-dawa/
-    - icon: googlescholar
-      text: Googlescholar
+    - icon: google
+      text: Google Scholar
       href: https://scholar.google.com/citations?user=L1I0WJkAAAAJ&hl=en
 ---
 

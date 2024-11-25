@@ -66,6 +66,8 @@ make_qmd <- function(headshot,
       return(NULL)
     } else {
       return(
+        if (name == "googlescholar") name <- "Google Scholar"
+        if (name == "personal") name <- "Personal Website"
         make_link_three(icon = name, text = stringr::str_to_title(name), href = x)
       )
     }
@@ -79,6 +81,9 @@ make_qmd <- function(headshot,
     parse_link(personal),
     parse_link(github)
   )
+  if (is.null(ll2)) {
+    ll$links <- NULL
+  }
 
   # make the end list
   ll3 <- list(
@@ -97,7 +102,7 @@ pages <- list("jd" = make_qmd(headshot = to_add[1], role = "Organiser",
                               googlescholar = "https://scholar.google.com/citations?user=L1I0WJkAAAAJ&hl=en",
                               linkedin = "https://www.linkedin.com/in/jeanette-dawa/"),
               "ko" = make_qmd(headshot = to_add[2], role = "Organiser",
-                              bio = "Kemunto is a communications professional working for the Center for Epidemiological Modeling and Analysis (CEMA) in the Health Communications department."),
+                              bio = "Kemunto is a communications professional working for the Center for Epidemiological Modelling and Analysis (CEMA) in the Health Communications department."),
               "mn" = make_qmd(headshot = to_add[3], role = "Organiser",
                               bio = "Mutono is a data scientist currently using applied epidemiological modelling techniques to provide evidence for control and elimination of Neglected Tropical Diseases.",
                               googlescholar = "https://scholar.google.com/citations?user=DE4gTQYAAAAJ&hl=en"),

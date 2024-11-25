@@ -8,7 +8,7 @@ about:
   template: jolla
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://x.com/ojwatson92
     - icon: github
       text: Github

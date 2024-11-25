@@ -8,13 +8,13 @@ about:
   template: jolla
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://x.com/paulachristen
     - icon: github
       text: Github
       href: https://github.com/paulachristen
     - icon: linkedin
-      text: linkedin
+      text: Linkedin
       href: https://www.linkedin.com/in/paula-christen/
 ---
 
