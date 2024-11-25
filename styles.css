@@ -29,6 +29,10 @@
   font-size: 80%;
 }
 
+.nav-link:hover, .nav-link:focus {
+  color: #A6C7E1;
+}
+
 .quarto-title .quarto-categories{
   display: inline-grid;
 }
