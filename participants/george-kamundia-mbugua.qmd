@@ -1,0 +1,27 @@
+---
+title: "Joy Kalekye Nthiwa"
+subtitle: "CEMA"
+image: headshots/joy-kalekye-nthiwa.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/joy-nthiwa
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: https://github.com/DrNthiwa
+---
+
+Joy Nthiwa is a PhD scholar in the Department of Medical Microbiology and Immunology. She is also a fellow of the Center for Epidemiological Modelling and Analysis (CEMA) under the African Modeling and Analytics Academy for Women (AMAX) project. With a background in Statistics and Actuarial Science, her research interests focus on schistosomiasis, specifically on the use of mathematical models to optimize the delivery of intervention strategies for the elimination of schistosomiasis in Kenya.

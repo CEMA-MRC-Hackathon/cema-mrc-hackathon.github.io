@@ -1,0 +1,27 @@
+---
+title: "Pete Winskill"
+subtitle: "Imperial College London"
+image: headshots/pete-winskill.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: NA
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: https://github.com/pwinskill
+---
+
+Pete Winskill is a Bill & Melinda Gates Foundation-funded research fellow at the MRC Centre for Global Infectious Disease Analysis, Imperial College London and the Director of the Translational Modelling Hub. He leads the development of a global malaria modelling framework, linking the Imperial malariasimulation model to primary data to support global, national, and sub-national malaria modelling requests.

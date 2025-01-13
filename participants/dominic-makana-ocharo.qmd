@@ -1,0 +1,27 @@
+---
+title: "Ruth McCabe"
+subtitle: "Imperial College London"
+image: headshots/ruth-mc-cabe.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/ruth-mccabe-2a6322170/
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: https://github.com/ruthmccabe
+---
+
+Ruth McCabe is a statistician and mathematical modeller at Imperial College London specialising in outbreak response at the science-policy interface.

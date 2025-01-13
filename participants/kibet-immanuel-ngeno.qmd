@@ -1,0 +1,34 @@
+---
+title: "Jackline Mosinya Nyaberi"
+subtitle: "Jomo Kenyatta University of Agriculture and Technology"
+image: headshots/jackline-mosinya-nyaberi.jpg
+categories:
+  - Decisionmaker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/mosinyanyaberi/
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/mosinya_n
+    - icon: Google Scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=hek6ZGYAAAAJ&hl=en
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: NA
+---
+
+Nyaberi is a public health and health systems expert researcher at the School of Public Health, Jomo Kenyatta University of Agriculture and Technology. She is an accomplished Global Health leader and advisor. She is an inaugural Fellow of the Kofi Annan (She is a such a resource for the continent and beyond). She is a 24/7 mentor to aspiring leaders in professional and Personal Development. She is a holistic trainer, mentor and coach at Authentic Leadership for Development (ALD) for Corporate Solutions. She is an author of “101 Authentic Leadership Lessons: Impacting African Leaders. Jackline’s career has focused on strengthening ethics, leadership and governance, health systems, and public health leadership to improve infectious disease preparedness and to reduce mortality, morbidity, and disability in vulnerable communities. 
+Her career accomplishments include formulating new health programs, policies, and strategies in 55 Africa Union Member states to support pandemic preparedness plans, health workforce planning, leadership and governance, and strengthening health systems.
+ Jackline is inspired to mentor adolescents, women, and girls, provides basic school items for low-income children in rural settings, and founded Ayanna Health Foundation, a non-profit which provides mentorship, empowerment and health services to vulnerable populations and mentorship.
+Jackline holds a Master of Public Health from Maseno University in Kenya, a Master of Global Bioethics from Anahuac University in Mexico, and a Ph.D. in Public Health from Kenyatta University in Kenya. Jackline was named a 2021 Inaugural Kofi Annan Global Health Leadership Fellow by the Kofi Annan Foundation, Africa CDC and African Union. Long term, Jackline hopes to continue her work in strengthening public health systems in Africa and beyond and to activate the next generation to become transformational leaders. She dreams to support not only health systems in Africa to experience a paradigm shift in governance and leadership, but also to support all interconnected ecosystems of all stakeholders to foster health and wellbeing for all generations.
+jnyaberij@gmail.com
+https://www.linkedin.com/in/mosinyanyaberi/
+
+

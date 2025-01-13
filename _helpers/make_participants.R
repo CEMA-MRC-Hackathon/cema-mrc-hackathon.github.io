@@ -65,9 +65,9 @@ make_qmd <- function(headshot,
     if(is.null(x)) {
       return(NULL)
     } else {
-      return(
         if (name == "googlescholar") name <- "Google Scholar"
         if (name == "personal") name <- "Personal Website"
+      return(
         make_link_three(icon = name, text = stringr::str_to_title(name), href = x)
       )
     }

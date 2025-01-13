@@ -1,0 +1,27 @@
+---
+title: "Muchiri Antony M."
+subtitle: "CEMA"
+image: headshots/muchiri-antony-m.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: NA
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: https://github.com/Antoney20
+---
+
+Muchiri Antony M is a software engineer intern at CEMA, where he works on optimizing various aspects of the CEMA Analytics Hub. With a strong foundation in technology and problem-solving, he is dedicated to developing impactful solutions that address real-world challenges.

@@ -1,0 +1,27 @@
+---
+title: "Preston Osoro"
+subtitle: "N/A"
+image: headshots/preston-osoro.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/preston-osoro
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/prestonosoro
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: https://preston-56.netlify.app/
+    - icon: github
+      text: Github
+      href: https://github.com/preston-56
+---
+
+Preston is a software developer with expertise in building APIs and data management systems, including patient management APIs. He is passionate about leveraging technology to solve real-world public health challenges.

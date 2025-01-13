@@ -1,0 +1,27 @@
+---
+title: "Dominic Makana Ocharo"
+subtitle: "Pavicon Kenya Limited"
+image: headshots/dominic-makana-ocharo.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/dominic-ocharo-87a601212
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/dominic_ocharo
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: https://dominicocharo.github.io/
+    - icon: github
+      text: Github
+      href: https://github.com/DominicOcharo
+---
+
+Dominic Makana Ocharo is a telecommunications engineer and data scientist based in Kenya, specializing in developing AI-driven solutions and data analytics tools to address public health challenges and optimize decision-making in resource-constrained settings.

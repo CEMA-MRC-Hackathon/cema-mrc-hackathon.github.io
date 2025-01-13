@@ -1,0 +1,27 @@
+---
+title: "Kariithi  Anne Wanjiku"
+subtitle: "CEMA"
+image: headshots/kariithi-anne-wanjiku.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/ciku-daniels/
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: https://ci-daniels.github.io/kariithi_wanjiku.github.io/
+    - icon: github
+      text: Github
+      href: https://github.com/Ci-Daniels
+---
+
+Anne is a computer at the Center for Epidemiological Modelling and Analysis, developing data algorithms, pipelines, and database management systems to support public health policymaking. She hopes to advance her studies in biomedical engineering to improve patient outcomes through innovative applications in computational bioengineering. By integrating her engineering expertise with her passion for healthcare accessibility, she aims to advance healthcare technology, especially in underserved communities.

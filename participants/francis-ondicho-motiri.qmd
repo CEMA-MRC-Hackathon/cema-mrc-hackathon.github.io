@@ -1,0 +1,27 @@
+---
+title: "Bonventure Ameyo"
+subtitle: "Ministry of Health Turkana County"
+image: headshots/bonventure-ameyo.jpg
+categories:
+  - Decisionmaker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: NA
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: NA
+---
+
+Dr. Ameyo has gathered experience both in the practice and delivery of healthcare, its programming and  management in the public sector in Kenya, currently working as the deputy director medical services in Turkana County, Kenya.

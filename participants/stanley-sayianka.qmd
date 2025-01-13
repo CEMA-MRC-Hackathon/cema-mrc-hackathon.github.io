@@ -1,0 +1,27 @@
+---
+title: "Lilith Whittles"
+subtitle: "Imperial College London"
+image: headshots/lilith-whittles.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/lilith-whittles/
+    - icon: twitter
+      text: Twitter
+      href: NA
+    - icon: Google Scholar
+      text: Google Scholar
+      href: NA
+    - icon: Personal Website
+      text: Personal Website
+      href: NA
+    - icon: github
+      text: Github
+      href: https://github.com/lwhittles
+---
+
+Lilith Whittles is a researcher at Imperial College London, studying the transmission of infectious diseases through human populations. Her work spans a broad spectrum: from epidemic response to mpox, COVID-19 and group A streptococcus in the UK and Europe, to reducing the impact of globally endemic sexually transmitted infections such as gonorrhoea, HIV and HSV-2.
