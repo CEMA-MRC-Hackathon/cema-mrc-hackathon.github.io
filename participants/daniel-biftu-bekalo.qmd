@@ -1,7 +1,7 @@
 ---
-title: "Moses Muriithi"
-subtitle: "University of Nairobi"
-image: headshots/moses-muriithi.jpg
+title: "Daniel Biftu Bekalo"
+subtitle: "Haramaya University"
+image: headshots/daniel-biftu-bekalo.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,13 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: NA
+      href: https://www.linkedin.com/in/daniel-biftu-b765432b70/
     - icon: twitter
       text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
+      href: https://x.com/Danny_Biftu
     - icon: github
       text: Github
-      href: NA
+      href: https://github.com/danibiftu
 ---
 
-Moses Muriithi is an health economist and an associate professor at the university of Nairobi department of economics and development studies cost effectiveness of various diseases interventions in the era of  digital technology.
+I am a PhD student in Statistics at the Pan African University Institute for Basic Sciences, Technology, and Innovation, which is hosted by Jomo Kenyatta University of Agriculture and Technology in Kenya. My PhD research focuses on Bayesian estimate of a latent traits model defined by a rank-based likelihood, which is in line with the hackathon's objective of creating data-driven tools for evidence-based public health decision-making in Kenya and other resource-constrained situations.

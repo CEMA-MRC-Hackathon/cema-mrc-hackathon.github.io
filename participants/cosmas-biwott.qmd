@@ -1,7 +1,7 @@
 ---
-title: "Pius Kariuki"
-subtitle: "IntelliSOFT consulting"
-image: headshots/pius-kariuki.jpg
+title: "Cosmas Biwott"
+subtitle: "Nairobi City"
+image: headshots/cosmas-biwott.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,13 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/pius-kariuki-1796041b4/
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
+      href: https://www.linkedin.com/in/cosmas-biwott/
     - icon: Personal Website
       text: Personal Website
-      href: https://portfolio-piuskariuki.vercel.app/
+      href: https://aesops.co.ke/about-us/cosmas-biwott
     - icon: github
       text: Github
-      href: https://github.com/PiusKariuki
+      href: https://github.com/SASMOC
 ---
 
-Pius Kariuki is a digital health engineer at IntelliSOFT consulting, working with cross sectional data with tools like DHIS2. I am also an interoperability and integrations expert working with standards like FHIR and FHIR-data-pipes to report patient data.
+Cosmas Biwott is a statistician at the University of Nairobi's Centre for Epidemiological Modelling and Analysis (UoN-CEMA). Specializing in applying advanced statistical methods to health data, driving evidence-based decision-making to improve public health outcomes.

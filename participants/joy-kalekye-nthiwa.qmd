@@ -1,7 +1,7 @@
 ---
-title: "Kariithi  Anne Wanjiku"
-subtitle: "CEMA"
-image: headshots/kariithi-anne-wanjiku.jpg
+title: "Joy Kalekye Nthiwa"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/joy-kalekye-nthiwa.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,10 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/ciku-daniels/
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: https://ci-daniels.github.io/kariithi_wanjiku.github.io/
+      href: https://www.linkedin.com/in/joy-nthiwa
     - icon: github
       text: Github
-      href: https://github.com/Ci-Daniels
+      href: https://github.com/DrNthiwa
 ---
 
-Anne is a computer at the Center for Epidemiological Modelling and Analysis, developing data algorithms, pipelines, and database management systems to support public health policymaking. She hopes to advance her studies in biomedical engineering to improve patient outcomes through innovative applications in computational bioengineering. By integrating her engineering expertise with her passion for healthcare accessibility, she aims to advance healthcare technology, especially in underserved communities.
+Joy Nthiwa is a PhD scholar in the Department of Medical Microbiology and Immunology. She is also a fellow of the Center for Epidemiological Modelling and Analysis (CEMA) under the African Modeling and Analytics Academy for Women (AMAX) project. With a background in Statistics and Actuarial Science, her research interests focus on schistosomiasis, specifically on the use of mathematical models to optimize the delivery of intervention strategies for the elimination of schistosomiasis in Kenya.

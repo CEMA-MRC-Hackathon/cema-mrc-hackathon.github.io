@@ -1,0 +1,15 @@
+---
+title: "Thumbi Mwangi"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/thumbi-mwangi.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: Personal Website
+      text: Personal Website
+      href: https://cema-africa.uonbi.ac.ke/people/epidemiology/prof-thumbi-mwangi
+---
+
+Thumbi Mwangi Co-Director & Group Lead (Applied Epidemiology) at CEMA, leading efforts in epidemiological modelling and public health policy in Africa. He is an infectious disease epidemiologist combining classical epidemiology, applied epidemiological modelling and data science to improve the speed and quality of policy decision making in human and animal health

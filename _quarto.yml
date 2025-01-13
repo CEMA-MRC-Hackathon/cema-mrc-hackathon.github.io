@@ -2,12 +2,12 @@ project:
   type: website
 
 website:
-  announcement:
-    icon: megaphone
-    dismissable: true
-    content: "Registration is live – fill in the registration form to submit your interest in attending!"
-    type: primary
-    position: below-navbar
+  # announcement:
+  #   icon: megaphone
+  #   dismissable: true
+  #   content: "Registration is live – fill in the registration form to submit your interest in attending!"
+  #   type: primary
+  #   position: below-navbar
   title: ""
   navbar:
     background: "#4A5864"
@@ -20,6 +20,7 @@ website:
       - particpants.qmd
   back-to-top-navigation: true
   google-analytics:	G-N2S7VXS1QK
+
 format:
   html:
     theme: cosmo

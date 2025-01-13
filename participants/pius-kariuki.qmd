@@ -1,27 +1,21 @@
 ---
-title: "OMAR AHMED"
-subtitle: "MOMBASA COUNTY"
-image: headshots/omar-ahmed.jpg
+title: "Pius Kariuki"
+subtitle: "IntelliSOFT consulting"
+image: headshots/pius-kariuki.jpg
 categories:
-  - Decisionmaker
+  - Hacker
 about:
   template: jolla
   links:
     - icon: linkedin
       text: Linkedin
-      href: NA
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
+      href: https://www.linkedin.com/in/pius-kariuki-1796041b4/
     - icon: Personal Website
       text: Personal Website
-      href: NA
+      href: https://portfolio-piuskariuki.vercel.app/
     - icon: github
       text: Github
-      href: NA
+      href: https://github.com/PiusKariuki
 ---
 
-My name is Omar Ahmed, and I am currently pursuing my Master’s in Public Health. I work in public health in Mombasa County, where I focus on designing and implementing health programs to improve community well-being. My thesis research explores the association between malaria prevalence in children under five and demographic, socio-economic, and environmental factors in Mogadishu. I am passionate about using evidence-based approaches to tackle public health challenges, especially in vulnerable populations. I’m excited to be here and look forward to learning and collaborating with all of you."
+Pius Kariuki is a digital health engineer at IntelliSOFT consulting, working with cross sectional data with tools like DHIS2. I am also an interoperability and integrations expert working with standards like FHIR and FHIR-data-pipes to report patient data.

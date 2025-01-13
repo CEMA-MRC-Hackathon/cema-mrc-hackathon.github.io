@@ -1,27 +1,15 @@
 ---
-title: "David Nene"
-subtitle: "iLabAfrica - Strathmore University"
-image: headshots/david-nene.jpg
+title: "Pete Winskill"
+subtitle: "Imperial College London"
+image: headshots/pete-winskill.jpg
 categories:
-  - Hacker
+  - Facilitator
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/david-nene
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
     - icon: github
       text: Github
-      href: https://github.com/davidnene
+      href: https://github.com/pwinskill
 ---
 
-David Nene is an AI Engineer and MSc Data Science & Analytics candidate at Strathmore University with expertise in developing AI-driven solutions for healthcare, agriculture, and public policy. He has a strong portfolio of projects, including an AI-powered lung cancer classification model and a chatbot for efficient document retrieval, emphasizing his commitment to solving socio-economic challenges using data science and artificial intelligence.
+Pete Winskill is a Bill & Melinda Gates Foundation-funded research fellow at the MRC Centre for Global Infectious Disease Analysis, Imperial College London and the Director of the Translational Modelling Hub. He leads the development of a global malaria modelling framework, linking the Imperial malariasimulation model to primary data to support global, national, and sub-national malaria modelling requests.

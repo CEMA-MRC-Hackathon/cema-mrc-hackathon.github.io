@@ -1,27 +1,15 @@
 ---
-title: "Derrick Lubanga"
-subtitle: "iLabAfrica - Strathmore University"
-image: headshots/derrick-lubanga.jpg
+title: "Katy Gaythorpe"
+subtitle: "Imperial College London"
+image: headshots/katy-gaythorpe.jpg
 categories:
-  - Hacker
+  - Facilitator
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/lubanga99/
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
     - icon: github
       text: Github
-      href: https://github.com/LubangaD
+      href: https://github.com/kgaythorpe
 ---
 
-Derrick Lubanga a postgraduate student at Strathmore University Nairobi pursuing a Data Science degree and exploring how how predictive analytics for Kenya hospital pharmacies inventories will improve healthcare delivery through drug demand prediction.
+Dr Katy Gaythorpe is the research lead of the Vaccine Impact Modelling Consortium (VIMC, https://www.vaccineimpact.org/) and a lecturer in the epidemiology of vaccine-preventable diseases (VPDs) at Imperial College London. Her research focuses on developing mathematical models of infectious diseases such as yellow fever and others to assess the health impacts of vaccination. Dr Gaythorpe is particularly interested in the implications of climate change for climate-sensitive VPD control.

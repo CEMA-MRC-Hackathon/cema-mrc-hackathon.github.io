@@ -1,27 +1,11 @@
 ---
-title: "Cosmas Biwott"
-subtitle: "Nairobi City"
-image: headshots/cosmas-biwott.jpg
+title: "Bonventure Ameyo"
+subtitle: "Ministry of Health Turkana County"
+image: headshots/bonventure-ameyo.jpg
 categories:
-  - Hacker
+  - Decision Maker
 about:
   template: jolla
-  links:
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/cosmas-biwott/
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: https://aesops.co.ke/about-us/cosmas-biwott
-    - icon: github
-      text: Github
-      href: https://github.com/SASMOC
 ---
 
-Cosmas Biwott is a statistician at the University of Nairobi's Centre for Epidemiological Modelling and Analysis (UoN-CEMA). Specializing in applying advanced statistical methods to health data, driving evidence-based decision-making to improve public health outcomes.
+Dr. Ameyo has gathered experience both in the practice and delivery of healthcare, its programming and  management in the public sector in Kenya, currently working as the deputy director medical services in Turkana County, Kenya.

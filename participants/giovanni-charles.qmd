@@ -1,27 +1,24 @@
 ---
-title: "George Kamundia Mbugua"
-subtitle: "CEMA"
-image: headshots/george-kamundia-mbugua.jpg
+title: "Giovanni Charles"
+subtitle: "Imperial College London"
+image: headshots/giovanni-charles.jpg
 categories:
-  - Hacker
+  - Facilitator
 about:
   template: jolla
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/george-kamundia-5b1524157/
+      href: https://www.linkedin.com/in/giovannicharles/
     - icon: twitter
       text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
+      href: https://x.com/GDCharles
     - icon: Personal Website
       text: Personal Website
-      href: NA
+      href: giovannicharles.com
     - icon: github
       text: Github
-      href: https://github.com/GKamundia/
+      href: https://github.com/giovannic
 ---
 
-George Kamundia is a data science intern at the Center for Epidemiological Modelling and Analysis (CEMA), applying data analytics to inform public health decision-making. He focuses on developing predictive models and tools that bridge the gap between data science and health policy, contributing to more effective disease control and prevention strategies.
+Giovanni Charles is a software/ML engineer working on surrogates for infectious disease transmission models for inference and optimisation. He is interested in normalising flows, LLM interfaces for ID models, surrogate modelling, Bayesian inference, time-series prediction, differentiable agent based modelling and JAX.

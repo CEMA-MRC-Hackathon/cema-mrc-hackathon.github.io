@@ -1,0 +1,18 @@
+---
+title: "Evans Omondi"
+subtitle: "African Population and Health Research Center"
+image: headshots/evans-omondi.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/evans-omondi-ph-d-80403358/?originalSubdomain=ke
+    - icon: Personal Website
+      text: Personal Website
+      href: https://aphrc.org/person/evans-omondi/
+---
+
+Evans Omondi is a mathematician and Post-Doctoral Research Scientist (Mathematical modeler) at the African Population and Health Research Center (APHRC) in Kenya. I have a broad background in the application of mathematical modeling applied to biology, with particular expertise in dynamical systems and stochastic processes for modeling infectious diseases.

@@ -1,7 +1,7 @@
 ---
-title: "Stanley Sayianka"
-subtitle: "CEMA"
-image: headshots/stanley-sayianka.jpg
+title: "Mumbua Mutunga"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/mumbua-mutunga.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,10 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/stanley-sayianka-8a6450170/
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: https://stanleyrazor.github.io/portfolio/
+      href: https://www.linkedin.com/in/mumbua-mutunga-85a4407b
     - icon: github
       text: Github
-      href: https://github.com/stanleyrazor
+      href: https://github.com/Mumbua-Mutunga
 ---
 
-Stanley Sayianka is a Data Science Research Assistant at the Centre for Epidemiological Modelling and Analysis (CEMA). His work focuses on the statistical modeling of mortality indicators.
+Mumbua Mutunga is a PhD student at the University of Nairobi, working on rabies and the various ways to optimise the disease interventions towards accelerating disease elimination in Kenya.

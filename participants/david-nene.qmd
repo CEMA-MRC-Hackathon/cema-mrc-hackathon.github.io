@@ -1,7 +1,7 @@
 ---
-title: "Mumbua Mutunga"
-subtitle: "The University of Nairobi - Center for Epidemiological Modelling and Analysis"
-image: headshots/mumbua-mutunga.jpg
+title: "David Nene"
+subtitle: "iLabAfrica - Strathmore University"
+image: headshots/david-nene.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,10 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/mumbua-mutunga-85a4407b
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
+      href: https://www.linkedin.com/in/david-nene
     - icon: github
       text: Github
-      href: https://github.com/Mumbua-Mutunga
+      href: https://github.com/davidnene
 ---
 
-Mumbua Mutunga is a PhD student at the University of Nairobi, working on rabies and the various ways to optimise the disease interventions towards accelerating disease elimination in Kenya.
+David Nene is an AI Engineer and MSc Data Science & Analytics candidate at Strathmore University with expertise in developing AI-driven solutions for healthcare, agriculture, and public policy. He has a strong portfolio of projects, including an AI-powered lung cancer classification model and a chatbot for efficient document retrieval, emphasizing his commitment to solving socio-economic challenges using data science and artificial intelligence.

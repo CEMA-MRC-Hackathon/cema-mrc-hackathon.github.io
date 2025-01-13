@@ -1,7 +1,7 @@
 ---
-title: "Preston Osoro"
-subtitle: "N/A"
-image: headshots/preston-osoro.jpg
+title: "Salmon Gowa"
+subtitle: "Machini Technologies Ltd"
+image: headshots/salmon-gowa.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,13 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/preston-osoro
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/prestonosoro
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
+      href: https://www.linkedin.com/in/salmon-gowa-5ab440234/
     - icon: Personal Website
       text: Personal Website
-      href: https://preston-56.netlify.app/
+      href: https://salgowa.vercel.app/
     - icon: github
       text: Github
-      href: https://github.com/preston-56
+      href: https://github.com/salmonGowa
 ---
 
-Preston is a software developer with expertise in building APIs and data management systems, including patient management APIs. He is passionate about leveraging technology to solve real-world public health challenges.
+Salmon Gowa is a software developer with a passion for using technology to address public health challenges. Proficient in software development and data analysis, he's eager to create impactful, open-source tools to support evidence-based policymaking in Kenya.

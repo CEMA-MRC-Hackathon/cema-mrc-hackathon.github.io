@@ -1,27 +1,15 @@
 ---
-title: "Fred Nyamitago Monari"
-subtitle: "Kisii University"
-image: headshots/fred-nyamitago-monari.jpg
+title: "Paul Lietar"
+subtitle: "Imperial College London"
+image: headshots/paul-lietar.jpg
 categories:
-  - Hacker
+  - Facilitator
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/dr-fred-monari-phd-8840a242/
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/Nyamitago
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
     - icon: github
       text: Github
-      href: https://github.com/MonariF
+      href: https://github.com/plietar
 ---
 
-Fred Nyamitago Monari is a statistician and lecturer at Kisii University with extensive expertise in applied statistics, epidemiological modeling, and public health data analysis. His work focuses on leveraging advanced statistical methods and interdisciplinary collaboration to address pressing challenges in health, climate, and environmental research.
+Paul Liétar is a senior research software engineer at Imperial College London, working on building software tools to assist scientists in their research.

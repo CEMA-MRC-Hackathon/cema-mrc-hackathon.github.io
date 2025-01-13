@@ -4,6 +4,7 @@ subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
 image: headshots/jeanette-dawa.jpg
 categories:
   - Organiser
+  - Facilitator
 about:
   template: jolla
   links:

@@ -1,7 +1,7 @@
 ---
-title: "Muchiri Antony M."
-subtitle: "CEMA"
-image: headshots/muchiri-antony-m.jpg
+title: "Derrick Lubanga"
+subtitle: "iLabAfrica - Strathmore University"
+image: headshots/derrick-lubanga.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,10 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: NA
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
+      href: https://www.linkedin.com/in/lubanga99/
     - icon: github
       text: Github
-      href: https://github.com/Antoney20
+      href: https://github.com/LubangaD
 ---
 
-Muchiri Antony M is a software engineer intern at CEMA, where he works on optimizing various aspects of the CEMA Analytics Hub. With a strong foundation in technology and problem-solving, he is dedicated to developing impactful solutions that address real-world challenges.
+Derrick Lubanga a postgraduate student at Strathmore University Nairobi pursuing a Data Science degree and exploring how how predictive analytics for Kenya hospital pharmacies inventories will improve healthcare delivery through drug demand prediction.

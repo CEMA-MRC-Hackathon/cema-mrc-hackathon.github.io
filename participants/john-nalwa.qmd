@@ -13,9 +13,6 @@ about:
     - icon: twitter
       text: Twitter
       href: https://x.com/NalwaJohnnes
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
     - icon: Personal Website
       text: Personal Website
       href: https://devjnalwa.vercel.app/

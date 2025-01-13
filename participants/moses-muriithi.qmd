@@ -1,27 +1,11 @@
 ---
-title: "veronicah gathoni"
-subtitle: "member of CEMA seminar series community"
-image: headshots/veronicah-gathoni.jpg
+title: "Moses Muriithi"
+subtitle: "University of Nairobi"
+image: headshots/moses-muriithi.jpg
 categories:
   - Hacker
 about:
   template: jolla
-  links:
-    - icon: linkedin
-      text: Linkedin
-      href: NA
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
-    - icon: github
-      text: Github
-      href: https://github.com/chegeveronica
 ---
 
-veronica chege is a software engineer focused on identifying and addressing gaps in the healthcare system. With a strong problem-solving mindset, she collaborates with subject-matter experts to apply engineering solutions to improve healthcare outcomes.
+Moses Muriithi is an health economist and an associate professor at the university of Nairobi department of economics and development studies cost effectiveness of various diseases interventions in the era of  digital technology.

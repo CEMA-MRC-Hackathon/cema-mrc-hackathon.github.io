@@ -1,7 +1,7 @@
 ---
-title: "Joy Kalekye Nthiwa"
-subtitle: "CEMA"
-image: headshots/joy-kalekye-nthiwa.jpg
+title: "George Kamundia Mbugua"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/george-kamundia-mbugua.jpg
 categories:
   - Hacker
 about:
@@ -9,19 +9,10 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/joy-nthiwa
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
+      href: https://www.linkedin.com/in/george-kamundia-5b1524157/
     - icon: github
       text: Github
-      href: https://github.com/DrNthiwa
+      href: https://github.com/GKamundia/
 ---
 
-Joy Nthiwa is a PhD scholar in the Department of Medical Microbiology and Immunology. She is also a fellow of the Center for Epidemiological Modelling and Analysis (CEMA) under the African Modeling and Analytics Academy for Women (AMAX) project. With a background in Statistics and Actuarial Science, her research interests focus on schistosomiasis, specifically on the use of mathematical models to optimize the delivery of intervention strategies for the elimination of schistosomiasis in Kenya.
+George Kamundia is a data science intern at the Center for Epidemiological Modelling and Analysis (CEMA), applying data analytics to inform public health decision-making. He focuses on developing predictive models and tools that bridge the gap between data science and health policy, contributing to more effective disease control and prevention strategies.

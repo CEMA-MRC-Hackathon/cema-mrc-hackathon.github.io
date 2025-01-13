@@ -1,27 +1,15 @@
 ---
-title: "Bonventure Ameyo"
-subtitle: "Ministry of Health Turkana County"
-image: headshots/bonventure-ameyo.jpg
+title: "Francis Ondicho Motiri"
+subtitle: "Ministry of Health"
+image: headshots/francis-ondicho-motiri.jpg
 categories:
-  - Decisionmaker
+  - Decision Maker
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: NA
     - icon: twitter
       text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
-    - icon: github
-      text: Github
-      href: NA
+      href: https://x.com/francismotiri
 ---
 
-Dr. Ameyo has gathered experience both in the practice and delivery of healthcare, its programming and  management in the public sector in Kenya, currently working as the deputy director medical services in Turkana County, Kenya.
+Francis Motiri is a postgraduate in the field of epidemiology and a holder of a master of science in medical statistics from the University of Nairobi. Currently working in the ministry of health as health work force analyst .

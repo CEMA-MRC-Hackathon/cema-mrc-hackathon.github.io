@@ -62,7 +62,7 @@ make_qmd <- function(headshot,
 
   # parse the link
   parse_link <- function(x, name = deparse(substitute(x))) {
-    if(is.null(x)) {
+    if(is.null(x) || is.na(x)) {
       return(NULL)
     } else {
         if (name == "googlescholar") name <- "Google Scholar"

@@ -1,0 +1,15 @@
+---
+title: "Geoffrey Githinji"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/geoffrey-githinji.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: Personal Website
+      text: Personal Website
+      href: https://cema-africa.uonbi.ac.ke/people/epidemiology/dr-geoffrey-githinji
+---
+
+Geoffrey is a research fellow at CEMA working of models of malaria interventions. In this role, he is supporting national malaria control programs by leveraging disease modelling and data analytics to inform strategic decisions and operational plans.

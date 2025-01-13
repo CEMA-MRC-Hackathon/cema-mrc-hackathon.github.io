@@ -1,27 +1,15 @@
 ---
-title: "PENINNA MWONGELI NZOKA"
-subtitle: "Ministry of Health"
-image: headshots/peninna-mwongeli-nzoka.jpg
+title: "Veronicah Gathoni"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/veronicah-gathoni.jpg
 categories:
-  - Decisionmaker
+  - Hacker
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: NA
-    - icon: twitter
-      text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
     - icon: github
       text: Github
-      href: NA
+      href: https://github.com/chegeveronica
 ---
 
-Peninna Nzoka is a post-graduate researcher in Health Systems Strengthening (HSS) and a Health Policymaker/ Manager at the Ministry of Health, Kenya advocating for the translation of policy content into action.
+veronica chege is a software engineer focused on identifying and addressing gaps in the healthcare system. With a strong problem-solving mindset, she collaborates with subject-matter experts to apply engineering solutions to improve healthcare outcomes.

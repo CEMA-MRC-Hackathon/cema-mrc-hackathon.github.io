@@ -1,27 +1,18 @@
 ---
-title: "Sabine van Elsland"
-subtitle: "Imperial College London"
-image: headshots/sabine-van-elsland.jpg
+title: "Amika Patel"
+subtitle: "The Nairobi West Hospital"
+image: headshots/amika-patel.jpg
 categories:
-  - Facilitator
+  - Hacker
 about:
   template: jolla
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/sabine-l-van-elsland-93626317/
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/SabineLvE
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: NA
+      href: https://www.linkedin.com/in/amika-patel-563178236
     - icon: github
       text: Github
-      href: https://github.com/SabinevE
+      href: https://github.com/Amika2000
 ---
 
-Sabine van Elsland is the external relationships and communications manager at the MRC Centre for Global Infectious Disease Analysis at Imperial College London. Sabine is a trained infectious disease epidemiologist with a background in public health and health systems research. She has a passion for sustainable knowledge translation (evidence to policy decision making) and transparent, accessible science communication.
+I am Amika Patel, a data analyst at the Nairobi West Hospital. With experience in healthcare operations and a passion for using data to drive evidence-based policies, I am keen to bridge the gap between analytics and real-world decision-making.

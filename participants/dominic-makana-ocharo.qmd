@@ -1,27 +1,24 @@
 ---
-title: "Ruth McCabe"
-subtitle: "Imperial College London"
-image: headshots/ruth-mc-cabe.jpg
+title: "Dominic Makana Ocharo"
+subtitle: "Pavicon Kenya Limited"
+image: headshots/dominic-makana-ocharo.jpg
 categories:
-  - Facilitator
+  - Hacker
 about:
   template: jolla
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/ruth-mccabe-2a6322170/
+      href: https://www.linkedin.com/in/dominic-ocharo-87a601212
     - icon: twitter
       text: Twitter
-      href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
+      href: https://x.com/dominic_ocharo
     - icon: Personal Website
       text: Personal Website
-      href: NA
+      href: https://dominicocharo.github.io/
     - icon: github
       text: Github
-      href: https://github.com/ruthmccabe
+      href: https://github.com/DominicOcharo
 ---
 
-Ruth McCabe is a statistician and mathematical modeller at Imperial College London specialising in outbreak response at the science-policy interface.
+Dominic Makana Ocharo is a telecommunications engineer and data scientist based in Kenya, specializing in developing AI-driven solutions and data analytics tools to address public health challenges and optimize decision-making in resource-constrained settings.

@@ -1,27 +1,18 @@
 ---
-title: "Dominic Makana Ocharo"
-subtitle: "Pavicon Kenya Limited"
-image: headshots/dominic-makana-ocharo.jpg
+title: "Lilith Whittles"
+subtitle: "Imperial College London"
+image: headshots/lilith-whittles.jpg
 categories:
-  - Hacker
+  - Facilitator
 about:
   template: jolla
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/dominic-ocharo-87a601212
-    - icon: twitter
-      text: Twitter
-      href: https://x.com/dominic_ocharo
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
-    - icon: Personal Website
-      text: Personal Website
-      href: https://dominicocharo.github.io/
+      href: https://www.linkedin.com/in/lilith-whittles/
     - icon: github
       text: Github
-      href: https://github.com/DominicOcharo
+      href: https://github.com/lwhittles
 ---
 
-Dominic Makana Ocharo is a telecommunications engineer and data scientist based in Kenya, specializing in developing AI-driven solutions and data analytics tools to address public health challenges and optimize decision-making in resource-constrained settings.
+Lilith Whittles is a researcher at Imperial College London, studying the transmission of infectious diseases through human populations. Her work spans a broad spectrum: from epidemic response to mpox, COVID-19 and group A streptococcus in the UK and Europe, to reducing the impact of globally endemic sexually transmitted infections such as gonorrhoea, HIV and HSV-2.

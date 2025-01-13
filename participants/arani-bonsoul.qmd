@@ -1,27 +1,21 @@
 ---
-title: "Salmon Gowa"
-subtitle: "None"
-image: headshots/salmon-gowa.jpg
+title: "Arani Bonsoul"
+subtitle: "Upwork"
+image: headshots/arani-bonsoul.jpg
 categories:
   - Hacker
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/salmon-gowa-5ab440234/
     - icon: twitter
       text: Twitter
       href: NA
-    - icon: Google Scholar
-      text: Google Scholar
-      href: NA
     - icon: Personal Website
       text: Personal Website
-      href: https://salgowa.vercel.app/
+      href: https://medium.com/@bonsoul24
     - icon: github
       text: Github
-      href: https://github.com/salmonGowa
+      href: https://github.com/bonsoul
 ---
 
-Salmon Gowa is a software developer with a passion for using technology to address public health challenges. Proficient in software development and data analysis, he's eager to create impactful, open-source tools to support evidence-based policymaking in Kenya.
+I am Bonsoul Arani Bosire, a data scientist and analyst with over three years of experience in the data industry. I specialize in leveraging machine learning, statistical analysis, and scalable Python solutions to drive business growth and deliver actionable insights. My expertise spans data visualization, competitive analysis, and sales forecasting, enabling me to improve processes, optimize resources, and enhance decision-making.
