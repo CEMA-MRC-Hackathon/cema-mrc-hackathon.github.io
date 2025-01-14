@@ -1,0 +1,9 @@
+---
+title: "Augustine Masinde"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/augustine-masinde.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+---

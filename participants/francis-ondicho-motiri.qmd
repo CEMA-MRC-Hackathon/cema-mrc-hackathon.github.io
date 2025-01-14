@@ -1,6 +1,6 @@
 ---
 title: "Francis Ondicho Motiri"
-subtitle: "Ministry of Health"
+subtitle: "Kajiado County Ministry of Health"
 image: headshots/francis-ondicho-motiri.jpg
 categories:
   - Decision Maker

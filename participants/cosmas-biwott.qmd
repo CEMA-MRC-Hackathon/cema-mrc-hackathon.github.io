@@ -1,6 +1,6 @@
 ---
 title: "Cosmas Biwott"
-subtitle: "Nairobi City"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
 image: headshots/cosmas-biwott.jpg
 categories:
   - Hacker

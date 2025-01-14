@@ -1,0 +1,9 @@
+---
+title: "Peter Mugo"
+subtitle: "Kenya Health Information System"
+image: headshots/peter-mugo.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+---

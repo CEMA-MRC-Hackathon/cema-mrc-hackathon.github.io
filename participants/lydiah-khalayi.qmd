@@ -1,0 +1,10 @@
+---
+title: "Lydiah Khalayi"
+subtitle: "National Vaccines and Immunization Program (NVIP)"
+image: headshots/lydiah-khalayi.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+---
+

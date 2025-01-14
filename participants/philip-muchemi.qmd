@@ -1,0 +1,13 @@
+---
+title: "Philip Muchemi"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/philip-muchemi.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/muchemiphilip
+---

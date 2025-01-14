@@ -1,0 +1,10 @@
+---
+title: "Catherine Silali"
+subtitle: "National Vaccines and Immunization Program (NVIP)"
+image: headshots/catherine-silali.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+---
+

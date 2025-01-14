@@ -1,0 +1,10 @@
+---
+title: "Martin M Thendu.qmd"
+subtitle: "Kenya Health Information System"
+image: headshots/martin-m-thendu.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  
+---

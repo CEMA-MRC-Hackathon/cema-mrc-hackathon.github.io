@@ -1,0 +1,10 @@
+---
+title: "Hannah Kagiri.qmd"
+subtitle: "Monitoring and Evaluation"
+image: headshots/hannah-kagiri.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  
+---

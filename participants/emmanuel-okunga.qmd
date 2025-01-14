@@ -1,0 +1,10 @@
+---
+title: "Emmanuel Okunga"
+subtitle: "Division of Disease Surveillance and Response"
+image: headshots/emmanuel-okunga.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  
+---
