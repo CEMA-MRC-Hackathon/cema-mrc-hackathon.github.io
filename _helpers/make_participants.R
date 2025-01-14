@@ -62,12 +62,12 @@ make_qmd <- function(headshot,
 
   # parse the link
   parse_link <- function(x, name = deparse(substitute(x))) {
-    if(is.null(x)) {
+    if(is.null(x) || is.na(x)) {
       return(NULL)
     } else {
-      return(
         if (name == "googlescholar") name <- "Google Scholar"
         if (name == "personal") name <- "Personal Website"
+      return(
         make_link_three(icon = name, text = stringr::str_to_title(name), href = x)
       )
     }

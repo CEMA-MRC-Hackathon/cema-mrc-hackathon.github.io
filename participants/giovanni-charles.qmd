@@ -1,0 +1,24 @@
+---
+title: "Giovanni Charles"
+subtitle: "Imperial College London"
+image: headshots/giovanni-charles.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/giovannicharles/
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/GDCharles
+    - icon: Personal Website
+      text: Personal Website
+      href: giovannicharles.com
+    - icon: github
+      text: Github
+      href: https://github.com/giovannic
+---
+
+Giovanni Charles is a software/ML engineer working on surrogates for infectious disease transmission models for inference and optimisation. He is interested in normalising flows, LLM interfaces for ID models, surrogate modelling, Bayesian inference, time-series prediction, differentiable agent based modelling and JAX.

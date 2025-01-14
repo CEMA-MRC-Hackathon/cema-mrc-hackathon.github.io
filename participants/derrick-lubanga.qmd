@@ -1,0 +1,18 @@
+---
+title: "Derrick Lubanga"
+subtitle: "iLabAfrica - Strathmore University"
+image: headshots/derrick-lubanga.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/lubanga99/
+    - icon: github
+      text: Github
+      href: https://github.com/LubangaD
+---
+
+Derrick Lubanga a postgraduate student at Strathmore University Nairobi pursuing a Data Science degree and exploring how how predictive analytics for Kenya hospital pharmacies inventories will improve healthcare delivery through drug demand prediction.

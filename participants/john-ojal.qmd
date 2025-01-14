@@ -1,0 +1,15 @@
+---
+title: "John Ojal"
+subtitle: "Kenya Medical Research Institute - Wellcome Trust"
+image: headshots/john-ojal.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/dr-john-ojal-5490b82b/?originalSubdomain=ke
+---
+
+John Ojal is a post-doctoral researcher  at the Kenya Medical Research Institute - Wellcome Trust, focusing on epidemiological modeling and health economics, with contributions to studies on pneumococcal vaccination and COVID-19 in Kenya

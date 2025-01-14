@@ -1,0 +1,15 @@
+---
+title: "Paul Lietar"
+subtitle: "Imperial College London"
+image: headshots/paul-lietar.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/plietar
+---
+
+Paul Liétar is a senior research software engineer at Imperial College London, working on building software tools to assist scientists in their research.

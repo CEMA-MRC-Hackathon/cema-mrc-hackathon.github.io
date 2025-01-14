@@ -1,0 +1,24 @@
+---
+title: "Kibet Immanuel Ngeno"
+subtitle: "20four7Va"
+image: headshots/kibet-immanuel-ngeno.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/kibet-immanuel
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/IamKibeh
+    - icon: Personal Website
+      text: Personal Website
+      href: https://iamkibeh.vercel.app
+    - icon: github
+      text: Github
+      href: https://github.com/iamkibeh
+---
+
+I am kibet Immanuel,  a full-stack software engineer with a passion for developing innovative solutions that bridge technology and real-world needs. My expertise lies in creating scalable and impactful software especially in collaborative environments.

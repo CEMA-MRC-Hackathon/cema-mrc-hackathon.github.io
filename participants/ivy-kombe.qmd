@@ -1,0 +1,18 @@
+---
+title: "Ivy Kombe"
+subtitle: "Kenya Medical Research Institute - Wellcome Trust"
+image: headshots/ivy-kombe.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/kadzokombew
+    - icon: Personal Website
+      text: Personal Website
+      href: https://orcid.org/0000-0003-1228-8227
+---
+
+Ivy Kombe is a computational epidemiologist at the Kenya Medical Research Institute - Wellcome Trust, specializing in mathematical models of infectious disease dynamics, with experience in modeling HIV, COVID-19, and respiratory syncytial virus.

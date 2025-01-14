@@ -1,0 +1,15 @@
+---
+title: "Katy Gaythorpe"
+subtitle: "Imperial College London"
+image: headshots/katy-gaythorpe.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/kgaythorpe
+---
+
+Dr Katy Gaythorpe is the research lead of the Vaccine Impact Modelling Consortium (VIMC, https://www.vaccineimpact.org/) and a lecturer in the epidemiology of vaccine-preventable diseases (VPDs) at Imperial College London. Her research focuses on developing mathematical models of infectious diseases such as yellow fever and others to assess the health impacts of vaccination. Dr Gaythorpe is particularly interested in the implications of climate change for climate-sensitive VPD control.

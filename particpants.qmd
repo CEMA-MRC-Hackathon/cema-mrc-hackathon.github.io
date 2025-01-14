@@ -5,16 +5,19 @@ listing:
   contents:
     - "participants/*.qmd"
   type: grid
-  image-height: 200px
+  image-height: 300px
   grid-columns: 4
   grid-item-align: center
   fields: [image, title, subtitle, categories]
-  categories: false
+  max-items: 100
+  page-size: 64
+  sort: categories desc
 sidebar: false
 ---
 
-The organising committee for the hackathon are listed below. Once attendees are 
-identified they will be added below too. 
+The organising committee for the hackathon are listed below. Participants (Hackers or Decision Makers) as well as facilitators at the hackathon are being added below. Check out who is attenting and let us know if you would like to [edit your page](https://github.com/mrc-ide/cema-mrc-hackathon/fork)!
+
+---
 
 ::: {#attendees}
 :::

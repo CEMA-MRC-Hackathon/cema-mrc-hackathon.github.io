@@ -1,0 +1,18 @@
+---
+title: "Mumbua Mutunga"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/mumbua-mutunga.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/mumbua-mutunga-85a4407b
+    - icon: github
+      text: Github
+      href: https://github.com/Mumbua-Mutunga
+---
+
+Mumbua Mutunga is a PhD student at the University of Nairobi, working on rabies and the various ways to optimise the disease interventions towards accelerating disease elimination in Kenya.

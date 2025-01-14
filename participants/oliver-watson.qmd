@@ -4,6 +4,7 @@ subtitle: "Imperial College London"
 image: headshots/oliver-watson.jpg
 categories:
   - Organiser
+  - Facilitator
 about:
   template: jolla
   links:

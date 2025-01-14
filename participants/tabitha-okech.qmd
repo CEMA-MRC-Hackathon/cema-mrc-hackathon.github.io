@@ -1,0 +1,15 @@
+---
+title: "Tabitha Okech"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/tabitha-okech.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: Personal Website
+      text: Personal Website
+      href: https://cema-africa.uonbi.ac.ke/people/epidemiology/dr-tabitha-okech
+---
+
+Tabitha Okech is a dedicated Public Health Practitioner and Pharmacist based in Nairobi, Kenya, with over a decade of experience in managing preventive and promotive public health programs.

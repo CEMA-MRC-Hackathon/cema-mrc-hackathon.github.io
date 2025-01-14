@@ -1,0 +1,18 @@
+---
+title: "Amika Patel"
+subtitle: "The Nairobi West Hospital"
+image: headshots/amika-patel.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/amika-patel-563178236
+    - icon: github
+      text: Github
+      href: https://github.com/Amika2000
+---
+
+I am Amika Patel, a data analyst at the Nairobi West Hospital. With experience in healthcare operations and a passion for using data to drive evidence-based policies, I am keen to bridge the gap between analytics and real-world decision-making.

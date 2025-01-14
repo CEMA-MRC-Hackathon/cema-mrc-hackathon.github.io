@@ -1,0 +1,11 @@
+---
+title: "Omar Ahmed"
+subtitle: "MOMBASA COUNTY"
+image: headshots/omar-ahmed.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+---
+
+My name is Omar Ahmed, and I am currently pursuing my Master’s in Public Health. I work in public health in Mombasa County, where I focus on designing and implementing health programs to improve community well-being. My thesis research explores the association between malaria prevalence in children under five and demographic, socio-economic, and environmental factors in Mogadishu. I am passionate about using evidence-based approaches to tackle public health challenges, especially in vulnerable populations. I’m excited to be here and look forward to learning and collaborating with all of you."

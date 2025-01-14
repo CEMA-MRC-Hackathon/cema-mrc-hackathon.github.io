@@ -1,0 +1,11 @@
+---
+title: "Moses Muriithi"
+subtitle: "University of Nairobi"
+image: headshots/moses-muriithi.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+---
+
+Moses Muriithi is an health economist and an associate professor at the university of Nairobi department of economics and development studies cost effectiveness of various diseases interventions in the era of  digital technology.

@@ -1,0 +1,18 @@
+---
+title: "George Kamundia Mbugua"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/george-kamundia-mbugua.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/george-kamundia-5b1524157/
+    - icon: github
+      text: Github
+      href: https://github.com/GKamundia/
+---
+
+George Kamundia is a data science intern at the Center for Epidemiological Modelling and Analysis (CEMA), applying data analytics to inform public health decision-making. He focuses on developing predictive models and tools that bridge the gap between data science and health policy, contributing to more effective disease control and prevention strategies.

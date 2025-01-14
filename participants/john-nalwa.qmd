@@ -1,0 +1,24 @@
+---
+title: "John Nalwa"
+subtitle: "BCL"
+image: headshots/john-nalwa.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/john-wakhungu-67a711300/
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/NalwaJohnnes
+    - icon: Personal Website
+      text: Personal Website
+      href: https://devjnalwa.vercel.app/
+    - icon: github
+      text: Github
+      href: https://github.com/johnnalwa
+---
+
+John Wakhungu is a software developer at InnoSoft Technologies, specializing in custom software development, data analysis, and web applications. He is passionate about leveraging technology to solve real-world challenges, including public health innovation and data-driven solutions.

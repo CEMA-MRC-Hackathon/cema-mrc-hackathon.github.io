@@ -1,0 +1,15 @@
+---
+title: "Stephanie Kamunya"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/stephanie-kamunya.jpg
+categories:
+  - Facilitator
+about:
+  template: jolla
+  links:
+    - icon: Personal Website
+      text: Personal Website
+      href: https://cema-africa.uonbi.ac.ke/people/epidemiology/dr-stephanie-kamunya
+---
+
+Stephanie is a postdoctoral research fellow at CEMA with a PhD focusing on antimalarial drug discovery, currently applying her experience in malaria research to mathematical modelling.

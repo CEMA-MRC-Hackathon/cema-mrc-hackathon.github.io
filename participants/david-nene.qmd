@@ -1,0 +1,18 @@
+---
+title: "David Nene"
+subtitle: "iLabAfrica - Strathmore University"
+image: headshots/david-nene.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/david-nene
+    - icon: github
+      text: Github
+      href: https://github.com/davidnene
+---
+
+David Nene is an AI Engineer and MSc Data Science & Analytics candidate at Strathmore University with expertise in developing AI-driven solutions for healthcare, agriculture, and public policy. He has a strong portfolio of projects, including an AI-powered lung cancer classification model and a chatbot for efficient document retrieval, emphasizing his commitment to solving socio-economic challenges using data science and artificial intelligence.

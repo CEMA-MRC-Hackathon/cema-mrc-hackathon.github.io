@@ -1,0 +1,21 @@
+---
+title: "Stanley Sayianka"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/stanley-sayianka.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/stanley-sayianka-8a6450170/
+    - icon: Personal Website
+      text: Personal Website
+      href: https://stanleyrazor.github.io/portfolio/
+    - icon: github
+      text: Github
+      href: https://github.com/stanleyrazor
+---
+
+Stanley Sayianka is a Data Science Research Assistant at the Centre for Epidemiological Modelling and Analysis (CEMA). His work focuses on the statistical modeling of mortality indicators.

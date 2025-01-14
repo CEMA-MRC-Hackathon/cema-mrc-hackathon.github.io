@@ -1,0 +1,15 @@
+---
+title: "Francis Ondicho Motiri"
+subtitle: "Ministry of Health"
+image: headshots/francis-ondicho-motiri.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/francismotiri
+---
+
+Francis Motiri is a postgraduate in the field of epidemiology and a holder of a master of science in medical statistics from the University of Nairobi. Currently working in the ministry of health as health work force analyst .
