@@ -1,0 +1,68 @@
+---
+title: "Pre-Hcakathon Reading Material"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Prepare for the Hackathon
+
+To ensure all participants are equipped to make the most of the
+hackathon, we’ve compiled a list of pre-read materials and resources.
+These resources cover essential skills for collaborative coding, R
+programming, and Git/GitHub workflows.
+
+### Pre-Reading Materials
+
+-   **Git and GitHub**: Collaborative coding will be a core component of
+    the hackathon. Please review the following materials to ensure
+    you’re familiar with these tools:
+    -   [Introduction to
+        GitHub](https://github.com/skills/introduction-to-github)
+
+    -   [GitHub for
+        Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners)
+
+    -   [More GitHub
+        Tips](https://www.datacamp.com/tutorial/category/git/page/2)
+-   **R Programming**: Many of the hackathon activities will involve R.
+    The following resources will help you get up to speed:
+    -   [Introduction to R](https://intro2r.com/)
+
+    -   [R for Data Science](https://r4ds.had.co.nz/)
+-   **R Package Development**: For those interested in contributing to
+    package development or using custom R packages:
+    -   [R Packages Book](https://r-pkgs.org/)
+
+### Software Setup
+
+Before the event, ensure the following are installed and set up on your
+laptop:
+
+  -   [R](https://www.r-project.org/)
+
+  -   [RStudio](https://posit.co/products/open-source/rstudio/)
+
+  -   [Git](https://git-scm.com/)
+
+If you need assistance with installation, refer to the guides linked
+above, or feel free to reach out to us prior to the hackathon.
+
+### Questions?
+
+For any queries about the resources or preparation, contact:
+
+-   Waithera Mwangi:
+    [waithera.mwangi\@cema.africa](mailto:waithera.mwangi@cema.africa)
+
+-   Noel Likalamu:
+    [noel.likalamu\@cema.africa](mailto:noel.likalamu@cema.africa)
+
+For any queries about setting your software up, contact:
+
+-   OJ Watson: [o.watson15@imperial.ac.uk](mailto:o.watson15@imperial.ac.uk)
+
+By familiarising yourself with these resources, you'll be ready to
+contribute effectively and make the most of your hackathon experience.
+
+We look forward to seeing you all in Nairobi soon!
