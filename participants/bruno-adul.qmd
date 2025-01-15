@@ -1,5 +1,5 @@
 ---
-title: "Cosmas Biwott"
+title: "Bruno Adul"
 subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
 image: headshots/bruno-adul.jpg
 categories:
