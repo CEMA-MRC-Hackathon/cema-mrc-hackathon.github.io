@@ -1,5 +1,5 @@
 ---
-title: "Martin M Thendu.qmd"
+title: "Martin M Thendu"
 subtitle: "Kenya Health Information System"
 image: headshots/martin-m-thendu.jpg
 categories:

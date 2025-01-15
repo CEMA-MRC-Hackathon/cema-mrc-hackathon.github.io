@@ -1,5 +1,5 @@
 ---
-title: "Fathiyah Hamumy.qmd"
+title: "Fathiyah Hamumy"
 subtitle: "National Vaccines and Immunization Program (NVIP)"
 image: headshots/fathiyah-hamumy.jpg
 categories:
