@@ -1,7 +1,7 @@
 ---
 title: "Florence Akinyi.qmd"
 subtitle: "Division of Disease Surveillance and Response"
-image: headshots/florence-akinyiy.jpg
+image: headshots/florence-akinyi.jpg
 categories:
   - Decision Maker
 about:
