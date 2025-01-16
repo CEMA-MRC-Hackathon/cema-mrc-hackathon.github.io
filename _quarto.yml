@@ -16,11 +16,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - particpants.qmd
+      - href: particpants.qmd
+        text: "Participants & Organisers"
       - href: preread.qmd
         text: "Pre-Hackathon Material"
-      - href: register.qmd
-        text: "Registration (Closed)"
+      - href: schedule.qmd
+        text: "Schedule"
+      - href: feedback.qmd
+        text: "Daily Feedback"
+
   back-to-top-navigation: true
   google-analytics:	G-N2S7VXS1QK
 

@@ -1,0 +1,41 @@
+---
+title: Hackathon Program
+---
+
+## ℹ️ Event Details
+
+**Bridging the Gap: Applied Infectious Disease Epidemiology Tools to Support Evidence-Informed Decision-Making**
+
+- **Date:** 20 – 24 January 2025
+- **Location:** Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya
+- [Location Map](https://maps.app.goo.gl/nnbjmZAPkvvUXsog7)
+
+## ☕ & 🍴 Breaks 
+-  ☕️: **Tea breaks:** 10.30 – 11.00, 15.30 – 16.00
+- 🍴: **Lunch breaks:** 13.00 – 14.00
+
+## 🗓 Schedule
+%>% 
+### Day 1: Foundations and Team Formation
+- **8.30 – 9.00:** Registration
+- **9.00 – 10.30:** Introductions & Ice breaker activity
+- **11.00 – 12.00:** Topic presentations
+- **12.00 – 13.00:** Topic ideation activity
+- **14.00 – 15.30:** Skills matching & team building
+- **16.00 – 17.00:** End of Day 1 Recap
+
+### Days 2-3: Coding and Collaboration
+- **8.30 – 9.00:** Grounding and plan for the day
+- **9.00 – 10.00 (Day 2 only):** Git and GitHub refresher
+- **8.30 – 17.00:** Dedicated time for project work, with guidance from facilitators.
+- **16.00 – 17.00:** Daily group update and plan for the next day
+
+### Day 4: Presentation and Feedback
+- **8.30 – 13.00:** Dedicated time for project work, with guidance from facilitators.
+- **14.00 – 17.00:** Presentations and feedback
+- **18.30:** Social/Dinner at Gaucho ([Gaucho - Nairobi](https://fogogaucho.co.ke/))
+
+### Day 5: Refinement and Next Steps
+- **8.30 – 16.00:** Project refinement based on feedback received. Planning for further development and implementation of the tools.
+- **17.00:** Closing remarks and thanks 
+

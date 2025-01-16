@@ -17,21 +17,21 @@ programming, and Git/GitHub workflows.
 -   **Git and GitHub**: Collaborative coding will be a core component of
     the hackathon. Please review the following materials to ensure
     you’re familiar with these tools:
-    -   [Introduction to
-        GitHub](https://github.com/skills/introduction-to-github)
+    -   [Introduction to GitHub](https://github.com/skills/introduction-to-github)
 
-    -   [GitHub for
-        Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners)
+    -   [GitHub for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners)
 
-    -   [More GitHub
-        Tips](https://www.datacamp.com/tutorial/category/git/page/2)
+    -   [More GitHub Tips](https://www.datacamp.com/tutorial/category/git/page/2)
+    
 -   **R Programming**: Many of the hackathon activities will involve R.
     The following resources will help you get up to speed:
     -   [Introduction to R](https://intro2r.com/)
 
     -   [R for Data Science](https://r4ds.had.co.nz/)
+    
 -   **R Package Development**: For those interested in contributing to
     package development or using custom R packages:
+    
     -   [R Packages Book](https://r-pkgs.org/)
 
 ### Software Setup

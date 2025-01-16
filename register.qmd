@@ -1,5 +1,5 @@
 ---
-title: "Registration"
+title: "Registration - Closed"
 ---
 
 ## Join us!
@@ -16,9 +16,15 @@ title: "Registration"
 
 • **We aim to**: maximize diversity in skills, experiences, and people.
 
-• **Applications close on the 3rd December 2024**.
+• **Applications close on the 5th December 2024**.
 
-## Registration
+### Cost
 
-Please register your interest using this [Google Form](https://forms.gle/HaLCj3RaaC8E36UA9)
+There is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form. 
+
+### Registration
+
+[**Registration Is Now Closed!**](/https://forms.gle/HaLCj3RaaC8E36UA9)
+
+Please register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds.
 

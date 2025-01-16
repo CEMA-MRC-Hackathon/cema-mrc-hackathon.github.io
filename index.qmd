@@ -21,27 +21,15 @@ The hackathon aims to include a diverse audience, who will either contribute to 
 
 - **Academics and Researchers:** Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.
 
-This activity is restricted to up to 30 applicants residing in Kenya.
-
-### Cost
-
-There is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form. 
-
-### Registration
-
-[**Registration Is Now Closed!**](/register.html)
-
-Please register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds.
-
 ### Hackathon Schedule
 
 - **Day 1: Foundations and Group Formation**
   - Introductions, icebreaker activities, and team building exercises.
   - Sharing of real-world challenges presented by Ministry of Health, health organizations and/or public health specialists.
   - Formation of interdisciplinary teams focused on specific public health challenges.
-  - Overview of Git, Github and collaborative coding practices (GitHub training should have been completed before attending the course).
   
 - **Days 2-3: Coding and Collaboration**
+  - Overview of Git, Github and collaborative coding practices (GitHub training should have been completed before attending the course).
   - Dedicated project work time with guidance from experienced facilitators.
   - Continuous interaction and feedback sessions to refine ideas and approaches.
   
@@ -56,7 +44,10 @@ Please register your interest for the hackathon using the link above by 3 Decemb
 
 ### Venue
 
-The hackathon will be hosted by the Center for Epidemiological Modelling and Analysis (CEMA). The training will take place at the Smart Classroom, 11th Floor, University of Nairobi, University of Nairobi Towers at Main Campus/Nairobi CBD.
+The hackathon will be hosted by the Center for Epidemiological Modelling and Analysis (CEMA), and will take place at:
+
+Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya
+[Google Maps](https://maps.app.goo.gl/nnbjmZAPkvvUXsog7)
 
 ### Sponsors
 
@@ -67,3 +58,5 @@ We are extremely grateful to our sponsors for the hackathon:
 - Wellcome for funding the study inspiring the hackathon ("Leveraging forecasts to optimise decision making" - 228271/Z/23/Z), which supported the original Ideathon team to travel for the hackathon.
 
 - The Gates Foundation (INV-044079) for supporting involvement of CEMA staff in the hackathon.
+### Sponsors
+
