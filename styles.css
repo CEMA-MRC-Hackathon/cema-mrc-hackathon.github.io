@@ -33,6 +33,11 @@
   color: #A6C7E1;
 }
 
+.nav-link {
+  padding-left: 0.9rem !important;
+}
+
+
 .quarto-title .quarto-categories{
   display: inline-grid;
 }
