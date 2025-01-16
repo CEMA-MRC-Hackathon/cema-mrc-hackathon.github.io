@@ -15,7 +15,7 @@ title: Hackathon Program
 - 🍴: **Lunch breaks:** 13.00 – 14.00
 
 ## 🗓 Schedule
-%>% 
+
 ### Day 1: Foundations and Team Formation
 - **8.30 – 9.00:** Registration
 - **9.00 – 10.30:** Introductions & Ice breaker activity
