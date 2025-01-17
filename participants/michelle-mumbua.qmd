@@ -1,0 +1,10 @@
+---
+title: "Michelle Mumbua"
+subtitle: "Directorate of Veterinary Services"
+image: headshots/michelle-mumbua.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  
+---
