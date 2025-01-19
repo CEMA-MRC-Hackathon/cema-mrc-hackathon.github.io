@@ -8,8 +8,8 @@ from: markdown+emoji
 
 ## Presentations associated with this hackathon
 
--   [Introduction](https://mrc-ide.github.io/cema-mrc-hackathon/intro_slides.html)
+- [Day 1 Introduction Slides](https://mrc-ide.github.io/cema-mrc-hackathon/intro_slides.html)
 
 ## Resources associated with this hackathon
 
--   [Topic Presentations](https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub)
+- [Research Topic Presentations](https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub)

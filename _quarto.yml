@@ -22,6 +22,8 @@ website:
         text: "Pre-Hackathon Material"
       - href: schedule.qmd
         text: "Schedule"
+      - href: materials.qmd
+        text: "Presentations"
       - href: feedback.qmd
         text: "Daily Feedback"
 
