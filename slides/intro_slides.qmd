@@ -1,0 +1,429 @@
+---
+title: "Bridging The Gap Hackathon"
+subtitle: "Please register and grab a biscuit 🍪"
+date: "2025-01-20"
+
+format:
+  revealjs:
+    incremental: true  
+    theme: "sky2.scss"
+    #theme: simple
+    logo: "images/logo2.png"
+    footer: "Bridging The Gap Hackathon · Nairobi · 20-24 Jan 2025"
+    css: "slides.css"
+      
+---
+
+
+---
+
+## Karibu Sana {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/safari_club.png){.fragment width="600" height="450"}
+:::
+
+::: {.column width="50%"}
+
+- **Who is here**: Over 50 public health researchers, decision makers and software development experts from Kenya and UK.
+- **Why we’re here**: To solve health policy needs in Kenya, foster new ideas, and make meaningful connections.
+- **What’s next**: A week of collaboration, creativity, and ☕ & 🍪.
+
+:::
+
+
+::::
+
+
+---
+
+##  Housekeeping {.smaller}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- Useful Info: 
+  - Facilities, plugs, fire exits, health needs, water etc
+- Wifi:    
+  - Network Name:
+  - Password:
+- Photographs:
+  - Let us know if you prefer not to be photographed or featured in media
+- Feedback and Questions:
+  - [https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html](https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html)
+:::
+
+::: {.column width="30%"}
+<div style="text-align: left;">
+  <img src="images/feedback_qr.png" class="fragment" width="700" height="300" />
+</div>
+:::
+::::
+
+---
+
+## Why are we here today?
+
+a) Saw the hackathon advertised and wanted to see what it was about.
+b) Wanted to leave the cold weather in the UK behind. 🥶 ✈️ ☀️ 
+c) To create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya. 
+
+![](www.google.com)
+  
+d) **All of the above**
+
+---
+
+## Why are we all here? {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](images/today.png){.fragment width="600" height="450"}
+:::
+
+::: {.column width="40%"}
+
+- What brought us here is behind us - let’s try to focus on what we can do this week.
+
+- So let's start by taking a moment to pause, breath and shift our focus to the space we are sharing this week.  
+
+- Most importantly, this week is an opportunity to connect, share knowledge, and (hopefully) build some useful tools from this hackathon.
+:::
+
+::::
+
+---
+
+## What is a hackathon? {.smaller}
+
+Meeting of individuals with diverse interests and skill sets, working in groups to build 
+new software tools and solutions.
+
+- Step 1: Sharing ideas for questions to answer by building new software tools.
+- Step 2: Sharing research skills and interests in the ideas shared. 
+- Step 3: Identifying the top ideas and software to work on
+- Step 4: Formation of groups to work on each identified project 
+<div style="text-align: left;">
+  <img src="images/hackathon.png" class="fragment" width="700" height="300" />
+</div>
+  
+---
+
+## Day 1 Schedule {.smaller}
+
+- Foundations and Team Formation: 
+  - **8.30 – 9.00:** Registration
+  - **9.00 – 10.30:** Grounding, Introductions & Ice breaker Activities
+  - **11.00 – 12.00:** Hackathon Topic Presentations
+  - **12.00 – 13.00:** Topic Refinement and Idea Generation
+  - **14.00 – 15.30:** Skills matching & team building
+  - **16.00 – 17.00:** End of Day 1 Debrief
+
+![](www.google.com)
+
+- ☕ & 🍴 Breaks 
+  -  ☕️: **Tea breaks:** 10.30 – 11.00, 15.30 – 16.00
+  - 🍴: **Lunch breaks:** 13.00 – 14.00
+
+---
+
+## Days 2 - 3 Schedule  {.smaller}
+
+- Coding and Collaboration
+  - **8.30 – 9.00:** Grounding and plan for the day
+  - **9.00 – 10.00 (Day 2 only):** Git and GitHub refresher
+  - **9.00 – 17.00:** Dedicated time for project work in each working group, with guidance from facilitators.
+  - **16.00 – 17.00:** "Debrief the Day". Group updates and plans for tomorrow.
+
+---
+
+## Day 4 Schedule  {.smaller}
+
+- ### Presentations and Feedback
+  - **8.30 – 9.00:** Grounding and plan for the day
+  - **9.00 – 13.00:** Dedicated time for project work, with guidance from facilitators.
+  - **14.00 – 17.00:** Presentations and feedback
+  - **17.00** 📷 Group Photo 📷
+  - **18.30:** Social/Dinner at Gaucho ([Gaucho - Nairobi](https://fogogaucho.co.ke/))
+
+---
+
+## Day 5 Schedule:
+
+- ### Refinement and Next Steps
+  - **8.30 – 9.00:** Grounding and plan for the day
+  - **8.30 – 13.00:** Project refinement based on feedback received. 
+  - **14.00 – 16:00:** Planning for further development and continued working dynamics of tools.
+  - **16.00 – 17.00:** Closing remarks, final feedback and thanks 
+
+
+---
+
+## Debrief The Day {.smaller}
+
+Each day will close by reflecting in groups and sharing updates.
+
+1. **Discussing in our groups:**
+   - What ground has been covered today?
+   - What the group will be working on tomorrow?
+   - What additional help may be needed?
+   - How can we help you?
+
+2. **Creating an update (2-3 minutes) to share with everyone:**
+   - What your group has been working on?
+   - Any outputs to demonstrate?
+   - Anything you have discovered?
+   - Any help that may be needed tomorrow?
+
+---
+
+## Debrief The Day - Feedback {.smaller}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+3. **Sharing updates with everyone:**
+  - Each group will present any updates/questions
+
+4. **Sharing feedback with organisers:**
+  - Throughout the hackathon, please use the feedback page to share your feedback or ask any questions that you would like answered:
+    - [https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html](https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html) 
+  - At the end of the day, please also share any feedback as a group, which we will review overnight ready for the next day.
+:::
+
+::: {.column width="30%"}
+<div style="text-align: left;">
+  <img src="images/feedback_qr.png" class="fragment" width="700" height="300" />
+</div>
+:::
+
+::::  
+
+---
+
+## Introductions
+
+---
+
+## Introductions
+
+![](images/organisers.png){.nostretch fig-align="center" width="750px"}
+
+## Introductions
+
+- Time to introduce yourselves (in 10s):
+  1. Name
+  2. City/County, Country
+  3. Job Title
+
+![](www.google.com)
+  
+- *"My name is OJ Watson. I am from London in the UK and I am a lecturer in infectious disase modelling at Imperial College London"*
+
+---
+
+## Ice Breaker Activity {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="text-align: left;">
+  <img src="images/jenga.png" class="fragment" width="700" height="200" />
+</div>
+<div style="text-align: left;">
+  <img src="images/kujenga.png" class="fragment" width="700" height="300" />
+</div>
+:::
+
+::: {.column width="50%"}
+
+- **Icebreaker Jenga**
+  - Split into groups of ~10    
+  - Take turns removing a block from the tower
+  - Each block has a question on the block
+  - Answer the question and place the block on the tower
+  - Repeat until the tower falls over
+:::
+
+::::
+
+---
+ 
+## {.center background-image="images/tea_break.png" footer="false" logo="false"}
+
+::: {style="color: white; text-align: center; font-size: 1.8em;"}
+Enjoy a well-deserved break!
+:::
+
+---
+
+##  Hackathon Topic Presentations {.smaller}
+
+1. **Cold Chain Capacity Monitoring:**
+    - Streamline reporting and visualising vaccine cold chain capacity.
+
+2. **Outbreak Alert Thresholds:**
+    - Refining epidemic thresholds for measles outbreak detection.
+
+3. **Data Quality Validation:**
+    - Automating detection of anomalies in vaccine data for better accuracy.
+    
+4. **Schistosomiasis Elimination Strategies:**
+    - Conduct cost-effectiveness evaluation of elimination strategies.
+
+5. **Malaria Vaccine Deployment:**
+    - Optimising malaria vaccination with with other interventions.
+
+6. **Animal Surveillance Data Integration:**
+    - Unified platform for real-time animal health data analysis and reporting.
+
+---
+
+[Topic Presentations](https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub)
+
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub?embedded=true"  width="200%" height="100%" allowfullscreen = "true"></iframe>
+
+
+## Topic Refinement {.smaller}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+- In your tables, discuss the ideas and topics just discussed. In particular: 
+  - Which topics sound interesting to you? 
+  - Do you have any expertise in a related area? 
+  - What types of tools do you think would be helpful in answering these topics? 
+
+- Have a read of the topic presentations as well for more information:
+:::
+
+::: {.column width="30%"}
+<div style="text-align: left;">
+  <img src="images/topic_qr.png" class="fragment" width="700" height="300" />
+</div>
+:::
+::::
+
+---
+
+## Idea Generation {.smaller}
+
+- On the **"Idea Wall"**, use the post-its to add brief descriptions of ideas or tools you think would be helpful in answering these topics? 
+- If you have ideas for other relevant questions or tools you would like to build then also add these
+
+<div style="text-align: center;">
+  <img src="images/postits.png" class="fragment" width="700" height="300" />
+</div>
+
+
+---
+
+## Skill Identification {.smaller}
+
+- On the **"Skills Wall"**, use the post-its to share what research or technical/software skills you have?
+- Please use the list below, but please add any other relevant skills you may want to mention
+
+::: {style="font-size: 0.7em;"}
+1. **Data Analysis & Statistics** (*Statistical analysis*, *Data analysis*, *Predictive modelling*, *Stochastic modelling*)  
+2. **Machine Learning & AI** (*Machine learning*, *AI-driven solutions*, *Bayesian inference*, *Time-series prediction*)  
+3. **Epidemiology & Modelling** (*Epidemiological modelling*, *Mathematical modelling*, *Infectious disease dynamics*, *Climate-sensitive VPDs*)  
+4. **Public Health & Policy** (*Public health policy*, *Public health management*, *Evidence synthesis*, *Vaccine impact estimation*)  
+5. **Health Economics** (*Health economics*, *Cost-effectiveness analysis*)  
+6. **Software Engineering** (*Software development*, *R packaging*,*Python programming*, *Web applications*)  
+7. **Data Engineering** (*Data algorithms*, *Database management*, *Interoperability*, *Integrations expert*)  
+8. **Visualisation & Reporting** (*Data visualisation*, *Dashboards and tools*)  
+9. **Communication & Knowledge Translation** (*Knowledge translation*, *Communications strategy*)  
+10. **Project Management & Leadership** (*Project management*, *Leadership in public health*)  
+:::
+
+---
+
+## Get Post-It Noting!
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Ideas Wall**
+⬅️
+
+Brief descriptions of ideas
+:::
+
+::: {.column width="50%" style="text-align: right"}
+**Skills Wall**
+➡️
+
+1-3 word skill details
+:::
+
+::::
+
+![](images/postits.png){.nostretch fig-align="center" width="500px"}
+---
+
+## 🍴 Lunch Break 🍴
+
+Lunch is available at: 
+
+xxx
+
+## Skill Matching Exercise {.smaller}
+
+![](images/postits.png){.nostretch fig-align="center" width="750px"}
+
+---
+
+## Skill Matching Exercise {.smaller}
+
+![](images/postits.png){.nostretch fig-align="center" width="750px"}
+
+---
+
+## Creating Working Groups
+
+---
+
+## End of Day 1 - Debrief The Day
+
+1. **Discussing in our groups:**
+   - What ground has been covered today?
+   - What the group will be working on tomorrow?
+   - What additional help may be needed?
+   - How can we help you?
+
+2. **Creating an update (2-3 minutes) to share with everyone:**
+   - What your group has been working on?
+   - Any outputs to demonstrate?
+   - Anything you have discovered?
+   - Any help that may be needed tomorrow?
+
+---
+
+## Debrief The Day - Feedback {.smaller}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+3. **Sharing updates with everyone:**
+  - Each group will present any updates/questions
+
+4. **Sharing feedback with organisers:**
+  - Throughout the hackathon, please use the feedback page to share your feedback or ask any questions that you would like answered:
+    - [https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html](https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html) 
+  - At the end of the day, please also share any feedback as a group, which we will review overnight ready for the next day.
+:::
+
+::: {.column width="30%"}
+<div style="text-align: left;">
+  <img src="images/feedback_qr.png" class="fragment" width="700" height="300" />
+</div>
+:::
+
+::::  
+
+---
