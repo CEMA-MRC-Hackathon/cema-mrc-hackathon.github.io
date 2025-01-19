@@ -1,0 +1,10 @@
+---
+title: "Purity Kwamboka"
+subtitle: "Directorate of Veterinary Services"
+image: headshots/purity-kwamboka.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  
+---

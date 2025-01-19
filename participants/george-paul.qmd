@@ -1,0 +1,10 @@
+---
+title: "George Paul"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/george-paul.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+---
+

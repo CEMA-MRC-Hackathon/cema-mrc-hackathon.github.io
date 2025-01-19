@@ -1,0 +1,10 @@
+---
+title: "Annah Mudamba"
+subtitle: "Directorate of Veterinary Services"
+image: headshots/annah-mudamba.jpg
+categories:
+  - Decision Maker
+about:
+  template: jolla
+  
+---

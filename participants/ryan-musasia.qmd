@@ -1,0 +1,13 @@
+---
+title: "Ryan Musasia"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/ryan-musasia.jpg
+categories:
+  - Hacker
+about:
+  template: jolla
+
+---
+
+I'm a freshly minted Data Scientist who just escaped the clutches of academia and is ready to conquer the data-driven world with wit, charm, and a whole lot of Python magic. My expertise lies in unraveling intricate data puzzles rather than solving crimes. My core competencies revolve around employing machine learning, statistical analysis, and advanced methodologies to extract valuable insights from complex datasets. My passion lies in uncovering concealed information within data and converting it into actionable intelligence that drives informed decision-making. Rest assured, there's no sorcery involved (well, at least not beyond the occasional code magic).
+
