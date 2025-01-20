@@ -276,14 +276,6 @@ Each day will close by reflecting in groups and sharing updates.
 ::::
 
 ---
- 
-## {.center background-image="images/tea_break.png" footer="false" logo="false"}
-
-::: {style="color: white; text-align: center; font-size: 1.8em;"}
-Enjoy a well-deserved break!
-:::
-
----
 
 ##  Hackathon Topic Presentations {.smaller}
 
@@ -306,6 +298,15 @@ Enjoy a well-deserved break!
     - Unified platform for real-time animal health data analysis and reporting.
 
 ---
+ 
+## {.center background-image="images/tea_break.png" footer="false" logo="false"}
+
+::: {style="color: white; text-align: center; font-size: 1.8em;"}
+Enjoy a well-deserved break!
+:::
+
+---
+
 
 <iframe src="https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub?embedded=true"  width="200%" height="100%" allowfullscreen = "true"></iframe>
 
@@ -323,8 +324,8 @@ Enjoy a well-deserved break!
 
 ## Idea Generation {.smaller}
 
-- **On the "Challenge Wall", use the post-its to add brief descriptions of ideas or tools you think would be helpful in answering these topics?** 
-- If you have ideas for other relevant questions or tools for this 5-day hackathon you would like to build then add these to the **"Further Ideas Wall"**
+- **On the "Challenge Tables", use the post-its to add brief descriptions of ideas or tools you think would be helpful in answering these topics?** 
+- If you have ideas for other relevant questions or tools for this 5-day hackathon you would like to build then add these to the **"Further Ideas Board"**
 
 <div style="text-align: center;">
   <img src="images/postits.png" class="fragment" width="700" height="300" />
@@ -334,8 +335,11 @@ Enjoy a well-deserved break!
 
 ## Skill Identification {.smaller}
 
-- On the **"Skills Wall"**, use the post-its to share what research or technical/software skills you have?
-- Add your inititials and use the list below, but please add any other relevant skills you may want to mention
+- On the **"Skills Mirrors"**, use the post-its to share:
+  - What research or technical/software skills you have?
+  - What questions you would like to work on?
+  - Your first name and initial of last name, e.g. Oliver W
+  - Your affiliation, e.g. CEMA
 
 ::: {style="font-size: 0.7em;"}
 1. **Data Analysis & Statistics** (*Statistical analysis*, *Data analysis*, *Predictive modelling*, *Stochastic modelling*)  
@@ -377,34 +381,119 @@ Short skills description
 
 ## 🍴 Lunch Break 🍴
 
-Lunch is available downstairs 
-
-## Skill Matching Exercise {.smaller}
-
-![](images/postits.png){.nostretch fig-align="center" width="750px"}
 ---
 
-## Topic Refinement {.smaller}
+## Project A: Cold Chain Capacity Monitoring  {.smaller}
 
-:::: {.columns}
+**Key Proposed Tools/Ideas:**
 
-::: {.column width="70%"}
-- In your tables, discuss the ideas and topics just discussed. In particular: 
-  - Which topics sound interesting to you? 
-  - Do you have any expertise in a related area? 
-  - What types of tools do you think would be helpful in answering these topics? 
+1. **Develop IoT-based cold chain monitoring sensors.**
+   *Example: "Add an indicator in KHIS for monthly reporting of cold chain capacity and equipment functionality."*
 
-- Have a read of the topic presentations as well for more information. 
-- All information is on the hackathon website [https://mrc-ide.github.io/cema-mrc-hackathon/materials.html](https://mrc-ide.github.io/cema-mrc-hackathon/materials.html)
+2. **Create an app for real-time temperature alerts.**
+   *Example: "Enable automated temperature monitoring with real-time notifications for deviations."*
 
-:::
+3. **Design an automated cold chain capacity planner.**
+   *Example: "Develop predictive models to estimate cold chain needs based on vaccine demand trends."*
 
-::: {.column width="30%"}
-<div style="text-align: left;">
-  <img src="images/topic_qr.png" class="fragment" width="700" height="300" />
-</div>
-:::
-::::
+- **Assigned Participants:**
+
+  - Philip M, Stephanie K, Bonventre A, Peninna N, Fathiya H, Peter M, Jackine N
+
+---
+
+## Project B: Outbreak Alert Thresholds  {.smaller}
+
+**Key Proposed Tools/Ideas:**
+
+1. **Develop a user-friendly data visualisation dashboard.**
+   *Example: "Create visuals to track outbreak alerts and response timelines."*
+
+2. **Automate data validation processes.**
+   *Example: "Integrate systems to validate alert thresholds against historical data."*
+
+3. **Implement a centralised database for data integration.**
+   *Example: "Develop a unified platform to consolidate outbreak reports from multiple regions."*
+
+- **Assigned Participants:**
+
+  - Stanley S, Giovanni C, Salmon G, Pius K, Ivy K, Florence A, Lydiah K, Amika P
+
+---
+
+## Project C: Data Quality Validation  {.smaller}
+
+**Key Proposed Tools/Ideas:**
+
+1. **Create a data quality scoring system.**
+   *Example: "Automate data validation checks for anomalies in health records."*
+
+2. **Design a dashboard for tracking data anomalies.**
+   *Example: "Develop real-time analytics for monitoring data quality metrics."*
+
+3. **Automate alerts for outliers in data submissions.**
+   *Example: "Enable system-generated notifications for inconsistencies in vaccination data."*
+
+- **Assigned Participants:**
+
+  - Ommet EO, Cosmas B, Muchiri Antony, Paul L, Katy G, Fred M
+
+---
+
+## Project E: Malaria Vaccine Deployment  {.smaller}
+
+**Key Proposed Tools/Ideas:**
+
+1. **Create a vaccine deployment tracker.**
+   *Example: "Track malaria vaccine rollout progress at the sub-county level."*
+
+2. **Develop GIS tools to map vaccine coverage.**
+   *Example: "Visualise vaccine distribution areas to identify coverage gaps."*
+
+3. **Design an algorithm to optimise vaccine distribution.**
+   *Example: "Simulate distribution scenarios to ensure equitable vaccine access."*
+
+- **Assigned Participants:**
+
+  - Tabitha O, Augustine M, Geoffrey G, Mumbua M, Daniel B, Pete W, Omar Ahmes, Anne K
+
+---
+
+## Project F: Animal Surveillance Data Integration  {.smaller}
+
+**Key Proposed Tools/Ideas:**
+
+1. **Develop spillover risk mapping tools.**
+   *Example: "Map high-risk areas for zoonotic disease spillovers based on surveillance data."*
+
+2. **Automate surveillance reporting systems.**
+   *Example: "Streamline submission of surveillance data to improve reporting efficiency."*
+
+3. **Implement interoperability features between animal and human surveillance.**
+   *Example: "Integrate animal health data into human surveillance platforms for coordinated response."*
+
+- **Assigned Participants:**
+
+  - Ryan M, Anne K, Purity K, Ruth M, Annah M, Mumbua M, Emmanuel O, Argni B
+
+---
+
+## Project G: Workforce Estimation {.smaller}
+
+**Key Proposed Tools/Ideas:**
+
+1. **Develop a workforce simulation tool.**
+   *Example: "Model staffing requirements for vaccination campaigns."*
+
+2. **Create a training needs assessment platform.**
+   *Example: "Identify skill gaps and design targeted training programs for health workers."*
+
+3. **Design a dashboard to monitor workforce metrics.**
+   *Example: "Track workforce deployment and utilisation in real-time."*
+
+- **Assigned Participants:**
+
+  - Komundia G, Sabine van E, Ojal T, Penina MN, Francis M, Moses M
 
 ---
 
