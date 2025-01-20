@@ -112,18 +112,18 @@
     "text": "Ice Breaker Activity\n\n\n\n\n\n\n\n\n\n\nIcebreaker Jenga\n\nSplit into groups of ~10\n\nTake turns removing a block from the tower\nEach block has a question on the block\nAnswer the question and place the block on the tower\nRepeat until the tower falls over"
   },
   {
-    "objectID": "slides/intro_slides.html#section",
-    "href": "slides/intro_slides.html#section",
-    "title": "Bridging The Gap Hackathon",
-    "section": "",
-    "text": "Enjoy a well-deserved break!"
-  },
-  {
     "objectID": "slides/intro_slides.html#hackathon-topic-presentations",
     "href": "slides/intro_slides.html#hackathon-topic-presentations",
     "title": "Bridging The Gap Hackathon",
     "section": "Hackathon Topic Presentations",
     "text": "Hackathon Topic Presentations\n\nCold Chain Capacity Monitoring:\n\nStreamline reporting and visualising vaccine cold chain capacity.\n\nOutbreak Alert Thresholds:\n\nRefining epidemic thresholds for measles outbreak detection.\n\nData Quality Validation:\n\nAutomating detection of anomalies in vaccine data for better accuracy.\n\nSchistosomiasis Elimination Strategies:\n\nConduct cost-effectiveness evaluation of elimination strategies.\n\nMalaria Vaccine Deployment:\n\nOptimising malaria vaccination with with other interventions.\n\nAnimal Surveillance Data Integration:\n\nUnified platform for real-time animal health data analysis and reporting."
+  },
+  {
+    "objectID": "slides/intro_slides.html#section",
+    "href": "slides/intro_slides.html#section",
+    "title": "Bridging The Gap Hackathon",
+    "section": "",
+    "text": "Enjoy a well-deserved break!"
   },
   {
     "objectID": "slides/intro_slides.html#topic-reading",
@@ -137,14 +137,14 @@
     "href": "slides/intro_slides.html#idea-generation",
     "title": "Bridging The Gap Hackathon",
     "section": "Idea Generation",
-    "text": "Idea Generation\n\nOn the “Challenge Wall”, use the post-its to add brief descriptions of ideas or tools you think would be helpful in answering these topics?\nIf you have ideas for other relevant questions or tools for this 5-day hackathon you would like to build then add these to the “Further Ideas Wall”"
+    "text": "Idea Generation\n\nOn the “Challenge Tables”, use the post-its to add brief descriptions of ideas or tools you think would be helpful in answering these topics?\nIf you have ideas for other relevant questions or tools for this 5-day hackathon you would like to build then add these to the “Further Ideas Board”"
   },
   {
     "objectID": "slides/intro_slides.html#skill-identification",
     "href": "slides/intro_slides.html#skill-identification",
     "title": "Bridging The Gap Hackathon",
     "section": "Skill Identification",
-    "text": "Skill Identification\n\nOn the “Skills Wall”, use the post-its to share what research or technical/software skills you have?\nAdd your inititials and use the list below, but please add any other relevant skills you may want to mention\n\n\n\nData Analysis & Statistics (Statistical analysis, Data analysis, Predictive modelling, Stochastic modelling)\n\nMachine Learning & AI (Machine learning, AI-driven solutions, Bayesian inference, Time-series prediction)\n\nEpidemiology & Modelling (Epidemiological modelling, Mathematical modelling, Infectious disease dynamics, Climate-sensitive VPDs)\n\nPublic Health & Policy (Public health policy, Public health management, Evidence synthesis, Vaccine impact estimation)\n\nHealth Economics (Health economics, Cost-effectiveness analysis)\n\nSoftware Engineering (Software development, R packaging,Python programming, Web applications)\n\nData Engineering (Data algorithms, Database management, Interoperability, Integrations expert)\n\nVisualisation & Reporting (Data visualisation, Dashboards and tools)\n\nCommunication & Knowledge Translation (Knowledge translation, Communications strategy)\n\nProject Management & Leadership (Project management, Leadership in public health)"
+    "text": "Skill Identification\n\nOn the “Skills Mirrors”, use the post-its to share:\n\nWhat research or technical/software skills you have?\nWhat questions you would like to work on?\nYour first name and initial of last name, e.g. Oliver W\nYour affiliation, e.g. CEMA\n\n\n\n\nData Analysis & Statistics (Statistical analysis, Data analysis, Predictive modelling, Stochastic modelling)\n\nMachine Learning & AI (Machine learning, AI-driven solutions, Bayesian inference, Time-series prediction)\n\nEpidemiology & Modelling (Epidemiological modelling, Mathematical modelling, Infectious disease dynamics, Climate-sensitive VPDs)\n\nPublic Health & Policy (Public health policy, Public health management, Evidence synthesis, Vaccine impact estimation)\n\nHealth Economics (Health economics, Cost-effectiveness analysis)\n\nSoftware Engineering (Software development, R packaging,Python programming, Web applications)\n\nData Engineering (Data algorithms, Database management, Interoperability, Integrations expert)\n\nVisualisation & Reporting (Data visualisation, Dashboards and tools)\n\nCommunication & Knowledge Translation (Knowledge translation, Communications strategy)\n\nProject Management & Leadership (Project management, Leadership in public health)"
   },
   {
     "objectID": "slides/intro_slides.html#get-post-it-noting",
@@ -158,25 +158,53 @@
     "href": "slides/intro_slides.html#lunch-break",
     "title": "Bridging The Gap Hackathon",
     "section": "🍴 Lunch Break 🍴",
-    "text": "🍴 Lunch Break 🍴\nLunch is available downstairs"
+    "text": "🍴 Lunch Break 🍴"
+  },
+  {
+    "objectID": "slides/intro_slides.html#project-a-cold-chain-capacity-monitoring",
+    "href": "slides/intro_slides.html#project-a-cold-chain-capacity-monitoring",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Project A: Cold Chain Capacity Monitoring",
+    "text": "Project A: Cold Chain Capacity Monitoring\nKey Proposed Tools/Ideas:\n\nDevelop IoT-based cold chain monitoring sensors. Example: “Add an indicator in KHIS for monthly reporting of cold chain capacity and equipment functionality.”\nCreate an app for real-time temperature alerts. Example: “Enable automated temperature monitoring with real-time notifications for deviations.”\nDesign an automated cold chain capacity planner. Example: “Develop predictive models to estimate cold chain needs based on vaccine demand trends.”\n\n\nAssigned Participants:\n\nPhilip M, Stephanie K, Bonventre A, Peninna N, Fathiya H, Peter M, Jackine N"
+  },
+  {
+    "objectID": "slides/intro_slides.html#project-b-outbreak-alert-thresholds",
+    "href": "slides/intro_slides.html#project-b-outbreak-alert-thresholds",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Project B: Outbreak Alert Thresholds",
+    "text": "Project B: Outbreak Alert Thresholds\nKey Proposed Tools/Ideas:\n\nDevelop a user-friendly data visualisation dashboard. Example: “Create visuals to track outbreak alerts and response timelines.”\nAutomate data validation processes. Example: “Integrate systems to validate alert thresholds against historical data.”\nImplement a centralised database for data integration. Example: “Develop a unified platform to consolidate outbreak reports from multiple regions.”\n\n\nAssigned Participants:\n\nStanley S, Giovanni C, Salmon G, Pius K, Ivy K, Florence A, Lydiah K, Amika P"
+  },
+  {
+    "objectID": "slides/intro_slides.html#project-c-data-quality-validation",
+    "href": "slides/intro_slides.html#project-c-data-quality-validation",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Project C: Data Quality Validation",
+    "text": "Project C: Data Quality Validation\nKey Proposed Tools/Ideas:\n\nCreate a data quality scoring system. Example: “Automate data validation checks for anomalies in health records.”\nDesign a dashboard for tracking data anomalies. Example: “Develop real-time analytics for monitoring data quality metrics.”\nAutomate alerts for outliers in data submissions. Example: “Enable system-generated notifications for inconsistencies in vaccination data.”\n\n\nAssigned Participants:\n\nOmmet EO, Cosmas B, Muchiri Antony, Paul L, Katy G, Fred M"
+  },
+  {
+    "objectID": "slides/intro_slides.html#project-e-malaria-vaccine-deployment",
+    "href": "slides/intro_slides.html#project-e-malaria-vaccine-deployment",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Project E: Malaria Vaccine Deployment",
+    "text": "Project E: Malaria Vaccine Deployment\nKey Proposed Tools/Ideas:\n\nCreate a vaccine deployment tracker. Example: “Track malaria vaccine rollout progress at the sub-county level.”\nDevelop GIS tools to map vaccine coverage. Example: “Visualise vaccine distribution areas to identify coverage gaps.”\nDesign an algorithm to optimise vaccine distribution. Example: “Simulate distribution scenarios to ensure equitable vaccine access.”\n\n\nAssigned Participants:\n\nTabitha O, Augustine M, Geoffrey G, Mumbua M, Daniel B, Pete W, Omar Ahmes, Anne K"
+  },
+  {
+    "objectID": "slides/intro_slides.html#project-f-animal-surveillance-data-integration",
+    "href": "slides/intro_slides.html#project-f-animal-surveillance-data-integration",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Project F: Animal Surveillance Data Integration",
+    "text": "Project F: Animal Surveillance Data Integration\nKey Proposed Tools/Ideas:\n\nDevelop spillover risk mapping tools. Example: “Map high-risk areas for zoonotic disease spillovers based on surveillance data.”\nAutomate surveillance reporting systems. Example: “Streamline submission of surveillance data to improve reporting efficiency.”\nImplement interoperability features between animal and human surveillance. Example: “Integrate animal health data into human surveillance platforms for coordinated response.”\n\n\nAssigned Participants:\n\nRyan M, Anne K, Purity K, Ruth M, Annah M, Mumbua M, Emmanuel O, Argni B"
+  },
+  {
+    "objectID": "slides/intro_slides.html#project-g-workforce-estimation",
+    "href": "slides/intro_slides.html#project-g-workforce-estimation",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Project G: Workforce Estimation",
+    "text": "Project G: Workforce Estimation\nKey Proposed Tools/Ideas:\n\nDevelop a workforce simulation tool. Example: “Model staffing requirements for vaccination campaigns.”\nCreate a training needs assessment platform. Example: “Identify skill gaps and design targeted training programs for health workers.”\nDesign a dashboard to monitor workforce metrics. Example: “Track workforce deployment and utilisation in real-time.”\n\n\nAssigned Participants:\n\nKomundia G, Sabine van E, Ojal T, Penina MN, Francis M, Moses M"
   },
   {
     "objectID": "slides/intro_slides.html#skill-matching-exercise",
     "href": "slides/intro_slides.html#skill-matching-exercise",
-    "title": "Bridging The Gap Hackathon",
-    "section": "Skill Matching Exercise",
-    "text": "Skill Matching Exercise"
-  },
-  {
-    "objectID": "slides/intro_slides.html#topic-refinement",
-    "href": "slides/intro_slides.html#topic-refinement",
-    "title": "Bridging The Gap Hackathon",
-    "section": "Topic Refinement",
-    "text": "Topic Refinement\n\n\n\nIn your tables, discuss the ideas and topics just discussed. In particular:\n\nWhich topics sound interesting to you?\nDo you have any expertise in a related area?\nWhat types of tools do you think would be helpful in answering these topics?\n\nHave a read of the topic presentations as well for more information.\nAll information is on the hackathon website https://mrc-ide.github.io/cema-mrc-hackathon/materials.html"
-  },
-  {
-    "objectID": "slides/intro_slides.html#skill-matching-exercise-1",
-    "href": "slides/intro_slides.html#skill-matching-exercise-1",
     "title": "Bridging The Gap Hackathon",
     "section": "Skill Matching Exercise",
     "text": "Skill Matching Exercise"
