@@ -9,7 +9,7 @@
 <meta name="author" content="OJ Watson">
 <meta name="dcterms.date" content="2025-01-21">
 
-<title>Introduction to Git</title>
+<title>Day 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -166,14 +132,13 @@ gtag('config', 'G-N2S7VXS1QK', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="git_intro_slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="day2_slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to Git</h1>
-<p class="subtitle lead">plus GitHub, R &amp; RStudio</p>
+<h1 class="title">Day 2</h1>
 </div>
 
 
@@ -203,162 +168,45 @@ gtag('config', 'G-N2S7VXS1QK', { 'anonymize_ip': true});
 
 
 <hr>
-<section id="introduction-to-git" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-git">Introduction to Git</h2>
+<section id="welcome-to-day-2" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="welcome-to-day-2">Welcome to Day 2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Git is a version control software (VCS).</li>
-<li>VCS: Takes a picture of what your files look like and stores that in memory.</li>
-<li>This allows us to look back and see how our files have changed over time.</li>
+<li>Good Morning!</li>
+<li>Hands up if you know everyone in your family’s name?</li>
+<li>Keep your hands up if you know if they prefer coffee or tea?</li>
 </ul>
-<hr>
-</section>
-<section id="why-do-we-need-version-control" class="level2">
-<h2 class="anchored" data-anchor-id="why-do-we-need-version-control">Why do we need version control?</h2>
-<p><img src="pics/phdcomics.gif" class="img-fluid"></p>
-<hr>
-<p><img src="pics/manual_vc.png" class="img-fluid"></p>
-<hr>
-</section>
-<section id="version-control-metadata-history" class="level2">
-<h2 class="anchored" data-anchor-id="version-control-metadata-history">Version control: metadata + history</h2>
+</div><div class="column" style="width:50%;">
 <ul>
-<li><strong>who</strong>: name of person making changes</li>
-<li><strong>when</strong>: date and time change</li>
-<li><strong>what</strong>: contents of files changed</li>
-<li><strong>why</strong>: motivation for the change</li>
+<li><strong>What is the solution?</strong></li>
 </ul>
+<div style="text-align: left;">
+<p><img src="images/jenga.png" class="fragment" width="700" height="200"></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
-<section id="is-it-just-like-a-backup" class="level2">
-<h2 class="anchored" data-anchor-id="is-it-just-like-a-backup">Is it just like a backup?</h2>
+<section id="days-2-schedule" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="days-2-schedule">Days 2 Schedule</h2>
 <ul>
-<li><p>Why not just use Dropbox?</p></li>
-<li><p>Or Google Drive?</p></li>
-<li><p>These are also great to use, and Google docs for example has version control where changes are tracked.</p></li>
-<li><p>However, Git and Github are made specifically for tracking how codebases have changed.</p></li>
-</ul>
-<hr>
-</section>
-<section id="installing-git" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="installing-git">Installing Git</h2>
-<p>Git supports all operating systems. You can install it using command-line tools or directly download and install the setup.</p>
-<p><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a></p>
+<li>Coding and Collaboration
 <ul>
-<li><p>Linux</p>
-<ul>
-<li>For Debian/Ubuntu-based operating systems use <code>apt-get install git</code> or similar.</li>
-</ul></li>
-<li><p>macOS</p>
-<ul>
-<li>If you have homebrew installed, use this command to download and install Git: <code>brew install git</code>.</li>
-</ul></li>
-<li><p>Windows</p>
-<ul>
-<li>Installing Git on Windows is hassle-free. Just go to the <a href="https://git-scm.com/downloads/win">download page</a></li>
+<li><strong>8.30 – 9.00:</strong> Grounding and plan for the day</li>
+<li><strong>9.30 – 10.00:</strong> Git and GitHub refresher</li>
+<li><strong>9.00 – 17.00:</strong> Dedicated time for project work in each working group, with guidance from facilitators.</li>
+<li><strong>16.00 – 17.00:</strong> “Debrief the Day”. Group updates and plans for tomorrow.</li>
 </ul></li>
 </ul>
 <hr>
 </section>
-<section id="how-to-check-if-you-have-installed-git" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-check-if-you-have-installed-git">How to check if you have installed Git?</h2>
-<p>Open a terminal, type <code>git --version</code> and press enter</p>
-</section>
-<section id="link-git-to-your-github" class="level2">
-<h2 class="anchored" data-anchor-id="link-git-to-your-github">Link Git to your Github</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"your-user-name"</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"your@email.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="basic-git-terms" class="level2">
-<h2 class="anchored" data-anchor-id="basic-git-terms">Basic git terms</h2>
+<section id="post-morning-tea-update" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="post-morning-tea-update">Post-Morning Tea Update</h2>
 <ul>
-<li><strong>repository</strong>: (or “repo”) git’s database. Might be local or on GitHub</li>
-<li><strong>working copy</strong>: all the files you actually work with</li>
-<li><strong>commit</strong>:
-<ul>
-<li>as a noun: a snapshot of all the files in the repository</li>
-<li>as a verb: create a snapshot</li>
-</ul></li>
-<li><strong>hash</strong>: fingerprint of a file/repository</li>
-</ul>
-<hr>
-</section>
-<section id="git-history" class="level2">
-<h2 class="anchored" data-anchor-id="git-history">Git history</h2>
-<p><img src="pics/graph_linear.png" class="img-fluid"> <img src="pics/graph_nonlinear.png" class="img-fluid"></p>
-<hr>
-</section>
-<section id="interacting-with-git" class="level2">
-<h2 class="anchored" data-anchor-id="interacting-with-git">Interacting with Git</h2>
-<ul>
-<li>From the command line - always good to be comfortable with this</li>
-<li>From a GUI
-<ul>
-<li>RStudio has one built-in</li>
-<li>Most IDEs do now (e.g.&nbsp;VSCode or Positron)</li>
-</ul></li>
-<li>Via GitHub</li>
-</ul>
-<hr>
-</section>
-<section id="basic-git-commands" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="basic-git-commands">Basic git commands</h2>
-<ul>
-<li><code>git init</code>: initialise a repository</li>
-<li><code>git add</code>: stage files</li>
-<li><code>git commit</code>: add staged files to the repository by making a commit</li>
-<li><code>git log</code>: see an overview of what changed</li>
-<li><code>git diff</code>: see details of what changed</li>
-</ul>
-<hr>
-</section>
-<section id="end-of-part-1" class="level2">
-<h2 class="anchored" data-anchor-id="end-of-part-1">End of part 1</h2>
-<hr>
-</section>
-<section id="what-makes-a-commit" class="level2">
-<h2 class="anchored" data-anchor-id="what-makes-a-commit">What makes a commit?</h2>
-<p><img src="pics/xkcd_1296.png" class="img-fluid"></p>
-<hr>
-</section>
-<section id="ideally" class="level2">
-<h2 class="anchored" data-anchor-id="ideally">Ideally</h2>
-<ul>
-<li>One set of related changes</li>
-<li>Commit message explains why they were needed</li>
-<li>Short title (&lt;60 characters)</li>
-<li>Blank line, then any further discussion</li>
-</ul>
-<hr>
-</section>
-<section id="not-everything-goes-in-git" class="level2">
-<h2 class="anchored" data-anchor-id="not-everything-goes-in-git">Not everything goes in git</h2>
-<ul>
-<li>Large files</li>
-<li>Passwords</li>
-<li>Outputs (sometimes)</li>
-<li>Use <code>.gitignore</code></li>
-</ul>
-<hr>
-</section>
-<section id="remote-git-commands" class="level2">
-<h2 class="anchored" data-anchor-id="remote-git-commands">Remote git commands</h2>
-<ul>
-<li><code>git clone</code>: download a repository</li>
-<li><code>git fetch</code>: update remote changes but don’t apply them</li>
-<li><code>git pull</code>: update remote changes and do apply them</li>
-<li><code>git push</code>: send your changes upstream</li>
-<li><code>git remote</code>: inspect / change details of upstream repositories</li>
-<li><code>git branch</code>: inspect / create a branch</li>
-<li><code>git checkout -b</code>: create a branch and change to it (yes this is stupid)</li>
-<li><code>git merge</code>: merge branches</li>
-</ul>
-<hr>
-</section>
-<section id="rstudio-and-github" class="level2">
-<h2 class="anchored" data-anchor-id="rstudio-and-github">Rstudio and GitHub</h2>
-<ul>
-<li>Not all commands are supported but all you will likely need</li>
-<li>Use the shell for the rest</li>
+<li>Objective for Thursday that they are aiming towards</li>
+<li>Analytical pla - andicipaton of what you want to present o n THirsdat</li>
+<li>What do you want to have done by the end of the day</li>
 </ul>
 <hr>
 

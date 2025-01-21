@@ -788,14 +788,14 @@
     "href": "materials.html",
     "title": "Shared Slides",
     "section": "",
-    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github\nTutorial: Installing Git on Mac\nTutorial: Installing Git on Windows\n\n\n\n\n\nResearch Topic Presentations"
+    "text": "Day 1 Slides\nDay 2 Slides\n\n\n\n\n\nIntroduction to Git & Github\nTutorial: Git, SSH Keys, Github on Mac\nTutorial: Git, SSH Keys, Github on Windows\n\n\n\n\n\nResearch Topic Presentations"
   },
   {
     "objectID": "materials.html#presentations-associated-with-this-hackathon",
     "href": "materials.html#presentations-associated-with-this-hackathon",
     "title": "Shared Slides",
     "section": "",
-    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github\nTutorial: Installing Git on Mac\nTutorial: Installing Git on Windows"
+    "text": "Day 1 Slides\nDay 2 Slides"
   },
   {
     "objectID": "materials.html#resources-associated-with-this-hackathon",
@@ -1195,5 +1195,40 @@
     "title": "Setting Up Git and GitHub on Mac",
     "section": "Congratulations!",
     "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
+  },
+  {
+    "objectID": "materials.html#presentations-on-github-training",
+    "href": "materials.html#presentations-on-github-training",
+    "title": "Shared Slides",
+    "section": "",
+    "text": "Introduction to Git & Github\nTutorial: Git, SSH Keys, Github on Mac\nTutorial: Git, SSH Keys, Github on Windows"
+  },
+  {
+    "objectID": "materials.html#resources-and-documents-associated-with-this-hackathon",
+    "href": "materials.html#resources-and-documents-associated-with-this-hackathon",
+    "title": "Shared Slides",
+    "section": "",
+    "text": "Research Topic Presentations"
+  },
+  {
+    "objectID": "slides/day2_slides.html#welcome-to-day-2",
+    "href": "slides/day2_slides.html#welcome-to-day-2",
+    "title": "Day 2",
+    "section": "Welcome to Day 2",
+    "text": "Welcome to Day 2\n\n\n\nGood Morning!\nHands up if you know everyone in your family’s name?\nKeep your hands up if you know if they prefer coffee or tea?\n\n\n\nWhat is the solution?"
+  },
+  {
+    "objectID": "slides/day2_slides.html#days-2-schedule",
+    "href": "slides/day2_slides.html#days-2-schedule",
+    "title": "Day 2",
+    "section": "Days 2 Schedule",
+    "text": "Days 2 Schedule\n\nCoding and Collaboration\n\n8.30 – 9.00: Grounding and plan for the day\n9.30 – 10.00: Git and GitHub refresher\n9.00 – 17.00: Dedicated time for project work in each working group, with guidance from facilitators.\n16.00 – 17.00: “Debrief the Day”. Group updates and plans for tomorrow."
+  },
+  {
+    "objectID": "slides/day2_slides.html#post-morning-tea-update",
+    "href": "slides/day2_slides.html#post-morning-tea-update",
+    "title": "Day 2",
+    "section": "Post-Morning Tea Update",
+    "text": "Post-Morning Tea Update\n\nObjective for Thursday that they are aiming towards\nAnalytical pla - andicipaton of what you want to present o n THirsdat\nWhat do you want to have done by the end of the day"
   }
 ]

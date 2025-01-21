@@ -1,0 +1,56 @@
+---
+title: "Day 2"
+author: "OJ Watson"
+date: "2025-01-21"
+
+format:
+  revealjs:
+    incremental: true   
+---
+
+
+---
+
+## Welcome to Day 2  {.smaller}
+
+:::: {.columns}
+
+
+::: {.column width="50%"}
+
+- Good Morning!
+- Hands up if you know everyone in your family's name?
+- Keep your hands up if you know if they prefer coffee or tea?
+
+:::
+
+::: {.column width="50%"}
+
+- **What is the solution?**
+
+<div style="text-align: left;">
+  <img src="images/jenga.png" class="fragment" width="700" height="200" />
+</div>
+:::
+
+::::
+
+---
+
+## Days 2 Schedule  {.smaller}
+
+- Coding and Collaboration
+  - **8.30 – 9.00:** Grounding and plan for the day
+  - **9.30 – 10.00:** Git and GitHub refresher
+  - **9.00 – 17.00:** Dedicated time for project work in each working group, with guidance from facilitators.
+  - **16.00 – 17.00:** "Debrief the Day". Group updates and plans for tomorrow.
+
+---
+
+## Post-Morning Tea Update  {.smaller}
+
+- Objective for Thursday that they are aiming towards
+- Analytical pla - andicipaton of what you want to present o n THirsdat
+- What do you want to have done by the end of the day
+
+---
