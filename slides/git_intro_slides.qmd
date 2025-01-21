@@ -30,7 +30,7 @@ format:
 - **What is the solution?**
 
 <div style="text-align: left;">
-  <img src="jenga.png" class="fragment" width="700" height="200" />
+  <img src="images/jenga.png" class="fragment" width="700" height="200" />
 </div>
 :::
 

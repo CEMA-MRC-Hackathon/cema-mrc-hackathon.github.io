@@ -10,6 +10,8 @@ from: markdown+emoji
 
 - [Day 1 Introduction Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/intro_slides.html)
 - [Introduction to Git & Github](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_intro_slides.html)
+- [Tutorial: Installing Git on Windows](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_install_mac.html)
+- [Tutorial: Installing Git on Mac](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_install_windows.html)
 
 ## Resources associated with this hackathon
 

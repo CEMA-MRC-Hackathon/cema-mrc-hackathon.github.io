@@ -1,0 +1,139 @@
+---
+title: "Setting Up Git and GitHub on Windows"
+author: "OJ Watson"
+format:
+  revealjs: 
+    theme: simple
+    slide-level: 2
+---
+
+# Introduction {.smaller}
+
+Welcome to the guide for setting up Git and GitHub on Windows. This guide assumes no prior coding or Git experience.
+
+We will cover:
+
+- Downloading and installing Git.
+- Verifying the installation.
+- Generating an SSH key.
+- Adding the SSH key to GitHub.
+- Linking the SSH key with RStudio.
+
+---
+
+## Step 1: Download and Install Git {.smaller}
+
+1. Go to the Git website: [https://git-scm.com](https://git-scm.com).
+2. Click on **Download for Windows**.
+3. Run the downloaded `.exe` file.
+4. Follow the installation steps:
+   - Use the default settings.
+   - Click "Next" for all options unless you have specific requirements.
+5. Click **Finish** when done.
+
+---
+
+## Step 2: Check Git is Installed {.smaller}
+
+1. Open the **Command Prompt**:
+   - Press `Win + R`, type `cmd`, and press Enter.
+2. Type the following command and press Enter:
+   ```
+   git --version
+   ```
+3. You should see a version number, e.g., `git version 2.x.x`.
+   - If you see an error, repeat the installation steps.
+
+---
+
+## Step 3: Generate an SSH Key {.smaller}
+
+1. Open the **Git Bash** application (installed with Git).
+2. Run the following command:
+   ```
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+   - Replace `your_email@example.com` with your GitHub email address.
+3. When prompted:
+   - Press Enter to save the key to the default location.
+   - (Optional) Enter a passphrase for added security.
+4. Your SSH key will be saved to a default location, e.g., `C:\Users\YourName\.ssh\id_ed25519`.
+
+---
+
+## Step 4: Add the SSH Key to GitHub {.smaller}
+
+1. Display your public SSH key:
+   - Run the following command in **Git Bash**:
+     ```
+     cat ~/.ssh/id_ed25519.pub
+     ```
+   - Copy the output (Ctrl + C).
+2. Log in to your GitHub account.
+3. Go to **Settings** > **SSH and GPG keys**.
+4. Click **New SSH key**:
+   - Title: Give your key a name (e.g., "My Laptop").
+   - Key: Paste the copied key into the text box.
+5. Click **Add SSH key**.
+6. Confirm your password if prompted.
+
+---
+
+## Step 5: Test the SSH Connection {.smaller}
+
+1. Open **Git Bash**.
+2. Run the following command:
+   ```
+   ssh -T git@github.com
+   ```
+3. If successful, you will see a message like:
+   ```
+   Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+   ```
+   - If there’s an error, check that the SSH key was added correctly.
+
+---
+
+## Step 6: Link SSH Key with RStudio {.smaller}
+
+1. Open RStudio.
+2. Go to **Tools** > **Global Options**.
+3. In the left-hand menu, click on **Git/SVN**.
+4. Check the box labeled **Enable version control interface for RStudio**.
+5. Under the **Git executable** field, ensure the path points to the Git installation, e.g., `C:\Program Files\Git\bin\git.exe`.
+6. Click **Apply** and then **OK**.
+
+---
+
+## Step 7: Configure SSH Key in RStudio {.smaller}
+
+1. Open the **Terminal** tab in RStudio (found at the bottom-right of the screen).
+2. Verify the SSH key is correctly set up by running:
+   ```
+   ssh -T git@github.com
+   ```
+3. If successful, proceed to the next step.
+
+---
+
+## Step 8: Clone a Repository in RStudio {.smaller}
+
+1. Go to your GitHub repository.
+2. Click the green **Code** button and select **SSH**.
+3. Copy the SSH link (e.g., `git@github.com:username/repo.git`).
+4. In RStudio, go to **File** > **New Project** > **Version Control** > **Git**.
+5. Paste the SSH link into the **Repository URL** field.
+6. Choose a directory to save the project and click **Create Project**.
+
+---
+
+## Congratulations! {.smaller}
+
+You have successfully:
+
+- Installed Git.
+- Verified the installation.
+- Created and added an SSH key to GitHub.
+- Linked the SSH key with RStudio.
+
+You are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!
