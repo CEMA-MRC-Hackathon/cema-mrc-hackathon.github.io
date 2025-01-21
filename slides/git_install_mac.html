@@ -10,8 +10,7 @@
   <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="OJ Watson">
-  <meta name="dcterms.date" content="2025-01-21">
-  <title>Introduction to Git</title>
+  <title>Setting Up Git and GitHub on Mac</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,73 +28,8 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-423d414d36ce366a9d05f36d06304417.css">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-N2S7VXS1QK"></script>
 
   <script type="text/javascript">
@@ -202,8 +136,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introduction to Git</h1>
-  <p class="subtitle">plus GitHub, R &amp; RStudio</p>
+  <h1 class="title">Setting Up Git and GitHub on Mac</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -213,189 +146,127 @@ OJ Watson
 </div>
 </div>
 
-  <p class="date">2025-01-21</p>
 </section>
-<section id="welcome-to-day-2" class="slide level2 smaller">
-<h2>Welcome to Day 2</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="introduction" class="slide level2 smaller">
+<h2>Introduction</h2>
+<p>Welcome to the guide for setting up Git and GitHub on Mac. This guide assumes no prior coding or Git experience.</p>
+<p>We will cover:</p>
 <ul>
-<li class="fragment">Good Morning!</li>
-<li class="fragment">Hands up if you know everyone in your family’s name?</li>
-<li class="fragment">Keep your hands up if you know if they prefer coffee or tea?</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<ul>
-<li class="fragment"><strong>What is the solution?</strong></li>
-</ul>
-<div style="text-align: left;">
-<p><img src="images/jenga.png" class="fragment" width="700" height="200"></p>
-</div>
-</div></div>
-</section>
-<section class="slide level2">
-
-</section>
-<section id="introduction-to-git" class="slide level2">
-<h2>Introduction to Git</h2>
-<ul>
-<li class="fragment"><p>Git is a version control software (VCS).</p></li>
-<li class="fragment"><p>VCS: Takes a picture of what your files look like and stores that in memory.</p></li>
-<li class="fragment"><p>This allows us to look back and see how our files have changed over time.</p></li>
+<li>Downloading and installing Git.</li>
+<li>Verifying the installation.</li>
+<li>Generating an SSH key.</li>
+<li>Adding the SSH key to GitHub.</li>
+<li>Linking the SSH key with RStudio.</li>
 </ul>
 </section>
-<section id="why-do-we-need-version-control" class="slide level2">
-<h2>Why do we need version control?</h2>
-
-<img data-src="pics/phdcomics.gif" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="pics/manual_vc.png" class="r-stretch"></section>
-<section id="version-control-metadata-history" class="slide level2">
-<h2>Version control: metadata + history</h2>
+<section id="step-1-install-git" class="slide level2 smaller">
+<h2>Step 1: Install Git</h2>
+<ol type="1">
+<li><p>Open the <strong>Terminal</strong> application on your Mac.</p></li>
+<li><p>Check if Git is already installed by running:</p>
+<pre><code>git --version</code></pre></li>
+<li><p>If Git is not installed, you will see a prompt to install the Xcode Command Line Tools:</p>
 <ul>
-<li class="fragment"><strong>who</strong>: name of person making changes</li>
-<li class="fragment"><strong>when</strong>: date and time change</li>
-<li class="fragment"><strong>what</strong>: contents of files changed</li>
-<li class="fragment"><strong>why</strong>: motivation for the change</li>
-</ul>
-</section>
-<section id="is-it-just-like-a-backup" class="slide level2">
-<h2>Is it just like a backup?</h2>
-<ul>
-<li class="fragment"><p>Why not just use Dropbox?</p></li>
-<li class="fragment"><p>Or Google Drive?</p></li>
-<li class="fragment"><p>These are also great to use, and Google docs for example has version control where changes are tracked.</p></li>
-<li class="fragment"><p>However, Git and Github are made specifically for tracking how codebases have changed.</p></li>
-</ul>
-</section>
-<section id="installing-git" class="slide level2 smaller">
-<h2>Installing Git</h2>
-<p>Git supports all operating systems. You can install it using command-line tools or directly download and install the setup.</p>
-<p><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a></p>
-<ul>
-<li class="fragment"><p>Linux</p>
-<ul>
-<li class="fragment">For Debian/Ubuntu-based operating systems use <code>apt-get install git</code> or similar.</li>
+<li>Click <strong>Install</strong> and follow the on-screen instructions.</li>
 </ul></li>
-<li class="fragment"><p>macOS</p>
+<li><p>Once installed, verify Git by running:</p>
+<pre><code>git --version</code></pre>
 <ul>
-<li class="fragment">If you have homebrew installed, use this command to download and install Git: <code>brew install git</code>.</li>
+<li>You should see a version number, e.g., <code>git version 2.x.x</code>.</li>
 </ul></li>
-<li class="fragment"><p>Windows</p>
+</ol>
+</section>
+<section id="step-2-generate-an-ssh-key" class="slide level2 smaller">
+<h2>Step 2: Generate an SSH Key</h2>
+<ol type="1">
+<li><p>Open the <strong>Terminal</strong> application.</p></li>
+<li><p>Run the following command:</p>
+<pre><code>ssh-keygen -t ed25519 -C "your_email@example.com"</code></pre>
 <ul>
-<li class="fragment">Installing Git on Windows is hassle-free. Just go to the <a href="https://git-scm.com/downloads/win">download page</a></li>
+<li>Replace <code>your_email@example.com</code> with your GitHub email address.</li>
 </ul></li>
-</ul>
-</section>
-<section id="how-to-check-if-you-have-installed-git" class="slide level2">
-<h2>How to check if you have installed Git?</h2>
-<p>Open a terminal, type <code>git --version</code> and press enter</p>
-</section>
-<section id="link-git-to-your-github" class="slide level2">
-<h2>Link Git to your Github</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"your-user-name"</span></span>
-<span id="cb1-2"><a></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"your@email.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="basic-git-terms" class="slide level2">
-<h2>Basic git terms</h2>
+<li><p>When prompted:</p>
 <ul>
-<li class="fragment"><strong>repository</strong>: (or “repo”) git’s database. Might be local or on GitHub</li>
-<li class="fragment"><strong>working copy</strong>: all the files you actually work with</li>
-<li class="fragment"><strong>commit</strong>:
-<ul>
-<li class="fragment">as a noun: a snapshot of all the files in the repository</li>
-<li class="fragment">as a verb: create a snapshot</li>
+<li>Press Enter to save the key to the default location.</li>
+<li>(Optional) Enter a passphrase for added security.</li>
 </ul></li>
-<li class="fragment"><strong>hash</strong>: fingerprint of a file/repository</li>
-</ul>
+<li><p>Your SSH key will be saved to a default location, e.g., <code>/Users/YourName/.ssh/id_ed25519</code>.</p></li>
+</ol>
 </section>
-<section id="git-history" class="slide level2">
-<h2>Git history</h2>
-<p><img data-src="pics/graph_linear.png"> <img data-src="pics/graph_nonlinear.png"></p>
-</section>
-<section id="interacting-with-git" class="slide level2">
-<h2>Interacting with Git</h2>
+<section id="step-3-add-the-ssh-key-to-github" class="slide level2 smaller">
+<h2>Step 3: Add the SSH Key to GitHub</h2>
+<ol type="1">
+<li>Display your public SSH key:
 <ul>
-<li class="fragment">From the command line - always good to be comfortable with this</li>
-<li class="fragment">From a GUI
-<ul>
-<li class="fragment">RStudio has one built-in</li>
-<li class="fragment">Most IDEs do now (e.g.&nbsp;VSCode or Positron)</li>
+<li><p>Run the following command in <strong>Terminal</strong>:</p>
+<pre><code>cat ~/.ssh/id_ed25519.pub</code></pre></li>
+<li><p>Copy the output (Cmd + C).</p></li>
 </ul></li>
-<li class="fragment">Via GitHub</li>
-</ul>
-</section>
-<section id="basic-git-commands" class="slide level2 smaller">
-<h2>Basic git commands</h2>
+<li>Log in to your GitHub account.</li>
+<li>Go to <strong>Settings</strong> &gt; <strong>SSH and GPG keys</strong>.</li>
+<li>Click <strong>New SSH key</strong>:
 <ul>
-<li class="fragment"><code>git init</code>: initialise a repository</li>
-<li class="fragment"><code>git add</code>: stage files</li>
-<li class="fragment"><code>git commit</code>: add staged files to the repository by making a commit</li>
-<li class="fragment"><code>git log</code>: see an overview of what changed</li>
-<li class="fragment"><code>git diff</code>: see details of what changed</li>
-</ul>
-</section>
-<section id="end-of-part-1" class="slide level2">
-<h2>End of part 1</h2>
-</section>
-<section id="what-makes-a-commit" class="slide level2">
-<h2>What makes a commit?</h2>
-
-<img data-src="pics/xkcd_1296.png" class="r-stretch"></section>
-<section id="ideally" class="slide level2">
-<h2>Ideally</h2>
-<ul>
-<li class="fragment">One set of related changes</li>
-<li class="fragment">Commit message explains why they were needed</li>
-<li class="fragment">Short title (&lt;60 characters)</li>
-<li class="fragment">Blank line, then any further discussion</li>
-</ul>
-</section>
-<section id="not-everything-goes-in-git" class="slide level2">
-<h2>Not everything goes in git</h2>
-<ul>
-<li class="fragment">Large files</li>
-<li class="fragment">Passwords</li>
-<li class="fragment">Outputs (sometimes)</li>
-<li class="fragment">Use <code>.gitignore</code></li>
-</ul>
-</section>
-<section id="remote-git-commands" class="slide level2">
-<h2>Remote git commands</h2>
-<ul>
-<li class="fragment"><code>git clone</code>: download a repository</li>
-<li class="fragment"><code>git fetch</code>: update remote changes but don’t apply them</li>
-<li class="fragment"><code>git pull</code>: update remote changes and do apply them</li>
-<li class="fragment"><code>git push</code>: send your changes upstream</li>
-<li class="fragment"><code>git remote</code>: inspect / change details of upstream repositories</li>
-<li class="fragment"><code>git branch</code>: inspect / create a branch</li>
-<li class="fragment"><code>git checkout -b</code>: create a branch and change to it (yes this is stupid)</li>
-<li class="fragment"><code>git merge</code>: merge branches</li>
-</ul>
-</section>
-<section id="rstudio-and-github" class="slide level2">
-<h2>Rstudio and GitHub</h2>
-<ul>
-<li class="fragment">Not all commands are supported but all you will likely need</li>
-<li class="fragment">Use the shell for the rest</li>
-</ul>
-</section>
-<section id="days-2-schedule" class="slide level2 smaller">
-<h2>Days 2 Schedule</h2>
-<ul>
-<li class="fragment">Coding and Collaboration
-<ul>
-<li class="fragment"><strong>8.30 – 9.00:</strong> Grounding and plan for the day</li>
-<li class="fragment"><strong>9.30 – 10.00:</strong> Git and GitHub refresher</li>
-<li class="fragment"><strong>9.00 – 17.00:</strong> Dedicated time for project work in each working group, with guidance from facilitators.</li>
-<li class="fragment"><strong>16.00 – 17.00:</strong> “Debrief the Day”. Group updates and plans for tomorrow.</li>
+<li>Title: Give your key a name (e.g., “My Mac”).</li>
+<li>Key: Paste the copied key into the text box.</li>
 </ul></li>
-</ul>
+<li>Click <strong>Add SSH key</strong>.</li>
+<li>Confirm your password if prompted.</li>
+</ol>
 </section>
-<section class="slide level2">
-
+<section id="step-4-test-the-ssh-connection" class="slide level2 smaller">
+<h2>Step 4: Test the SSH Connection</h2>
+<ol type="1">
+<li><p>Open the <strong>Terminal</strong> application.</p></li>
+<li><p>Run the following command:</p>
+<pre><code>ssh -T git@github.com</code></pre></li>
+<li><p>If successful, you will see a message like:</p>
+<pre><code>Hi username! You've successfully authenticated, but GitHub does not provide shell access.</code></pre>
+<ul>
+<li>If there’s an error, check that the SSH key was added correctly.</li>
+</ul></li>
+</ol>
+</section>
+<section id="step-5-link-ssh-key-with-rstudio" class="slide level2 smaller">
+<h2>Step 5: Link SSH Key with RStudio</h2>
+<ol type="1">
+<li>Open RStudio.</li>
+<li>Go to <strong>Tools</strong> &gt; <strong>Global Options</strong>.</li>
+<li>In the left-hand menu, click on <strong>Git/SVN</strong>.</li>
+<li>Check the box labeled <strong>Enable version control interface for RStudio</strong>.</li>
+<li>Under the <strong>Git executable</strong> field, ensure the path points to the Git installation, e.g., <code>/usr/bin/git</code>.</li>
+<li>Click <strong>Apply</strong> and then <strong>OK</strong>.</li>
+</ol>
+</section>
+<section id="step-6-configure-ssh-key-in-rstudio" class="slide level2 smaller">
+<h2>Step 6: Configure SSH Key in RStudio</h2>
+<ol type="1">
+<li><p>Open the <strong>Terminal</strong> tab in RStudio (found at the bottom-right of the screen).</p></li>
+<li><p>Verify the SSH key is correctly set up by running:</p>
+<pre><code>ssh -T git@github.com</code></pre></li>
+<li><p>If successful, proceed to the next step.</p></li>
+</ol>
+</section>
+<section id="step-7-clone-a-repository-in-rstudio" class="slide level2 smaller">
+<h2>Step 7: Clone a Repository in RStudio</h2>
+<ol type="1">
+<li>Go to your GitHub repository.</li>
+<li>Click the green <strong>Code</strong> button and select <strong>SSH</strong>.</li>
+<li>Copy the SSH link (e.g., <code>git@github.com:username/repo.git</code>).</li>
+<li>In RStudio, go to <strong>File</strong> &gt; <strong>New Project</strong> &gt; <strong>Version Control</strong> &gt; <strong>Git</strong>.</li>
+<li>Paste the SSH link into the <strong>Repository URL</strong> field.</li>
+<li>Choose a directory to save the project and click <strong>Create Project</strong>.</li>
+</ol>
+</section>
+<section id="congratulations" class="slide level2 smaller">
+<h2>Congratulations!</h2>
+<p>You have successfully:</p>
+<ul>
+<li>Installed Git.</li>
+<li>Verified the installation.</li>
+<li>Created and added an SSH key to GitHub.</li>
+<li>Linked the SSH key with RStudio.</li>
+</ul>
+<p>You are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!</p>
 
 
 </section>

@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "slides/git_install_windows.html#step-1-download-and-install-git",
+    "href": "slides/git_install_windows.html#step-1-download-and-install-git",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 1: Download and Install Git",
+    "text": "Step 1: Download and Install Git\n\nGo to the Git website: https://git-scm.com.\nClick on Download for Windows.\nRun the downloaded .exe file.\nFollow the installation steps:\n\nUse the default settings.\nClick “Next” for all options unless you have specific requirements.\n\nClick Finish when done."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-2-check-git-is-installed",
+    "href": "slides/git_install_windows.html#step-2-check-git-is-installed",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 2: Check Git is Installed",
+    "text": "Step 2: Check Git is Installed\n\nOpen the Command Prompt:\n\nPress Win + R, type cmd, and press Enter.\n\nType the following command and press Enter:\ngit --version\nYou should see a version number, e.g., git version 2.x.x.\n\nIf you see an error, repeat the installation steps."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-3-generate-an-ssh-key",
+    "href": "slides/git_install_windows.html#step-3-generate-an-ssh-key",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 3: Generate an SSH Key",
+    "text": "Step 3: Generate an SSH Key\n\nOpen the Git Bash application (installed with Git).\nRun the following command:\nssh-keygen -t ed25519 -C \"your_email@example.com\"\n\nReplace your_email@example.com with your GitHub email address.\n\nWhen prompted:\n\nPress Enter to save the key to the default location.\n(Optional) Enter a passphrase for added security.\n\nYour SSH key will be saved to a default location, e.g., C:\\Users\\YourName\\.ssh\\id_ed25519."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-4-add-the-ssh-key-to-github",
+    "href": "slides/git_install_windows.html#step-4-add-the-ssh-key-to-github",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 4: Add the SSH Key to GitHub",
+    "text": "Step 4: Add the SSH Key to GitHub\n\nDisplay your public SSH key:\n\nRun the following command in Git Bash:\ncat ~/.ssh/id_ed25519.pub\nCopy the output (Ctrl + C).\n\nLog in to your GitHub account.\nGo to Settings &gt; SSH and GPG keys.\nClick New SSH key:\n\nTitle: Give your key a name (e.g., “My Laptop”).\nKey: Paste the copied key into the text box.\n\nClick Add SSH key.\nConfirm your password if prompted."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-5-test-the-ssh-connection",
+    "href": "slides/git_install_windows.html#step-5-test-the-ssh-connection",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 5: Test the SSH Connection",
+    "text": "Step 5: Test the SSH Connection\n\nOpen Git Bash.\nRun the following command:\nssh -T git@github.com\nIf successful, you will see a message like:\nHi username! You've successfully authenticated, but GitHub does not provide shell access.\n\nIf there’s an error, check that the SSH key was added correctly."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-6-link-ssh-key-with-rstudio",
+    "href": "slides/git_install_windows.html#step-6-link-ssh-key-with-rstudio",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 6: Link SSH Key with RStudio",
+    "text": "Step 6: Link SSH Key with RStudio\n\nOpen RStudio.\nGo to Tools &gt; Global Options.\nIn the left-hand menu, click on Git/SVN.\nCheck the box labeled Enable version control interface for RStudio.\nUnder the Git executable field, ensure the path points to the Git installation, e.g., C:\\Program Files\\Git\\bin\\git.exe.\nClick Apply and then OK."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-7-configure-ssh-key-in-rstudio",
+    "href": "slides/git_install_windows.html#step-7-configure-ssh-key-in-rstudio",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 7: Configure SSH Key in RStudio",
+    "text": "Step 7: Configure SSH Key in RStudio\n\nOpen the Terminal tab in RStudio (found at the bottom-right of the screen).\nVerify the SSH key is correctly set up by running:\nssh -T git@github.com\nIf successful, proceed to the next step."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-8-clone-a-repository-in-rstudio",
+    "href": "slides/git_install_windows.html#step-8-clone-a-repository-in-rstudio",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 8: Clone a Repository in RStudio",
+    "text": "Step 8: Clone a Repository in RStudio\n\nGo to your GitHub repository.\nClick the green Code button and select SSH.\nCopy the SSH link (e.g., git@github.com:username/repo.git).\nIn RStudio, go to File &gt; New Project &gt; Version Control &gt; Git.\nPaste the SSH link into the Repository URL field.\nChoose a directory to save the project and click Create Project."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#congratulations",
+    "href": "slides/git_install_windows.html#congratulations",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Congratulations!",
+    "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
+  },
+  {
     "objectID": "slides/git_intro_slides.html#welcome-to-day-2",
     "href": "slides/git_intro_slides.html#welcome-to-day-2",
     "title": "Introduction to Git",
@@ -137,14 +200,14 @@
     "href": "materials.html",
     "title": "Shared Slides",
     "section": "",
-    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github\n\n\n\n\n\nResearch Topic Presentations"
+    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github\nTutorial: Installing Git on Windows\nTutorial: Installing Git on Mac\n\n\n\n\n\nResearch Topic Presentations"
   },
   {
     "objectID": "materials.html#presentations-associated-with-this-hackathon",
     "href": "materials.html#presentations-associated-with-this-hackathon",
     "title": "Shared Slides",
     "section": "",
-    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github"
+    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github\nTutorial: Installing Git on Windows\nTutorial: Installing Git on Mac"
   },
   {
     "objectID": "materials.html#resources-associated-with-this-hackathon",
@@ -887,5 +950,68 @@
     "title": "Bridging The Gap Hackathon",
     "section": "Debrief The Day - Feedback",
     "text": "Debrief The Day - Feedback\n\n\n\nSharing updates with everyone:\n\n\nEach group will present any updates/questions\n\n\nSharing feedback with organisers:\n\n\nThroughout the hackathon, please use the feedback page to share your feedback or ask any questions that you would like answered:\n\nhttps://mrc-ide.github.io/cema-mrc-hackathon/feedback.html\n\nAt the end of the day, please also share any feedback as a group, which we will review overnight ready for the next day."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#introduction",
+    "href": "slides/git_install_mac.html#introduction",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to the guide for setting up Git and GitHub on Mac. This guide assumes no prior coding or Git experience.\nWe will cover:\n\nDownloading and installing Git.\nVerifying the installation.\nGenerating an SSH key.\nAdding the SSH key to GitHub.\nLinking the SSH key with RStudio."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-1-install-git",
+    "href": "slides/git_install_mac.html#step-1-install-git",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 1: Install Git",
+    "text": "Step 1: Install Git\n\nOpen the Terminal application on your Mac.\nCheck if Git is already installed by running:\ngit --version\nIf Git is not installed, you will see a prompt to install the Xcode Command Line Tools:\n\nClick Install and follow the on-screen instructions.\n\nOnce installed, verify Git by running:\ngit --version\n\nYou should see a version number, e.g., git version 2.x.x."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-2-generate-an-ssh-key",
+    "href": "slides/git_install_mac.html#step-2-generate-an-ssh-key",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 2: Generate an SSH Key",
+    "text": "Step 2: Generate an SSH Key\n\nOpen the Terminal application.\nRun the following command:\nssh-keygen -t ed25519 -C \"your_email@example.com\"\n\nReplace your_email@example.com with your GitHub email address.\n\nWhen prompted:\n\nPress Enter to save the key to the default location.\n(Optional) Enter a passphrase for added security.\n\nYour SSH key will be saved to a default location, e.g., /Users/YourName/.ssh/id_ed25519."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-3-add-the-ssh-key-to-github",
+    "href": "slides/git_install_mac.html#step-3-add-the-ssh-key-to-github",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 3: Add the SSH Key to GitHub",
+    "text": "Step 3: Add the SSH Key to GitHub\n\nDisplay your public SSH key:\n\nRun the following command in Terminal:\ncat ~/.ssh/id_ed25519.pub\nCopy the output (Cmd + C).\n\nLog in to your GitHub account.\nGo to Settings &gt; SSH and GPG keys.\nClick New SSH key:\n\nTitle: Give your key a name (e.g., “My Mac”).\nKey: Paste the copied key into the text box.\n\nClick Add SSH key.\nConfirm your password if prompted."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-4-test-the-ssh-connection",
+    "href": "slides/git_install_mac.html#step-4-test-the-ssh-connection",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 4: Test the SSH Connection",
+    "text": "Step 4: Test the SSH Connection\n\nOpen the Terminal application.\nRun the following command:\nssh -T git@github.com\nIf successful, you will see a message like:\nHi username! You've successfully authenticated, but GitHub does not provide shell access.\n\nIf there’s an error, check that the SSH key was added correctly."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-5-link-ssh-key-with-rstudio",
+    "href": "slides/git_install_mac.html#step-5-link-ssh-key-with-rstudio",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 5: Link SSH Key with RStudio",
+    "text": "Step 5: Link SSH Key with RStudio\n\nOpen RStudio.\nGo to Tools &gt; Global Options.\nIn the left-hand menu, click on Git/SVN.\nCheck the box labeled Enable version control interface for RStudio.\nUnder the Git executable field, ensure the path points to the Git installation, e.g., /usr/bin/git.\nClick Apply and then OK."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-6-configure-ssh-key-in-rstudio",
+    "href": "slides/git_install_mac.html#step-6-configure-ssh-key-in-rstudio",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 6: Configure SSH Key in RStudio",
+    "text": "Step 6: Configure SSH Key in RStudio\n\nOpen the Terminal tab in RStudio (found at the bottom-right of the screen).\nVerify the SSH key is correctly set up by running:\nssh -T git@github.com\nIf successful, proceed to the next step."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-7-clone-a-repository-in-rstudio",
+    "href": "slides/git_install_mac.html#step-7-clone-a-repository-in-rstudio",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 7: Clone a Repository in RStudio",
+    "text": "Step 7: Clone a Repository in RStudio\n\nGo to your GitHub repository.\nClick the green Code button and select SSH.\nCopy the SSH link (e.g., git@github.com:username/repo.git).\nIn RStudio, go to File &gt; New Project &gt; Version Control &gt; Git.\nPaste the SSH link into the Repository URL field.\nChoose a directory to save the project and click Create Project."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#congratulations",
+    "href": "slides/git_install_mac.html#congratulations",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Congratulations!",
+    "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
   }
 ]
