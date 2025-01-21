@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="OJ Watson">
+<meta name="dcterms.date" content="2025-01-21">
 
-<title>Shared Slides</title>
+<title>Introduction to Git</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,24 +22,58 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +112,7 @@ gtag('config', 'G-N2S7VXS1QK', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -92,27 +128,27 @@ gtag('config', 'G-N2S7VXS1QK', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./particpants.html"> 
+    <a class="nav-link" href="../particpants.html"> 
 <span class="menu-text">Participants &amp; Organisers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./preread.html"> 
+    <a class="nav-link" href="../preread.html"> 
 <span class="menu-text">Pre-Hackathon Material</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
+    <a class="nav-link" href="../schedule.html"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./materials.html" aria-current="page"> 
+    <a class="nav-link" href="../materials.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./feedback.html"> 
+    <a class="nav-link" href="../feedback.html"> 
 <span class="menu-text">Daily Feedback</span></a>
   </li>  
 </ul>
@@ -129,20 +165,34 @@ gtag('config', 'G-N2S7VXS1QK', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="git_intro_slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Shared Slides</h1>
+<h1 class="title">Introduction to Git</h1>
+<p class="subtitle lead">plus GitHub, R &amp; RStudio</p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>OJ Watson </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 21, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -152,23 +202,201 @@ gtag('config', 'G-N2S7VXS1QK', { 'anonymize_ip': true});
 </header>
 
 
-<section id="hackathon-material" class="level1">
-<h1><span class="emoji" data-emoji="pencil">📝</span> Hackathon Material <span class="emoji" data-emoji="pencil">📝</span></h1>
-<section id="presentations-associated-with-this-hackathon" class="level2">
-<h2 class="anchored" data-anchor-id="presentations-associated-with-this-hackathon">Presentations associated with this hackathon</h2>
+<hr>
+<section id="welcome-to-day-2" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="welcome-to-day-2">Welcome to Day 2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li><a href="https://mrc-ide.github.io/cema-mrc-hackathon/slides/intro_slides.html">Day 1 Introduction Slides</a></li>
-<li><a href="https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_intro_slides.html">Introduction to Git &amp; Github</a></li>
+<li>Good Morning!</li>
+<li>Hands up if you know everyone in your family’s name?</li>
+<li>Keep your hands up if you know if they prefer coffee or tea?</li>
 </ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><strong>What is the solution?</strong></li>
+</ul>
+<div style="text-align: left;">
+<p><img src="jenga.png" class="fragment" width="700" height="200"></p>
+</div>
+</div>
+</div>
+<hr>
+<hr>
 </section>
-<section id="resources-associated-with-this-hackathon" class="level2">
-<h2 class="anchored" data-anchor-id="resources-associated-with-this-hackathon">Resources associated with this hackathon</h2>
+<section id="introduction-to-git" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-git">Introduction to Git</h2>
 <ul>
-<li><a href="https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub">Research Topic Presentations</a></li>
+<li><p>Git is a version control software (VCS).</p></li>
+<li><p>VCS: Takes a picture of what your files look like and stores that in memory.</p></li>
+<li><p>This allows us to look back and see how our files have changed over time.</p></li>
 </ul>
+<hr>
+</section>
+<section id="why-do-we-need-version-control" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-we-need-version-control">Why do we need version control?</h2>
+<p><img src="pics/phdcomics.gif" class="img-fluid"></p>
+<hr>
+<p><img src="pics/manual_vc.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="version-control-metadata-history" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-metadata-history">Version control: metadata + history</h2>
+<ul>
+<li><strong>who</strong>: name of person making changes</li>
+<li><strong>when</strong>: date and time change</li>
+<li><strong>what</strong>: contents of files changed</li>
+<li><strong>why</strong>: motivation for the change</li>
+</ul>
+<hr>
+</section>
+<section id="is-it-just-like-a-backup" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-just-like-a-backup">Is it just like a backup?</h2>
+<ul>
+<li><p>Why not just use Dropbox?</p></li>
+<li><p>Or Google Drive?</p></li>
+<li><p>These are also great to use, and Google docs for example has version control where changes are tracked.</p></li>
+<li><p>However, Git and Github are made specifically for tracking how codebases have changed.</p></li>
+</ul>
+<hr>
+</section>
+<section id="installing-git" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="installing-git">Installing Git</h2>
+<p>Git supports all operating systems. You can install it using command-line tools or directly download and install the setup.</p>
+<p><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a></p>
+<ul>
+<li><p>Linux</p>
+<ul>
+<li>For Debian/Ubuntu-based operating systems use <code>apt-get install git</code> or similar.</li>
+</ul></li>
+<li><p>macOS</p>
+<ul>
+<li>If you have homebrew installed, use this command to download and install Git: <code>brew install git</code>.</li>
+</ul></li>
+<li><p>Windows</p>
+<ul>
+<li>Installing Git on Windows is hassle-free. Just go to the <a href="https://git-scm.com/downloads/win">download page</a></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="how-to-check-if-you-have-installed-git" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-check-if-you-have-installed-git">How to check if you have installed Git?</h2>
+<p>Open a terminal, type <code>git --version</code> and press enter</p>
+</section>
+<section id="link-git-to-your-github" class="level2">
+<h2 class="anchored" data-anchor-id="link-git-to-your-github">Link Git to your Github</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"your-user-name"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"your@email.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="basic-git-terms" class="level2">
+<h2 class="anchored" data-anchor-id="basic-git-terms">Basic git terms</h2>
+<ul>
+<li><strong>repository</strong>: (or “repo”) git’s database. Might be local or on GitHub</li>
+<li><strong>working copy</strong>: all the files you actually work with</li>
+<li><strong>commit</strong>:
+<ul>
+<li>as a noun: a snapshot of all the files in the repository</li>
+<li>as a verb: create a snapshot</li>
+</ul></li>
+<li><strong>hash</strong>: fingerprint of a file/repository</li>
+</ul>
+<hr>
+</section>
+<section id="git-history" class="level2">
+<h2 class="anchored" data-anchor-id="git-history">Git history</h2>
+<p><img src="pics/graph_linear.png" class="img-fluid"> <img src="pics/graph_nonlinear.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="interacting-with-git" class="level2">
+<h2 class="anchored" data-anchor-id="interacting-with-git">Interacting with Git</h2>
+<ul>
+<li>From the command line - always good to be comfortable with this</li>
+<li>From a GUI
+<ul>
+<li>RStudio has one built-in</li>
+<li>Most IDEs do now (e.g.&nbsp;VSCode or Positron)</li>
+</ul></li>
+<li>Via GitHub</li>
+</ul>
+<hr>
+</section>
+<section id="basic-git-commands" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="basic-git-commands">Basic git commands</h2>
+<ul>
+<li><code>git init</code>: initialise a repository</li>
+<li><code>git add</code>: stage files</li>
+<li><code>git commit</code>: add staged files to the repository by making a commit</li>
+<li><code>git log</code>: see an overview of what changed</li>
+<li><code>git diff</code>: see details of what changed</li>
+</ul>
+<hr>
+</section>
+<section id="end-of-part-1" class="level2">
+<h2 class="anchored" data-anchor-id="end-of-part-1">End of part 1</h2>
+<hr>
+</section>
+<section id="what-makes-a-commit" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-a-commit">What makes a commit?</h2>
+<p><img src="pics/xkcd_1296.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="ideally" class="level2">
+<h2 class="anchored" data-anchor-id="ideally">Ideally</h2>
+<ul>
+<li>One set of related changes</li>
+<li>Commit message explains why they were needed</li>
+<li>Short title (&lt;60 characters)</li>
+<li>Blank line, then any further discussion</li>
+</ul>
+<hr>
+</section>
+<section id="not-everything-goes-in-git" class="level2">
+<h2 class="anchored" data-anchor-id="not-everything-goes-in-git">Not everything goes in git</h2>
+<ul>
+<li>Large files</li>
+<li>Passwords</li>
+<li>Outputs (sometimes)</li>
+<li>Use <code>.gitignore</code></li>
+</ul>
+<hr>
+</section>
+<section id="remote-git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="remote-git-commands">Remote git commands</h2>
+<ul>
+<li><code>git clone</code>: download a repository</li>
+<li><code>git fetch</code>: update remote changes but don’t apply them</li>
+<li><code>git pull</code>: update remote changes and do apply them</li>
+<li><code>git push</code>: send your changes upstream</li>
+<li><code>git remote</code>: inspect / change details of upstream repositories</li>
+<li><code>git branch</code>: inspect / create a branch</li>
+<li><code>git checkout -b</code>: create a branch and change to it (yes this is stupid)</li>
+<li><code>git merge</code>: merge branches</li>
+</ul>
+<hr>
+</section>
+<section id="rstudio-and-github" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio-and-github">Rstudio and GitHub</h2>
+<ul>
+<li>Not all commands are supported but all you will likely need</li>
+<li>Use the shell for the rest</li>
+</ul>
+<hr>
+</section>
+<section id="days-2-schedule" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="days-2-schedule">Days 2 Schedule</h2>
+<ul>
+<li>Coding and Collaboration
+<ul>
+<li><strong>8.30 – 9.00:</strong> Grounding and plan for the day</li>
+<li><strong>9.30 – 10.00:</strong> Git and GitHub refresher</li>
+<li><strong>9.00 – 17.00:</strong> Dedicated time for project work in each working group, with guidance from facilitators.</li>
+<li><strong>16.00 – 17.00:</strong> “Debrief the Day”. Group updates and plans for tomorrow.</li>
+</ul></li>
+</ul>
+<hr>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

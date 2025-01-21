@@ -788,14 +788,14 @@
     "href": "materials.html",
     "title": "Shared Slides",
     "section": "",
-    "text": "Day 1 Introduction Slides\n\n\n\n\n\nResearch Topic Presentations"
+    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github\n\n\n\n\n\nResearch Topic Presentations"
   },
   {
     "objectID": "materials.html#presentations-associated-with-this-hackathon",
     "href": "materials.html#presentations-associated-with-this-hackathon",
     "title": "Shared Slides",
     "section": "",
-    "text": "Day 1 Introduction Slides"
+    "text": "Day 1 Introduction Slides\nIntroduction to Git & Github"
   },
   {
     "objectID": "materials.html#resources-associated-with-this-hackathon",
@@ -838,5 +838,159 @@
     "title": "Ryan Musasia",
     "section": "",
     "text": "I’m a freshly minted Data Scientist who just escaped the clutches of academia and is ready to conquer the data-driven world with wit, charm, and a whole lot of Python magic. My expertise lies in unraveling intricate data puzzles rather than solving crimes. My core competencies revolve around employing machine learning, statistical analysis, and advanced methodologies to extract valuable insights from complex datasets. My passion lies in uncovering concealed information within data and converting it into actionable intelligence that drives informed decision-making. Rest assured, there’s no sorcery involved (well, at least not beyond the occasional code magic).\n\n\n Back to top"
+  },
+  {
+    "objectID": "slides/intro_slides.html#internal-reflection",
+    "href": "slides/intro_slides.html#internal-reflection",
+    "title": "Bridging The Gap Hackathon",
+    "section": "Internal Reflection:",
+    "text": "Internal Reflection:\nFor 3.15pm, please be able to answer the following:\n\nIn your own words what does the challenge encompass? Can you describe it to the decision makers?\nWhat do you need from the decision makers to proceed:\n\n\nWhat data may you need? Can this data be shared? Or “dummy” data made?\nDo you need any additional software or general expertise?\nWhat is the outcomes/output the decision maker wants to see on Thursday?\n\nEnd of Day 1 - after Tea\n\nDiscussing in your groups: What ground has been covered today? What the group will be working on tomorrow? What additional help may be needed?\nCreating an update (2-3 minutes) to share with everyone: What your group has been working on? Any outputs/ideas to share?"
+  },
+  {
+    "objectID": "slides/intro_slides.html#section-1",
+    "href": "slides/intro_slides.html#section-1",
+    "title": "Bridging The Gap Hackathon",
+    "section": "",
+    "text": "Enjoy a well-deserved break!"
+  },
+  {
+    "objectID": "slides/intro_slides.html#end-of-day-1---after-tea",
+    "href": "slides/intro_slides.html#end-of-day-1---after-tea",
+    "title": "Bridging The Gap Hackathon",
+    "section": "End of Day 1 - After Tea",
+    "text": "End of Day 1 - After Tea\n\nGithub Usernames and Repositories:\n\n\nEmail your github username to paula.christen@cema.africa\nWe need everyone who is not a decision maker to be on Github :)\nhttps://github.com/CEMA-MRC-Hackathon\n\n\nUploading Project Plan to Github Repositories:\n\n\nEach project family has a unique Github repository\nPlease add your projet plan fully to the repository\nThis can be in any form (photos of white board, documented README)\n\n\nCreating an update (2-3 minutes) to share with everyone:\n\n\nNominate someone in your group to share your updates\nWhat your group has been working on?\nAny outputs to demonstrate?\nAnything you have discovered?\nAny help that may be needed tomorrow?"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#welcome-to-day-2",
+    "href": "slides/git_intro_slides.html#welcome-to-day-2",
+    "title": "Introduction to Git",
+    "section": "Welcome to Day 2",
+    "text": "Welcome to Day 2\n\n\n\nGood Morning!\nHands up if you know everyone in your family’s name?\nKeep your hands up if you know if they prefer coffee or tea?\n\n\n\nWhat is the solution?"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#introduction-to-git",
+    "href": "slides/git_intro_slides.html#introduction-to-git",
+    "title": "Introduction to Git",
+    "section": "Introduction to Git",
+    "text": "Introduction to Git\n\nGit is a version control software (VCS).\nVCS: Takes a picture of what your files look like and stores that in memory.\nThis allows us to look back and see how our files have changed over time."
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#why-do-we-need-version-control",
+    "href": "slides/git_intro_slides.html#why-do-we-need-version-control",
+    "title": "Introduction to Git",
+    "section": "Why do we need version control?",
+    "text": "Why do we need version control?"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#version-control-metadata-history",
+    "href": "slides/git_intro_slides.html#version-control-metadata-history",
+    "title": "Introduction to Git",
+    "section": "Version control: metadata + history",
+    "text": "Version control: metadata + history\n\nwho: name of person making changes\nwhen: date and time change\nwhat: contents of files changed\nwhy: motivation for the change"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#is-it-just-like-a-backup",
+    "href": "slides/git_intro_slides.html#is-it-just-like-a-backup",
+    "title": "Introduction to Git",
+    "section": "Is it just like a backup?",
+    "text": "Is it just like a backup?\n\nWhy not just use Dropbox?\nOr Google Drive?\nThese are also great to use, and Google docs for example has version control where changes are tracked.\nHowever, Git and Github are made specifically for tracking how codebases have changed."
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#installing-git",
+    "href": "slides/git_intro_slides.html#installing-git",
+    "title": "Introduction to Git",
+    "section": "Installing Git",
+    "text": "Installing Git\nGit supports all operating systems. You can install it using command-line tools or directly download and install the setup.\nhttps://git-scm.com/book/en/v2/Getting-Started-Installing-Git\n\nLinux\n\nFor Debian/Ubuntu-based operating systems use apt-get install git or similar.\n\nmacOS\n\nIf you have homebrew installed, use this command to download and install Git: brew install git.\n\nWindows\n\nInstalling Git on Windows is hassle-free. Just go to the download page"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#how-to-check-if-you-have-installed-git",
+    "href": "slides/git_intro_slides.html#how-to-check-if-you-have-installed-git",
+    "title": "Introduction to Git",
+    "section": "How to check if you have installed Git?",
+    "text": "How to check if you have installed Git?\nOpen a terminal, type git --version and press enter"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#link-git-to-your-github",
+    "href": "slides/git_intro_slides.html#link-git-to-your-github",
+    "title": "Introduction to Git",
+    "section": "Link Git to your Github",
+    "text": "Link Git to your Github\ngit config --global user.name \"your-user-name\"\ngit config --global user.email \"your@email.com\""
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#basic-git-terms",
+    "href": "slides/git_intro_slides.html#basic-git-terms",
+    "title": "Introduction to Git",
+    "section": "Basic git terms",
+    "text": "Basic git terms\n\nrepository: (or “repo”) git’s database. Might be local or on GitHub\nworking copy: all the files you actually work with\ncommit:\n\nas a noun: a snapshot of all the files in the repository\nas a verb: create a snapshot\n\nhash: fingerprint of a file/repository"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#git-history",
+    "href": "slides/git_intro_slides.html#git-history",
+    "title": "Introduction to Git",
+    "section": "Git history",
+    "text": "Git history"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#interacting-with-git",
+    "href": "slides/git_intro_slides.html#interacting-with-git",
+    "title": "Introduction to Git",
+    "section": "Interacting with Git",
+    "text": "Interacting with Git\n\nFrom the command line - always good to be comfortable with this\nFrom a GUI\n\nRStudio has one built-in\nMost IDEs do now (e.g. VSCode or Positron)\n\nVia GitHub"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#basic-git-commands",
+    "href": "slides/git_intro_slides.html#basic-git-commands",
+    "title": "Introduction to Git",
+    "section": "Basic git commands",
+    "text": "Basic git commands\n\ngit init: initialise a repository\ngit add: stage files\ngit commit: add staged files to the repository by making a commit\ngit log: see an overview of what changed\ngit diff: see details of what changed"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#end-of-part-1",
+    "href": "slides/git_intro_slides.html#end-of-part-1",
+    "title": "Introduction to Git",
+    "section": "End of part 1",
+    "text": "End of part 1"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#what-makes-a-commit",
+    "href": "slides/git_intro_slides.html#what-makes-a-commit",
+    "title": "Introduction to Git",
+    "section": "What makes a commit?",
+    "text": "What makes a commit?"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#ideally",
+    "href": "slides/git_intro_slides.html#ideally",
+    "title": "Introduction to Git",
+    "section": "Ideally",
+    "text": "Ideally\n\nOne set of related changes\nCommit message explains why they were needed\nShort title (&lt;60 characters)\nBlank line, then any further discussion"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#not-everything-goes-in-git",
+    "href": "slides/git_intro_slides.html#not-everything-goes-in-git",
+    "title": "Introduction to Git",
+    "section": "Not everything goes in git",
+    "text": "Not everything goes in git\n\nLarge files\nPasswords\nOutputs (sometimes)\nUse .gitignore"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#remote-git-commands",
+    "href": "slides/git_intro_slides.html#remote-git-commands",
+    "title": "Introduction to Git",
+    "section": "Remote git commands",
+    "text": "Remote git commands\n\ngit clone: download a repository\ngit fetch: update remote changes but don’t apply them\ngit pull: update remote changes and do apply them\ngit push: send your changes upstream\ngit remote: inspect / change details of upstream repositories\ngit branch: inspect / create a branch\ngit checkout -b: create a branch and change to it (yes this is stupid)\ngit merge: merge branches"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#rstudio-and-github",
+    "href": "slides/git_intro_slides.html#rstudio-and-github",
+    "title": "Introduction to Git",
+    "section": "Rstudio and GitHub",
+    "text": "Rstudio and GitHub\n\nNot all commands are supported but all you will likely need\nUse the shell for the rest"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#days-2-schedule",
+    "href": "slides/git_intro_slides.html#days-2-schedule",
+    "title": "Introduction to Git",
+    "section": "Days 2 Schedule",
+    "text": "Days 2 Schedule\n\nCoding and Collaboration\n\n8.30 – 9.00: Grounding and plan for the day\n9.30 – 10.00: Git and GitHub refresher\n9.00 – 17.00: Dedicated time for project work in each working group, with guidance from facilitators.\n16.00 – 17.00: “Debrief the Day”. Group updates and plans for tomorrow."
   }
 ]

@@ -497,29 +497,50 @@ Short skills description
 
 ---
 
-## Skill Matching Exercise {.smaller}
+## Internal Reflection: {.smaller}
 
-![](images/postits.png){.nostretch fig-align="center" width="750px"}
+**For 3.15pm, please be able to answer the following:**
+
+1. In your own words what does the challenge encompass? Can you describe it to the decision makers?
+2. What do you need from the decision makers to proceed:
+  - What data may you need? Can this data be shared? Or "dummy" data made?
+  - Do you need any additional software or general expertise? 
+  - What is the outcomes/output the decision maker wants to see on Thursday?
+
+**End of Day 1 - after Tea**
+
+1. **Discussing in your groups:** What ground has been covered today? What the group will be working on tomorrow? What additional help may be needed?
+
+2. **Creating an update (2-3 minutes) to share with everyone:** What your group has been working on? Any outputs/ideas to share?
+  
+---
+
+## {.center background-image="images/tea_break.png" footer="false" logo="false"}
+
+::: {style="color: white; text-align: center; font-size: 1.8em;"}
+Enjoy a well-deserved break!
+:::
 
 ---
 
-## Creating Working Groups
+## End of Day 1 - After Tea {.smaller}
 
----
+1. **Github Usernames and Repositories:**
+  - Email your github username to paula.christen@cema.africa
+  - We need everyone who is not a decision maker to be on Github :)
+  - https://github.com/CEMA-MRC-Hackathon
+  
+2. **Uploading Project Plan to Github Repositories:**
+  - Each project family has a unique Github repository
+  - Please add your projet plan fully to the repository
+  - This can be in any form (photos of white board, documented README)
 
-## End of Day 1 - Debrief The Day
-
-1. **Discussing in our groups:**
-   - What ground has been covered today?
-   - What the group will be working on tomorrow?
-   - What additional help may be needed?
-   - How can we help you?
-
-2. **Creating an update (2-3 minutes) to share with everyone:**
-   - What your group has been working on?
-   - Any outputs to demonstrate?
-   - Anything you have discovered?
-   - Any help that may be needed tomorrow?
+3. **Creating an update (2-3 minutes) to share with everyone:**
+  - Nominate someone in your group to share your updates
+  - What your group has been working on?
+  - Any outputs to demonstrate?
+  - Anything you have discovered?
+  - Any help that may be needed tomorrow?
 
 ---
 

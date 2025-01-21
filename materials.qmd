@@ -9,6 +9,7 @@ from: markdown+emoji
 ## Presentations associated with this hackathon
 
 - [Day 1 Introduction Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/intro_slides.html)
+- [Introduction to Git & Github](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_intro_slides.html)
 
 ## Resources associated with this hackathon
 

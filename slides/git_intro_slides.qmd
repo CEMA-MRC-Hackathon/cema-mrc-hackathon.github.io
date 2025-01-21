@@ -1,0 +1,206 @@
+---
+title: "Introduction to Git"
+subtitle: "plus GitHub, R & RStudio"
+author: "OJ Watson"
+date: "2025-01-21"
+
+format:
+  revealjs:
+    incremental: true   
+---
+
+
+---
+
+## Welcome to Day 2  {.smaller}
+
+:::: {.columns}
+
+
+::: {.column width="50%"}
+
+- Good Morning!
+- Hands up if you know everyone in your family's name?
+- Keep your hands up if you know if they prefer coffee or tea?
+
+:::
+
+::: {.column width="50%"}
+
+- **What is the solution?**
+
+<div style="text-align: left;">
+  <img src="jenga.png" class="fragment" width="700" height="200" />
+</div>
+:::
+
+::::
+
+---
+
+---
+
+## Introduction to Git 
+
+- Git is a version control software (VCS).
+
+- VCS: Takes a picture of what your files look like and stores that in memory. 
+- This allows us to look back and see how our files have changed over time.  
+---
+
+## Why do we need version control?
+
+![](pics/phdcomics.gif)
+
+---
+
+![](pics/manual_vc.png)
+
+---
+
+## Version control: metadata + history
+
+- **who**: name of person making changes
+- **when**: date and time change
+- **what**: contents of files changed
+- **why**: motivation for the change
+
+---
+
+## Is it just like a backup?
+
+- Why not just use Dropbox?
+- Or Google Drive?
+
+- These are also great to use, and Google docs for example has version control where changes are tracked.
+
+- However, Git and Github are made specifically for tracking how codebases have changed.
+
+---
+
+## Installing Git {.smaller}
+
+Git supports all operating systems. You can install it using command-line tools or directly download and install the setup. 
+
+[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+- Linux
+
+  - For Debian/Ubuntu-based operating systems use  `apt-get install git` or similar.
+
+- macOS
+
+  - If you have homebrew installed, use this command to download and install Git: `brew install git`.
+
+- Windows
+
+  - Installing Git on Windows is hassle-free. Just go to the [download page](https://git-scm.com/downloads/win)
+  
+---
+
+## How to check if you have installed Git? 
+
+Open a terminal, type `git --version` and press enter
+
+## Link Git to your Github
+
+```{.bash}
+git config --global user.name "your-user-name"
+git config --global user.email "your@email.com"
+```
+
+## Basic git terms
+
+- **repository**: (or "repo") git's database. Might be local or on GitHub
+- **working copy**: all the files you actually work with
+- **commit**:
+  - as a noun: a snapshot of all the files in the repository
+  - as a verb: create a snapshot
+- **hash**: fingerprint of a file/repository
+
+---
+
+## Git history
+
+![](pics/graph_linear.png)
+![](pics/graph_nonlinear.png)
+
+---
+
+## Interacting with Git
+
+- From the command line - always good to be comfortable with this
+- From a GUI
+  - RStudio has one built-in
+  - Most IDEs do now (e.g. VSCode or Positron)
+- Via GitHub
+
+---
+
+## Basic git commands {.smaller}
+
+- `git init`: initialise a repository
+- `git add`: stage files
+- `git commit`: add staged files to the repository by making a commit
+- `git log`: see an overview of what changed
+- `git diff`: see details of what changed
+
+---
+
+## End of part 1
+
+---
+
+## What makes a commit?
+
+![](pics/xkcd_1296.png)
+
+---
+
+## Ideally
+
+* One set of related changes
+* Commit message explains why they were needed
+* Short title (<60 characters)
+* Blank line, then any further discussion
+
+---
+
+## Not everything goes in git
+
+* Large files
+* Passwords
+* Outputs (sometimes)
+* Use `.gitignore`
+
+---
+
+## Remote git commands
+
+* `git clone`: download a repository
+* `git fetch`: update remote changes but don't apply them
+* `git pull`: update remote changes and do apply them
+* `git push`: send your changes upstream
+* `git remote`: inspect / change details of upstream repositories
+* `git branch`: inspect / create a branch
+* `git checkout -b`: create a branch and change to it (yes this is stupid)
+* `git merge`: merge branches
+
+---
+
+## Rstudio and GitHub
+
+* Not all commands are supported but all you will likely need
+* Use the shell for the rest
+
+---
+
+## Days 2 Schedule  {.smaller}
+
+- Coding and Collaboration
+  - **8.30 – 9.00:** Grounding and plan for the day
+  - **9.30 – 10.00:** Git and GitHub refresher
+  - **9.00 – 17.00:** Dedicated time for project work in each working group, with guidance from facilitators.
+  - **16.00 – 17.00:** "Debrief the Day". Group updates and plans for tomorrow.
+
+---
