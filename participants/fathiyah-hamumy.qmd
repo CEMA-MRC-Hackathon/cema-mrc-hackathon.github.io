@@ -1,7 +1,7 @@
 ---
 title: "Fathiyah Hamumy"
 subtitle: "National Vaccines and Immunization Program (NVIP)"
-image: headshots/fathiyah-hamumy.jpg
+image: headshots/fathiyah-hamumy2.jpg
 categories:
   - Decision Maker
 about:
