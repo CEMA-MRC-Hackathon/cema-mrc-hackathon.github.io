@@ -1,0 +1,88 @@
+---
+title: "Day 3"
+author: "OJ Watson"
+date: "2025-01-21"
+from: markdown+emoji
+format:
+  revealjs:
+    incremental: true   
+---
+
+
+---
+
+## Welcome to Day 3  {.smaller}
+
+:::: {.columns}
+
+
+::: {.column width="50%"}
+
+- Good Morning!
+- Hands up if you are happy to share 3 things you have learnt about your team from Jenga?
+
+:::
+
+::: {.column width="50%"}
+
+- **What is the solution?**
+
+<div style="text-align: left;">
+  <img src="images/jenga.png" class="fragment" width="700" height="200" />
+</div>
+:::
+
+::::
+
+---
+
+## Days 3 Schedule  {.smaller}
+
+- Coding and Collaboration
+  - **8.30 – 9.00:** Grounding and plan for the day
+  - **9.00 – 17.00:** Dedicated time for project work in each working group, with guidance from facilitators.
+  - **16.00 – 17.00:** "Debrief the Day". Group updates and plans for tomorrow.
+
+---
+
+## Presentation Format  {.smaller}
+
+1. Background: Context, rationale and objective of your project
+2. Demonstration: Live (or semi-live/screenshots) demonstration of your tool
+3. Technical Overview: Description of the methods, technical workings of your tool
+4. Policy Value: How do you anticipate this tool to meet a policy need? Are there any other audiences or stakeholders who may want to see this tool?
+5. Next Steps: What did you not manage to cover this week? What features would you want to still add? 
+6. Maintenance Plan: Who from CEMA will be taking this project forward?
+
+---
+
+## Further Updates   {.smaller}
+
+- Please, please, please all respond to Waithera's email for dinner updates
+- Think Big. 
+  - On Friday, we will have time for groups to plan how to take this work forward:
+    - Conference Abstracts?
+    - Journal Submission?
+    - Grant Applications?
+  - However, there is no reason to not also think about the above now:
+    - Could someone in your group be spending time writing up your work as a short paper?
+    - Is there a conference you have in mind already? Maybe start writing an abstract?
+  
+---
+
+## Post-Lunch Update  {.smaller}
+
+::: {.nonincremental}
+- Group work till 3.30pm 
+- Tea and Coffee Break @ 3.30pm
+- Debrief the day @ 4.30pm:
+  - Please share any feedback :smile:
+  - Nominate an individual in your group to present on:
+    - What has the group  achieved today?
+    - What is the plan for tomorrow?
+    - Do you have anyf bottlenecks? Do you need any further help?
+  
+- End of day @ 5pm 
+:::
+
+---

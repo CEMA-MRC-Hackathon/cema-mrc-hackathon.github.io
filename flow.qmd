@@ -1,0 +1,58 @@
+---
+title: "Hackathon Process"
+format: html
+
+lightbox: true
+---
+
+# Hackathon Stages
+
+The hackathon process consisted of eight key stages, each crucial for ensuring the success of the event and its long-term impact. Below is a flow diagram outlining these stages, with space to add more information about each.
+
+```{dot}
+
+digraph HackathonFlow {
+
+    node [shape=box, style="rounded,filled", color=lightblue, fontname=Helvetica];
+
+    rankdir="LR";
+
+    subgraph steps {
+        rank="same";
+        "Step1" [label="1. Challenge Topic Identification\nby CEMA"];
+        "Step2" [label="2. Open Call for Participant\nApplications"];
+        "Step3" [label="3. Participant Welcome"];
+        "Step4" [label="4. Challenge Refinement"];
+        "Step5" [label="5. Team Formation"];
+        "Step6" [label="6. Supported Group Work"];
+        "Step7" [label="7. Dissemination to Decision-Makers"];
+        "Step8" [label="8. Future Work"];
+        "Step1" -> "Step2" -> "Step3" -> "Step4" -> "Step5" -> "Step6" -> "Step7" -> "Step8";
+    }
+
+    "Step1" -> "note1" [arrowhead=none, style=dotted];
+    "note1" [label="Details:\n- Identify public health challenges\n- Align with CEMA expertise"];
+
+    "Step2" -> "note2" [arrowhead=none, style=dotted];
+    "note2" [label="Details:\n- Open application for diverse participants\n- Outreach to researchers and developers"];
+
+    "Step3" -> "note3" [arrowhead=none, style=dotted];
+    "note3" [label="Details:\n- Orientation session\n- Overview of goals and logistics"];
+
+    "Step4" -> "note4" [arrowhead=none, style=dotted];
+    "note4" [label="Details:\n- Clarify challenges with input\n- Finalise scope and focus"];
+
+    "Step5" -> "note5" [arrowhead=none, style=dotted];
+    "note5" [label="Details:\n- Form teams with balanced expertise\n- Match participants by interests"];
+
+    "Step6" -> "note6" [arrowhead=none, style=dotted];
+    "note6" [label="Details:\n- Mentor-supported teamwork\n- Iterative solution development"];
+
+    "Step7" -> "note7" [arrowhead=none, style=dotted];
+    "note7" [label="Details:\n- Present solutions to decision-makers\n- Gather actionable feedback"];
+
+    "Step8" -> "note8" [arrowhead=none, style=dotted];
+    "note8" [label="Details:\n- Encourage continued project work\n- Explore conference submissions"];
+}
+
+```
