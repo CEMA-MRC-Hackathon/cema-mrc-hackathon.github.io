@@ -12,7 +12,7 @@ To help, we’ve gathered a list of potential conferences where you could presen
 
 ## Conferences Map
 
-```{r}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
 library(readr)
 
@@ -28,7 +28,7 @@ map <- leaflet(conferences) %>%
     popup = ~paste0("<b>", conference, "</b><br>",
                     "Dates: ", dates, "<br>",
                     "Location: ", paste(city, country), "<br>",
-                    "Abstract Deadline", abstract_deadline,  "<br>",
+                    "Abstract Deadline: ", abstract_deadline,  "<br>",
                     "<a href='", website, "' target='_blank'>Conference Website</a>")
   )
 
@@ -42,5 +42,6 @@ We encourage all teams to consider how their hackathon projects can have a lasti
 
 Stay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities.
 
-## Thinking about other coferences?
+## Thinking about other conferences?
 
+If there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the `data/conferences.csv` to share it.  
