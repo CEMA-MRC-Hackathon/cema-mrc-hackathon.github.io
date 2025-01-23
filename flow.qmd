@@ -12,8 +12,7 @@ The hackathon process consisted of eight key stages, each crucial for ensuring t
 ```{dot}
 
 digraph HackathonFlow {
-
-    node [shape=box, style="rounded,filled", color=lightblue, fontname=Helvetica];
+    node [shape=box, style="rounded,filled", color=lightblue, fontname=Helvetica, fontsize=24];
 
     rankdir="LR";
 
@@ -21,13 +20,14 @@ digraph HackathonFlow {
         rank="same";
         "Step1" [label="1. Challenge Topic Identification\nby CEMA"];
         "Step2" [label="2. Open Call for Participant\nApplications"];
-        "Step3" [label="3. Participant Welcome"];
-        "Step4" [label="4. Challenge Refinement"];
-        "Step5" [label="5. Team Formation"];
-        "Step6" [label="6. Supported Group Work"];
-        "Step7" [label="7. Dissemination to Decision-Makers"];
-        "Step8" [label="8. Future Work"];
-        "Step1" -> "Step2" -> "Step3" -> "Step4" -> "Step5" -> "Step6" -> "Step7" -> "Step8";
+        "Step3" [label="3. Identification of technical mentors"];
+        "Step4" [label="4. Participant Welcome"];
+        "Step5" [label="5. Challenge Refinement"];
+        "Step6" [label="6. Team Formation"];
+        "Step7" [label="7. Supported Group Work"];
+        "Step8" [label="8. Dissemination to Decision-Makers"];
+        "Step9" [label="9. Future Work"];
+        "Step1" -> "Step2" -> "Step3" -> "Step4" -> "Step5" -> "Step6" -> "Step7" -> "Step8" -> "Step9";
     }
 
     "Step1" -> "note1" [arrowhead=none, style=dotted];
@@ -37,22 +37,25 @@ digraph HackathonFlow {
     "note2" [label="Details:\n- Open application for diverse participants\n- Outreach to researchers and developers"];
 
     "Step3" -> "note3" [arrowhead=none, style=dotted];
-    "note3" [label="Details:\n- Orientation session\n- Overview of goals and logistics"];
+    "note3" [label="Details:\n- Matching challenge areas to Kenyan \n+ Imperial facilitators"];
 
     "Step4" -> "note4" [arrowhead=none, style=dotted];
-    "note4" [label="Details:\n- Clarify challenges with input\n- Finalise scope and focus"];
+    "note4" [label="Details:\n- Orientation session\n- Overview of goals and logistics"];
 
     "Step5" -> "note5" [arrowhead=none, style=dotted];
-    "note5" [label="Details:\n- Form teams with balanced expertise\n- Match participants by interests"];
+    "note5" [label="Details:\n- Clarify challenges with input\n- Finalise scope and focus"];
 
     "Step6" -> "note6" [arrowhead=none, style=dotted];
-    "note6" [label="Details:\n- Mentor-supported teamwork\n- Iterative solution development"];
+    "note6" [label="Details:\n- Form teams with balanced expertise\n- Match participants by interests"];
 
     "Step7" -> "note7" [arrowhead=none, style=dotted];
-    "note7" [label="Details:\n- Present solutions to decision-makers\n- Gather actionable feedback"];
+    "note7" [label="Details:\n- Mentor-supported teamwork\n- Iterative solution development"];
 
     "Step8" -> "note8" [arrowhead=none, style=dotted];
-    "note8" [label="Details:\n- Encourage continued project work\n- Explore conference submissions"];
+    "note8" [label="Details:\n- Present solutions to decision-makers\n- Gather actionable feedback"];
+
+    "Step9" -> "note9" [arrowhead=none, style=dotted];
+    "note9" [label="Details:\n- Encourage continued project work\n- Explore conference submissions"];
 }
 
 ```
