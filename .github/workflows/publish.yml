@@ -24,9 +24,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("rmarkdown", "knitr"))' # Install required Quarto dependencies
-          Rscript -e 'additional_packages <- c("dplyr", "ggplot2")' # Add any additional packages
-          Rscript -e 'install.packages(additional_packages)'
+          Rscript -e 'install.packages(c("rmarkdown", "knitr", "leaflet", readr))' # Install required Quarto dependencies
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
