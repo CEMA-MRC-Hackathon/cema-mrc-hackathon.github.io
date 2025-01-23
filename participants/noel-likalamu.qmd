@@ -1,0 +1,9 @@
+---
+title: "Noel Likalamu"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/noel-likalamu.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+---
