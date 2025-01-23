@@ -22,6 +22,12 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("rmarkdown", "knitr"))' # Install required Quarto dependencies
+          Rscript -e 'additional_packages <- c("dplyr", "ggplot2")' # Add any additional packages
+          Rscript -e 'install.packages(additional_packages)'
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
