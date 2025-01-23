@@ -1,6 +1,6 @@
 ---
 title: "Veronicah Gathoni"
-subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+subtitle: "Qhala"
 image: headshots/veronicah-gathoni.jpg
 categories:
   - Hacker
