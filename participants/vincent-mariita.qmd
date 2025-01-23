@@ -1,0 +1,11 @@
+---
+title: "Vincent Mariita"
+subtitle: "Centre for Epidemiological Modelling and Analysis (CEMA)"
+image: headshots/vincent-mariita.jpg
+categories:
+  - Organiser
+about:
+  template: jolla
+---
+
+Jeanette Dawa (MBChB, MSc, PhD) is a public health specialist/epidemiologist with a background in medicine, public health and infectious disease modelling.
