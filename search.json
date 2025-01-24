@@ -42,776 +42,6 @@
     "text": "Post-Lunch Update\n\n\nGroup work till 3.30pm\nTea and Coffee Break @ 3.30pm\nDebrief the day @ 4.30pm:\n\nPlease share any feedback 😄\nNominate an individual in your group to present on:\n\nWhat has the group achieved today?\nWhat is the plan for tomorrow?\nDo you have anyf bottlenecks? Do you need any further help?\n\n\nEnd of day @ 5pm"
   },
   {
-    "objectID": "slides/git_intro_slides.html#introduction-to-git",
-    "href": "slides/git_intro_slides.html#introduction-to-git",
-    "title": "Introduction to Git",
-    "section": "Introduction to Git",
-    "text": "Introduction to Git\n\nGit is a version control software (VCS).\nVCS: Takes a picture of what your files look like and stores that in memory.\nThis allows us to look back and see how our files have changed over time."
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#why-do-we-need-version-control",
-    "href": "slides/git_intro_slides.html#why-do-we-need-version-control",
-    "title": "Introduction to Git",
-    "section": "Why do we need version control?",
-    "text": "Why do we need version control?"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#version-control-metadata-history",
-    "href": "slides/git_intro_slides.html#version-control-metadata-history",
-    "title": "Introduction to Git",
-    "section": "Version control: metadata + history",
-    "text": "Version control: metadata + history\n\nwho: name of person making changes\nwhen: date and time change\nwhat: contents of files changed\nwhy: motivation for the change"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#is-it-just-like-a-backup",
-    "href": "slides/git_intro_slides.html#is-it-just-like-a-backup",
-    "title": "Introduction to Git",
-    "section": "Is it just like a backup?",
-    "text": "Is it just like a backup?\n\nWhy not just use Dropbox?\nOr Google Drive?\nThese are also great to use, and Google docs for example has version control where changes are tracked.\nHowever, Git and Github are made specifically for tracking how codebases have changed."
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#installing-git",
-    "href": "slides/git_intro_slides.html#installing-git",
-    "title": "Introduction to Git",
-    "section": "Installing Git",
-    "text": "Installing Git\nGit supports all operating systems. You can install it using command-line tools or directly download and install the setup.\nhttps://git-scm.com/book/en/v2/Getting-Started-Installing-Git\n\nLinux\n\nFor Debian/Ubuntu-based operating systems use apt-get install git or similar.\n\nmacOS\n\nIf you have homebrew installed, use this command to download and install Git: brew install git.\n\nWindows\n\nInstalling Git on Windows is hassle-free. Just go to the download page"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#how-to-check-if-you-have-installed-git",
-    "href": "slides/git_intro_slides.html#how-to-check-if-you-have-installed-git",
-    "title": "Introduction to Git",
-    "section": "How to check if you have installed Git?",
-    "text": "How to check if you have installed Git?\nOpen a terminal, type git --version and press enter"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#link-git-to-your-github",
-    "href": "slides/git_intro_slides.html#link-git-to-your-github",
-    "title": "Introduction to Git",
-    "section": "Link Git to your Github",
-    "text": "Link Git to your Github\ngit config --global user.name \"your-user-name\"\ngit config --global user.email \"your@email.com\""
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#basic-git-terms",
-    "href": "slides/git_intro_slides.html#basic-git-terms",
-    "title": "Introduction to Git",
-    "section": "Basic git terms",
-    "text": "Basic git terms\n\nrepository: (or “repo”) git’s database. Might be local or on GitHub\nworking copy: all the files you actually work with\ncommit:\n\nas a noun: a snapshot of all the files in the repository\nas a verb: create a snapshot\n\nhash: fingerprint of a file/repository"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#git-history",
-    "href": "slides/git_intro_slides.html#git-history",
-    "title": "Introduction to Git",
-    "section": "Git history",
-    "text": "Git history"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#interacting-with-git",
-    "href": "slides/git_intro_slides.html#interacting-with-git",
-    "title": "Introduction to Git",
-    "section": "Interacting with Git",
-    "text": "Interacting with Git\n\nFrom the command line - always good to be comfortable with this\nFrom a GUI\n\nRStudio has one built-in\nMost IDEs do now (e.g. VSCode or Positron)\n\nVia GitHub"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#basic-git-commands",
-    "href": "slides/git_intro_slides.html#basic-git-commands",
-    "title": "Introduction to Git",
-    "section": "Basic git commands",
-    "text": "Basic git commands\n\ngit init: initialise a repository\ngit add: stage files\ngit commit: add staged files to the repository by making a commit\ngit log: see an overview of what changed\ngit diff: see details of what changed"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#end-of-part-1",
-    "href": "slides/git_intro_slides.html#end-of-part-1",
-    "title": "Introduction to Git",
-    "section": "End of part 1",
-    "text": "End of part 1"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#what-makes-a-commit",
-    "href": "slides/git_intro_slides.html#what-makes-a-commit",
-    "title": "Introduction to Git",
-    "section": "What makes a commit?",
-    "text": "What makes a commit?"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#ideally",
-    "href": "slides/git_intro_slides.html#ideally",
-    "title": "Introduction to Git",
-    "section": "Ideally",
-    "text": "Ideally\n\nOne set of related changes\nCommit message explains why they were needed\nShort title (&lt;60 characters)\nBlank line, then any further discussion"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#not-everything-goes-in-git",
-    "href": "slides/git_intro_slides.html#not-everything-goes-in-git",
-    "title": "Introduction to Git",
-    "section": "Not everything goes in git",
-    "text": "Not everything goes in git\n\nLarge files\nPasswords\nOutputs (sometimes)\nUse .gitignore"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#remote-git-commands",
-    "href": "slides/git_intro_slides.html#remote-git-commands",
-    "title": "Introduction to Git",
-    "section": "Remote git commands",
-    "text": "Remote git commands\n\ngit clone: download a repository\ngit fetch: update remote changes but don’t apply them\ngit pull: update remote changes and do apply them\ngit push: send your changes upstream\ngit remote: inspect / change details of upstream repositories\ngit branch: inspect / create a branch\ngit checkout -b: create a branch and change to it (yes this is stupid)\ngit merge: merge branches"
-  },
-  {
-    "objectID": "slides/git_intro_slides.html#rstudio-and-github",
-    "href": "slides/git_intro_slides.html#rstudio-and-github",
-    "title": "Introduction to Git",
-    "section": "Rstudio and GitHub",
-    "text": "Rstudio and GitHub\n\nNot all commands are supported but all you will likely need\nUse the shell for the rest"
-  },
-  {
-    "objectID": "slides/git_install_mac.html#introduction",
-    "href": "slides/git_install_mac.html#introduction",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Introduction",
-    "text": "Introduction\nWelcome to the guide for setting up Git and GitHub on Mac. This guide assumes no prior coding or Git experience.\nWe will cover:\n\nDownloading and installing Git.\nVerifying the installation.\nGenerating an SSH key.\nAdding the SSH key to GitHub.\nLinking the SSH key with RStudio."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-1-install-git",
-    "href": "slides/git_install_mac.html#step-1-install-git",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 1: Install Git",
-    "text": "Step 1: Install Git\n\nOpen the Terminal application on your Mac.\nCheck if Git is already installed by running:\ngit --version\nIf Git is not installed, you will see a prompt to install the Xcode Command Line Tools:\n\nClick Install and follow the on-screen instructions.\n\nOnce installed, verify Git by running:\ngit --version\n\nYou should see a version number, e.g., git version 2.x.x."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-2-generate-an-ssh-key",
-    "href": "slides/git_install_mac.html#step-2-generate-an-ssh-key",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 2: Generate an SSH Key",
-    "text": "Step 2: Generate an SSH Key\n\nOpen the Terminal application.\nRun the following command:\nssh-keygen -t ed25519 -C \"your_email@example.com\"\n\nReplace your_email@example.com with your GitHub email address.\n\nWhen prompted:\n\nPress Enter to save the key to the default location.\n(Optional) Enter a passphrase for added security.\n\nYour SSH key will be saved to a default location, e.g., /Users/YourName/.ssh/id_ed25519."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-3-add-the-ssh-key-to-github",
-    "href": "slides/git_install_mac.html#step-3-add-the-ssh-key-to-github",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 3: Add the SSH Key to GitHub",
-    "text": "Step 3: Add the SSH Key to GitHub\n\nDisplay your public SSH key:\n\nRun the following command in Terminal:\ncat ~/.ssh/id_ed25519.pub\nCopy the output (Cmd + C).\n\nLog in to your GitHub account.\nGo to Settings &gt; SSH and GPG keys.\nClick New SSH key:\n\nTitle: Give your key a name (e.g., “My Mac”).\nKey: Paste the copied key into the text box.\n\nClick Add SSH key.\nConfirm your password if prompted."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-4-test-the-ssh-connection",
-    "href": "slides/git_install_mac.html#step-4-test-the-ssh-connection",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 4: Test the SSH Connection",
-    "text": "Step 4: Test the SSH Connection\n\nOpen the Terminal application.\nRun the following command:\nssh -T git@github.com\nIf successful, you will see a message like:\nHi username! You've successfully authenticated, but GitHub does not provide shell access.\n\nIf there’s an error, check that the SSH key was added correctly."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-5-link-ssh-key-with-rstudio",
-    "href": "slides/git_install_mac.html#step-5-link-ssh-key-with-rstudio",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 5: Link SSH Key with RStudio",
-    "text": "Step 5: Link SSH Key with RStudio\n\nOpen RStudio.\nGo to Tools &gt; Global Options.\nIn the left-hand menu, click on Git/SVN.\nCheck the box labeled Enable version control interface for RStudio.\nUnder the Git executable field, ensure the path points to the Git installation, e.g., /usr/bin/git.\nClick Apply and then OK."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-6-configure-ssh-key-in-rstudio",
-    "href": "slides/git_install_mac.html#step-6-configure-ssh-key-in-rstudio",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 6: Configure SSH Key in RStudio",
-    "text": "Step 6: Configure SSH Key in RStudio\n\nOpen the Terminal tab in RStudio (found at the bottom-right of the screen).\nVerify the SSH key is correctly set up by running:\nssh -T git@github.com\nIf successful, proceed to the next step."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#step-7-clone-a-repository-in-rstudio",
-    "href": "slides/git_install_mac.html#step-7-clone-a-repository-in-rstudio",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Step 7: Clone a Repository in RStudio",
-    "text": "Step 7: Clone a Repository in RStudio\n\nGo to your GitHub repository.\nClick the green Code button and select SSH.\nCopy the SSH link (e.g., git@github.com:username/repo.git).\nIn RStudio, go to File &gt; New Project &gt; Version Control &gt; Git.\nPaste the SSH link into the Repository URL field.\nChoose a directory to save the project and click Create Project."
-  },
-  {
-    "objectID": "slides/git_install_mac.html#congratulations",
-    "href": "slides/git_install_mac.html#congratulations",
-    "title": "Setting Up Git and GitHub on Mac",
-    "section": "Congratulations!",
-    "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
-  },
-  {
-    "objectID": "register.html",
-    "href": "register.html",
-    "title": "Registration - Closed",
-    "section": "",
-    "text": "• We want to: Create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.\n• We are looking for:\n\nPublic Health Decision-Makers: Ministry of Health officials and public health specialists who provide insights based on real-world public health needs and ensure developed tools address practical challenges.\nDevelopers and Technical Experts: Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.\nAcademics and Researchers: Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.\n\n• We aim to: maximize diversity in skills, experiences, and people.\n• Applications close on the 5th December 2024.\n\n\nThere is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form.\n\n\n\nRegistration Is Now Closed!\nPlease register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds."
-  },
-  {
-    "objectID": "register.html#join-us",
-    "href": "register.html#join-us",
-    "title": "Registration - Closed",
-    "section": "",
-    "text": "• We want to: Create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.\n• We are looking for:\n\nPublic Health Decision-Makers: Ministry of Health officials and public health specialists who provide insights based on real-world public health needs and ensure developed tools address practical challenges.\nDevelopers and Technical Experts: Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.\nAcademics and Researchers: Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.\n\n• We aim to: maximize diversity in skills, experiences, and people.\n• Applications close on the 5th December 2024.\n\n\nThere is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form.\n\n\n\nRegistration Is Now Closed!\nPlease register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Hackathon Program",
-    "section": "",
-    "text": "Bridging the Gap: Applied Infectious Disease Epidemiology Tools to Support Evidence-Informed Decision-Making\n\nDate: 20 – 24 January 2025\nLocation: Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya\nLocation Map"
-  },
-  {
-    "objectID": "schedule.html#ℹ-event-details",
-    "href": "schedule.html#ℹ-event-details",
-    "title": "Hackathon Program",
-    "section": "",
-    "text": "Bridging the Gap: Applied Infectious Disease Epidemiology Tools to Support Evidence-Informed Decision-Making\n\nDate: 20 – 24 January 2025\nLocation: Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya\nLocation Map"
-  },
-  {
-    "objectID": "schedule.html#breaks",
-    "href": "schedule.html#breaks",
-    "title": "Hackathon Program",
-    "section": "☕ & 🍴 Breaks",
-    "text": "☕ & 🍴 Breaks\n\n☕️: Tea breaks: 10.30 – 11.00, 15.30 – 16.00\n🍴: Lunch breaks: 13.00 – 14.00"
-  },
-  {
-    "objectID": "schedule.html#schedule",
-    "href": "schedule.html#schedule",
-    "title": "Hackathon Program",
-    "section": "🗓 Schedule",
-    "text": "🗓 Schedule\n\nDay 1: Foundations and Team Formation\n\n8.30 – 9.00: Registration\n9.00 – 10.30: Introductions & Ice breaker activity\n11.00 – 12.00: Topic presentations\n\nTopic Presentations\n\n12.00 – 13.00: Topic ideation activity\n14.00 – 15.30: Skills matching & team building\n16.00 – 17.00: End of Day 1 Recap\n\n\n\nDays 2-3: Coding and Collaboration\n\n8.30 – 9.00: Grounding and plan for the day\n9.00 – 10.00 (Day 2 only): Git and GitHub refresher\n8.30 – 17.00: Dedicated time for project work, with guidance from facilitators.\n16.00 – 17.00: Daily group update and plan for the next day\n\n\n\nDay 4: Presentation and Feedback\n\n8.30 – 13.00: Dedicated time for project work, with guidance from facilitators.\n14.00 – 17.00: Presentations and feedback\n18.30: Social/Dinner at Gaucho (Gaucho - Nairobi)\n\n\n\nDay 5: Refinement and Next Steps\n\n8.30 – 16.00: Project refinement based on feedback received. Planning for further development and implementation of the tools.\n17.00: Closing remarks and thanks"
-  },
-  {
-    "objectID": "flow.html",
-    "href": "flow.html",
-    "title": "Hackathon Process",
-    "section": "",
-    "text": "Hackathon Stages\nThe hackathon process consisted of eight key stages, each crucial for ensuring the success of the event and its long-term impact. Below is a flow diagram outlining these stages, with space to add more information about each.\n\n\n\n\n\n\n\nHackathonFlow\n\n\n\nStep1\n\n1. Challenge Topic Identification\nby CEMA\n\n\n\nStep2\n\n2. Open Call for Participant\nApplications\n\n\n\nStep1-&gt;Step2\n\n\n\n\n\nnote1\n\nDetails:\n- Identify public health challenges\n- Align with CEMA expertise\n\n\n\nStep1-&gt;note1\n\n\n\n\nStep3\n\n3. Identification of technical mentors\n\n\n\nStep2-&gt;Step3\n\n\n\n\n\nnote2\n\nDetails:\n- Open application for diverse participants\n- Outreach to researchers and developers\n\n\n\nStep2-&gt;note2\n\n\n\n\nStep4\n\n4. Participant Welcome\n\n\n\nStep3-&gt;Step4\n\n\n\n\n\nnote3\n\nDetails:\n- Matching challenge areas to Kenyan \n+ Imperial facilitators\n\n\n\nStep3-&gt;note3\n\n\n\n\nStep5\n\n5. Challenge Refinement\n\n\n\nStep4-&gt;Step5\n\n\n\n\n\nnote4\n\nDetails:\n- Orientation session\n- Overview of goals and logistics\n\n\n\nStep4-&gt;note4\n\n\n\n\nStep6\n\n6. Team Formation\n\n\n\nStep5-&gt;Step6\n\n\n\n\n\nnote5\n\nDetails:\n- Clarify challenges with input\n- Finalise scope and focus\n\n\n\nStep5-&gt;note5\n\n\n\n\nStep7\n\n7. Supported Group Work\n\n\n\nStep6-&gt;Step7\n\n\n\n\n\nnote6\n\nDetails:\n- Form teams with balanced expertise\n- Match participants by interests\n\n\n\nStep6-&gt;note6\n\n\n\n\nStep8\n\n8. Dissemination to Decision-Makers\n\n\n\nStep7-&gt;Step8\n\n\n\n\n\nnote7\n\nDetails:\n- Mentor-supported teamwork\n- Iterative solution development\n\n\n\nStep7-&gt;note7\n\n\n\n\nStep9\n\n9. Future Work\n\n\n\nStep8-&gt;Step9\n\n\n\n\n\nnote8\n\nDetails:\n- Present solutions to decision-makers\n- Gather actionable feedback\n\n\n\nStep8-&gt;note8\n\n\n\n\nnote9\n\nDetails:\n- Encourage continued project work\n- Explore conference submissions\n\n\n\nStep9-&gt;note9\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/lydiah-khalayi.html",
-    "href": "participants/lydiah-khalayi.html",
-    "title": "Lydiah Khalayi",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/giovanni-charles.html",
-    "href": "participants/giovanni-charles.html",
-    "title": "Giovanni Charles",
-    "section": "",
-    "text": "Giovanni Charles is a software/ML engineer working on surrogates for infectious disease transmission models for inference and optimisation. He is interested in normalising flows, LLM interfaces for ID models, surrogate modelling, Bayesian inference, time-series prediction, differentiable agent based modelling and JAX.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/philip-muchemi.html",
-    "href": "participants/philip-muchemi.html",
-    "title": "Philip Muchemi",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/vincent-mariita.html",
-    "href": "participants/vincent-mariita.html",
-    "title": "Vincent Mariita",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/ruth-mc-cabe.html",
-    "href": "participants/ruth-mc-cabe.html",
-    "title": "Ruth Mc Cabe",
-    "section": "",
-    "text": "Ruth McCabe is a statistician and mathematical modeller at Imperial College London specialising in outbreak response at the science-policy interface.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/francis-ondicho-motiri.html",
-    "href": "participants/francis-ondicho-motiri.html",
-    "title": "Francis Ondicho Motiri",
-    "section": "",
-    "text": "Francis Motiri is a postgraduate in the field of epidemiology and a holder of a master of science in medical statistics from the University of Nairobi. Currently working in the ministry of health as health work force analyst .\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/lilith-whittles.html",
-    "href": "participants/lilith-whittles.html",
-    "title": "Lilith Whittles",
-    "section": "",
-    "text": "Lilith Whittles is a researcher at Imperial College London, studying the transmission of infectious diseases through human populations. Her work spans a broad spectrum: from epidemic response to mpox, COVID-19 and group A streptococcus in the UK and Europe, to reducing the impact of globally endemic sexually transmitted infections such as gonorrhoea, HIV and HSV-2.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/arani-bonsoul.html",
-    "href": "participants/arani-bonsoul.html",
-    "title": "Arani Bonsoul",
-    "section": "",
-    "text": "I am Bonsoul Arani Bosire, a data scientist and analyst with over three years of experience in the data industry. I specialize in leveraging machine learning, statistical analysis, and scalable Python solutions to drive business growth and deliver actionable insights. My expertise spans data visualization, competitive analysis, and sales forecasting, enabling me to improve processes, optimize resources, and enhance decision-making.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/sabine-van-elsland.html",
-    "href": "participants/sabine-van-elsland.html",
-    "title": "Sabine Van Elsland",
-    "section": "",
-    "text": "Sabine van Elsland is the external relationships and communications manager at the MRC Centre for Global Infectious Disease Analysis at Imperial College London. Sabine is a trained infectious disease epidemiologist with a background in public health and health systems research. She has a passion for sustainable knowledge translation (evidence to policy decision making) and transparent, accessible science communication.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/bonventure-ameyo.html",
-    "href": "participants/bonventure-ameyo.html",
-    "title": "Bonventure Ameyo",
-    "section": "",
-    "text": "Dr. Ameyo has gathered experience both in the practice and delivery of healthcare, its programming and management in the public sector in Kenya, currently working as the deputy director medical services in Turkana County, Kenya.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/omar-ahmed.html",
-    "href": "participants/omar-ahmed.html",
-    "title": "Omar Ahmed",
-    "section": "",
-    "text": "My name is Omar Ahmed, and I am currently pursuing my Master’s in Public Health. I work in public health in Mombasa County, where I focus on designing and implementing health programs to improve community well-being. My thesis research explores the association between malaria prevalence in children under five and demographic, socio-economic, and environmental factors in Mogadishu. I am passionate about using evidence-based approaches to tackle public health challenges, especially in vulnerable populations. I’m excited to be here and look forward to learning and collaborating with all of you.”\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/george-kamundia-mbugua.html",
-    "href": "participants/george-kamundia-mbugua.html",
-    "title": "George Kamundia Mbugua",
-    "section": "",
-    "text": "George Kamundia is a data science intern at the Center for Epidemiological Modelling and Analysis (CEMA), applying data analytics to inform public health decision-making. He focuses on developing predictive models and tools that bridge the gap between data science and health policy, contributing to more effective disease control and prevention strategies.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/paul-lietar.html",
-    "href": "participants/paul-lietar.html",
-    "title": "Paul Lietar",
-    "section": "",
-    "text": "Paul Liétar is a senior research software engineer at Imperial College London, working on building software tools to assist scientists in their research.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/oliver-watson.html",
-    "href": "participants/oliver-watson.html",
-    "title": "Oliver (OJ) Watson",
-    "section": "",
-    "text": "OJ Watson is a lecturer and Schmidt AI in science fellow at Imperial College London, with a background in infectious disease modelling in malaria, and interest in pandemic preparedness.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/michelle-mumbua.html",
-    "href": "participants/michelle-mumbua.html",
-    "title": "Michelle Mumbua",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/fred-nyamitago-monari.html",
-    "href": "participants/fred-nyamitago-monari.html",
-    "title": "Fred Nyamitago Monari",
-    "section": "",
-    "text": "Fred Nyamitago Monari is a statistician and lecturer at Kisii University with extensive expertise in applied statistics, epidemiological modeling, and public health data analysis. His work focuses on leveraging advanced statistical methods and interdisciplinary collaboration to address pressing challenges in health, climate, and environmental research.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/ryan-musasia.html",
-    "href": "participants/ryan-musasia.html",
-    "title": "Ryan Musasia",
-    "section": "",
-    "text": "I’m a freshly minted Data Scientist who just escaped the clutches of academia and is ready to conquer the data-driven world with wit, charm, and a whole lot of Python magic. My expertise lies in unraveling intricate data puzzles rather than solving crimes. My core competencies revolve around employing machine learning, statistical analysis, and advanced methodologies to extract valuable insights from complex datasets. My passion lies in uncovering concealed information within data and converting it into actionable intelligence that drives informed decision-making. Rest assured, there’s no sorcery involved (well, at least not beyond the occasional code magic).\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/jeanette-dawa.html",
-    "href": "participants/jeanette-dawa.html",
-    "title": "Jeanette Dawa",
-    "section": "",
-    "text": "Jeanette Dawa (MBChB, MSc, PhD) is a public health specialist/epidemiologist with a background in medicine, public health and infectious disease modelling.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/peter-mugo.html",
-    "href": "participants/peter-mugo.html",
-    "title": "Peter Mugo",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/martin-m-thendu.html",
-    "href": "participants/martin-m-thendu.html",
-    "title": "Martin M Thendu",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/muchiri-antony-mutwiri.html",
-    "href": "participants/muchiri-antony-mutwiri.html",
-    "title": "Muchiri Antony Mutwiri",
-    "section": "",
-    "text": "Muchiri Antony M is a software engineer intern at CEMA, where he works on optimizing various aspects of the CEMA Analytics Hub. With a strong foundation in technology and problem-solving, he is dedicated to developing impactful solutions that address real-world challenges.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/kibet-immanuel-ngeno.html",
-    "href": "participants/kibet-immanuel-ngeno.html",
-    "title": "Kibet Immanuel Ngeno",
-    "section": "",
-    "text": "I am kibet Immanuel, a full-stack software engineer with a passion for developing innovative solutions that bridge technology and real-world needs. My expertise lies in creating scalable and impactful software especially in collaborative environments.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/pete-winskill.html",
-    "href": "participants/pete-winskill.html",
-    "title": "Pete Winskill",
-    "section": "",
-    "text": "Pete Winskill is a Bill & Melinda Gates Foundation-funded research fellow at the MRC Centre for Global Infectious Disease Analysis, Imperial College London and the Director of the Translational Modelling Hub. He leads the development of a global malaria modelling framework, linking the Imperial malariasimulation model to primary data to support global, national, and sub-national malaria modelling requests.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/salmon-gowa.html",
-    "href": "participants/salmon-gowa.html",
-    "title": "Salmon Gowa",
-    "section": "",
-    "text": "Salmon Gowa is a software developer with a passion for using technology to address public health challenges. Proficient in software development and data analysis, he’s eager to create impactful, open-source tools to support evidence-based policymaking in Kenya.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/john-nalwa.html",
-    "href": "participants/john-nalwa.html",
-    "title": "John Nalwa",
-    "section": "",
-    "text": "John Wakhungu is a software developer at InnoSoft Technologies, specializing in custom software development, data analysis, and web applications. He is passionate about leveraging technology to solve real-world challenges, including public health innovation and data-driven solutions.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/noel-likalamu.html",
-    "href": "participants/noel-likalamu.html",
-    "title": "Noel Likalamu",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/florence-akinyi.html",
-    "href": "participants/florence-akinyi.html",
-    "title": "Florence Akinyi",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/preston-osoro.html",
-    "href": "participants/preston-osoro.html",
-    "title": "Preston Osoro",
-    "section": "",
-    "text": "Preston is a software developer with expertise in building APIs and data management systems, including patient management APIs. He is passionate about leveraging technology to solve real-world public health challenges.\n\n\n Back to top"
-  },
-  {
-    "objectID": "preread.html",
-    "href": "preread.html",
-    "title": "Pre-Hackathon Reading Material",
-    "section": "",
-    "text": "To ensure all participants are equipped to make the most of the hackathon, we’ve compiled a list of pre-read materials and resources. These resources cover essential skills for collaborative coding, R programming, and Git/GitHub workflows.\n\n\n\nGit and GitHub: Collaborative coding will be a core component of the hackathon. Please review the following materials to ensure you’re familiar with these tools:\n\nIntroduction to GitHub\nGitHub for Beginners\nMore GitHub Tips\n\nR Programming: Many of the hackathon activities will involve R. The following resources will help you get up to speed:\n\nIntroduction to R\nR for Data Science\n\nR Package Development: For those interested in contributing to package development or using custom R packages:\n\nR Packages Book\n\n\n\n\n\nBefore the event, ensure the following are installed and set up on your laptop:\n\nR\nRStudio\nGit\n\nIf you need assistance with installation, refer to the guides linked above, or feel free to reach out to us prior to the hackathon.\n\n\n\nFor any queries about the resources or preparation, contact:\n\nWaithera Mwangi: waithera.mwangi@cema.africa\nNoel Likalamu: noel.likalamu@cema.africa\n\nFor any queries about setting your software up, contact:\n\nOJ Watson: o.watson15@imperial.ac.uk\n\nBy familiarising yourself with these resources, you’ll be ready to contribute effectively and make the most of your hackathon experience.\nWe look forward to seeing you all in Nairobi soon!"
-  },
-  {
-    "objectID": "preread.html#prepare-for-the-hackathon",
-    "href": "preread.html#prepare-for-the-hackathon",
-    "title": "Pre-Hackathon Reading Material",
-    "section": "",
-    "text": "To ensure all participants are equipped to make the most of the hackathon, we’ve compiled a list of pre-read materials and resources. These resources cover essential skills for collaborative coding, R programming, and Git/GitHub workflows.\n\n\n\nGit and GitHub: Collaborative coding will be a core component of the hackathon. Please review the following materials to ensure you’re familiar with these tools:\n\nIntroduction to GitHub\nGitHub for Beginners\nMore GitHub Tips\n\nR Programming: Many of the hackathon activities will involve R. The following resources will help you get up to speed:\n\nIntroduction to R\nR for Data Science\n\nR Package Development: For those interested in contributing to package development or using custom R packages:\n\nR Packages Book\n\n\n\n\n\nBefore the event, ensure the following are installed and set up on your laptop:\n\nR\nRStudio\nGit\n\nIf you need assistance with installation, refer to the guides linked above, or feel free to reach out to us prior to the hackathon.\n\n\n\nFor any queries about the resources or preparation, contact:\n\nWaithera Mwangi: waithera.mwangi@cema.africa\nNoel Likalamu: noel.likalamu@cema.africa\n\nFor any queries about setting your software up, contact:\n\nOJ Watson: o.watson15@imperial.ac.uk\n\nBy familiarising yourself with these resources, you’ll be ready to contribute effectively and make the most of your hackathon experience.\nWe look forward to seeing you all in Nairobi soon!"
-  },
-  {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Shared Slides",
-    "section": "",
-    "text": "Day 1 Slides\nDay 2 Slides\nDay 3 Slides\n\n\n\n\n\nIntroduction to Git & Github\nTutorial: Git, SSH Keys, Github on Mac\nTutorial: Git, SSH Keys, Github on Windows\n\n\n\n\n\nResearch Topic Presentations"
-  },
-  {
-    "objectID": "materials.html#presentations-associated-with-this-hackathon",
-    "href": "materials.html#presentations-associated-with-this-hackathon",
-    "title": "Shared Slides",
-    "section": "",
-    "text": "Day 1 Slides\nDay 2 Slides\nDay 3 Slides"
-  },
-  {
-    "objectID": "materials.html#presentations-on-github-training",
-    "href": "materials.html#presentations-on-github-training",
-    "title": "Shared Slides",
-    "section": "",
-    "text": "Introduction to Git & Github\nTutorial: Git, SSH Keys, Github on Mac\nTutorial: Git, SSH Keys, Github on Windows"
-  },
-  {
-    "objectID": "materials.html#resources-and-documents-associated-with-this-hackathon",
-    "href": "materials.html#resources-and-documents-associated-with-this-hackathon",
-    "title": "Shared Slides",
-    "section": "",
-    "text": "Research Topic Presentations"
-  },
-  {
-    "objectID": "participants/augustine-masinde.html",
-    "href": "participants/augustine-masinde.html",
-    "title": "Augustine Masinde",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/purity-kwamboka.html",
-    "href": "participants/purity-kwamboka.html",
-    "title": "Purity Kwamboka",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/mutono-nyamai.html",
-    "href": "participants/mutono-nyamai.html",
-    "title": "Mutono Nyamai",
-    "section": "",
-    "text": "Mutono is a data scientist currently using applied epidemiological modelling techniques to provide evidence for control and elimination of Neglected Tropical Diseases.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/fathiyah-hamumy.html",
-    "href": "participants/fathiyah-hamumy.html",
-    "title": "Fathiyah Hamumy",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/katy-gaythorpe.html",
-    "href": "participants/katy-gaythorpe.html",
-    "title": "Katy Gaythorpe",
-    "section": "",
-    "text": "Dr Katy Gaythorpe is the research lead of the Vaccine Impact Modelling Consortium (VIMC, https://www.vaccineimpact.org/) and a lecturer in the epidemiology of vaccine-preventable diseases (VPDs) at Imperial College London. Her research focuses on developing mathematical models of infectious diseases such as yellow fever and others to assess the health impacts of vaccination. Dr Gaythorpe is particularly interested in the implications of climate change for climate-sensitive VPD control.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/veronicah-gathoni.html",
-    "href": "participants/veronicah-gathoni.html",
-    "title": "Veronicah Gathoni",
-    "section": "",
-    "text": "veronica chege is a software engineer focused on identifying and addressing gaps in the healthcare system. With a strong problem-solving mindset, she collaborates with subject-matter experts to apply engineering solutions to improve healthcare outcomes.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/cosmas-biwott.html",
-    "href": "participants/cosmas-biwott.html",
-    "title": "Cosmas Biwott",
-    "section": "",
-    "text": "Cosmas Biwott is a statistician at the University of Nairobi’s Centre for Epidemiological Modelling and Analysis (UoN-CEMA). Specializing in applying advanced statistical methods to health data, driving evidence-based decision-making to improve public health outcomes.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/amika-patel.html",
-    "href": "participants/amika-patel.html",
-    "title": "Amika Patel",
-    "section": "",
-    "text": "I am Amika Patel, a data analyst at the Nairobi West Hospital. With experience in healthcare operations and a passion for using data to drive evidence-based policies, I am keen to bridge the gap between analytics and real-world decision-making.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/geoffrey-githinji.html",
-    "href": "participants/geoffrey-githinji.html",
-    "title": "Geoffrey Githinji",
-    "section": "",
-    "text": "Geoffrey is a research fellow at CEMA working of models of malaria interventions. In this role, he is supporting national malaria control programs by leveraging disease modelling and data analytics to inform strategic decisions and operational plans.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/john-ojal.html",
-    "href": "participants/john-ojal.html",
-    "title": "John Ojal",
-    "section": "",
-    "text": "John Ojal is a post-doctoral researcher at the Kenya Medical Research Institute - Wellcome Trust, focusing on epidemiological modeling and health economics, with contributions to studies on pneumococcal vaccination and COVID-19 in Kenya\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/emmanuel-okunga.html",
-    "href": "participants/emmanuel-okunga.html",
-    "title": "Emmanuel Okunga",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/dominic-makana-ocharo.html",
-    "href": "participants/dominic-makana-ocharo.html",
-    "title": "Dominic Makana Ocharo",
-    "section": "",
-    "text": "Dominic Makana Ocharo is a telecommunications engineer and data scientist based in Kenya, specializing in developing AI-driven solutions and data analytics tools to address public health challenges and optimize decision-making in resource-constrained settings.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/thumbi-mwangi.html",
-    "href": "participants/thumbi-mwangi.html",
-    "title": "Thumbi Mwangi",
-    "section": "",
-    "text": "Thumbi Mwangi Co-Director & Group Lead (Applied Epidemiology) at CEMA, leading efforts in epidemiological modelling and public health policy in Africa. He is an infectious disease epidemiologist combining classical epidemiology, applied epidemiological modelling and data science to improve the speed and quality of policy decision making in human and animal health\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/tabitha-okech.html",
-    "href": "participants/tabitha-okech.html",
-    "title": "Tabitha Okech",
-    "section": "",
-    "text": "Tabitha Okech is a dedicated Public Health Practitioner and Pharmacist based in Nairobi, Kenya, with over a decade of experience in managing preventive and promotive public health programs.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/kariithi-anne-wanjiku.html",
-    "href": "participants/kariithi-anne-wanjiku.html",
-    "title": "Kariithi Anne Wanjiku",
-    "section": "",
-    "text": "Anne is a computer at the Center for Epidemiological Modelling and Analysis, developing data algorithms, pipelines, and database management systems to support public health policymaking. She hopes to advance her studies in biomedical engineering to improve patient outcomes through innovative applications in computational bioengineering. By integrating her engineering expertise with her passion for healthcare accessibility, she aims to advance healthcare technology, especially in underserved communities.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/triza-shigoli.html",
-    "href": "participants/triza-shigoli.html",
-    "title": "Triza Shigoli",
-    "section": "",
-    "text": "Triza Shigoli is a Project Management and Organizational Development professional, and the Administrative Manager at the Center for Epidemiological Modelling and Analysis (CEMA), with experience in supporting the delivery of health research projects in collaboration with a multidisciplinary team of scientists and technical experts.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/ivy-kombe.html",
-    "href": "participants/ivy-kombe.html",
-    "title": "Ivy Kombe",
-    "section": "",
-    "text": "Ivy Kombe is a computational epidemiologist at the Kenya Medical Research Institute - Wellcome Trust, specializing in mathematical models of infectious disease dynamics, with experience in modeling HIV, COVID-19, and respiratory syncytial virus.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/stanley-sayianka.html",
-    "href": "participants/stanley-sayianka.html",
-    "title": "Stanley Sayianka",
-    "section": "",
-    "text": "Stanley Sayianka is a Data Science Research Assistant at the Centre for Epidemiological Modelling and Analysis (CEMA). His work focuses on the statistical modeling of mortality indicators.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/jackline-mosinya-nyaberi.html",
-    "href": "participants/jackline-mosinya-nyaberi.html",
-    "title": "Jackline Mosinya Nyaberi",
-    "section": "",
-    "text": "Nyaberi is a public health and health systems expert researcher at the School of Public Health, Jomo Kenyatta University of Agriculture and Technology. She is an accomplished Global Health leader and advisor. She is an inaugural Fellow of the Kofi Annan (She is a such a resource for the continent and beyond). She is a 24/7 mentor to aspiring leaders in professional and Personal Development. She is a holistic trainer, mentor and coach at Authentic Leadership for Development (ALD) for Corporate Solutions. She is an author of “101 Authentic Leadership Lessons: Impacting African Leaders. Jackline’s career has focused on strengthening ethics, leadership and governance, health systems, and public health leadership to improve infectious disease preparedness and to reduce mortality, morbidity, and disability in vulnerable communities. Her career accomplishments include formulating new health programs, policies, and strategies in 55 Africa Union Member states to support pandemic preparedness plans, health workforce planning, leadership and governance, and strengthening health systems. Jackline is inspired to mentor adolescents, women, and girls, provides basic school items for low-income children in rural settings, and founded Ayanna Health Foundation, a non-profit which provides mentorship, empowerment and health services to vulnerable populations and mentorship. Jackline holds a Master of Public Health from Maseno University in Kenya, a Master of Global Bioethics from Anahuac University in Mexico, and a Ph.D. in Public Health from Kenyatta University in Kenya. Jackline was named a 2021 Inaugural Kofi Annan Global Health Leadership Fellow by the Kofi Annan Foundation, Africa CDC and African Union. Long term, Jackline hopes to continue her work in strengthening public health systems in Africa and beyond and to activate the next generation to become transformational leaders. She dreams to support not only health systems in Africa to experience a paradigm shift in governance and leadership, but also to support all interconnected ecosystems of all stakeholders to foster health and wellbeing for all generations. jnyaberij@gmail.com https://www.linkedin.com/in/mosinyanyaberi/\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/moses-muriithi.html",
-    "href": "participants/moses-muriithi.html",
-    "title": "Moses Muriithi",
-    "section": "",
-    "text": "Moses Muriithi is an health economist and an associate professor at the university of Nairobi department of economics and development studies cost effectiveness of various diseases interventions in the era of digital technology.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/mumbua-mutunga.html",
-    "href": "participants/mumbua-mutunga.html",
-    "title": "Mumbua Mutunga",
-    "section": "",
-    "text": "Mumbua Mutunga is a PhD student at the University of Nairobi, working on rabies and the various ways to optimise the disease interventions towards accelerating disease elimination in Kenya.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/waithera-mwangi.html",
-    "href": "participants/waithera-mwangi.html",
-    "title": "Waithera Mwangi",
-    "section": "",
-    "text": "Waithera is an Administration Officer at CEMA, dedicated to ensuring smooth operations and effective coordination for trainings that take place at the organisation.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/evans-omondi.html",
-    "href": "participants/evans-omondi.html",
-    "title": "Evans Omondi",
-    "section": "",
-    "text": "Evans Omondi is a mathematician and Post-Doctoral Research Scientist (Mathematical modeler) at the African Population and Health Research Center (APHRC) in Kenya. I have a broad background in the application of mathematical modeling applied to biology, with particular expertise in dynamical systems and stochastic processes for modeling infectious diseases.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/pius-kariuki.html",
-    "href": "participants/pius-kariuki.html",
-    "title": "Pius Kariuki",
-    "section": "",
-    "text": "Pius Kariuki is a digital health engineer at IntelliSOFT consulting, working with cross sectional data with tools like DHIS2. I am also an interoperability and integrations expert working with standards like FHIR and FHIR-data-pipes to report patient data.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/peninna-mwongeli-nzoka.html",
-    "href": "participants/peninna-mwongeli-nzoka.html",
-    "title": "Peninna Mwongeli Nzoka",
-    "section": "",
-    "text": "Peninna Nzoka is a post-graduate researcher in Health Systems Strengthening (HSS) and a Health Policymaker/ Manager at the Ministry of Health, Kenya advocating for the translation of policy content into action.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/paula-christen.html",
-    "href": "participants/paula-christen.html",
-    "title": "Paula Christen",
-    "section": "",
-    "text": "Paula Christen is social scientist and infectious disease epidemiologist specialized in researching, identifying and developing interventions enabling knowledge translation from infectious disease models to public health policy and programs.\n\n\n Back to top"
-  },
-  {
-    "objectID": "participants/annah-mudamba.html",
-    "href": "participants/annah-mudamba.html",
-    "title": "Annah Mudamba",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "participants/stephanie-kamunya.html",
-    "href": "participants/stephanie-kamunya.html",
-    "title": "Stephanie Kamunya",
-    "section": "",
-    "text": "Stephanie is a postdoctoral research fellow at CEMA with a PhD focusing on antimalarial drug discovery, currently applying her experience in malaria research to mathematical modelling.\n\n\n Back to top"
-  },
-  {
-    "objectID": "feedback.html",
-    "href": "feedback.html",
-    "title": "Daily Feedback",
-    "section": "",
-    "text": "We hope you’re enjoying the hackathon and having a great time collaborating, learning, and innovating. Your feedback is crucial in helping us improve and make this event even better for everyone.\n\n\nWe’d love to hear your thoughts—whether it’s about the logistics, content, or anything else. Please take a moment to share your feedback through the link below. Your responses are completely anonymous, and we’ll aim to address your suggestions daily throughout the week.\nProvide Your Feedback Here\nThank you for helping us make this event the best it can be!"
-  },
-  {
-    "objectID": "feedback.html#we-value-your-feedback",
-    "href": "feedback.html#we-value-your-feedback",
-    "title": "Daily Feedback",
-    "section": "",
-    "text": "We hope you’re enjoying the hackathon and having a great time collaborating, learning, and innovating. Your feedback is crucial in helping us improve and make this event even better for everyone.\n\n\nWe’d love to hear your thoughts—whether it’s about the logistics, content, or anything else. Please take a moment to share your feedback through the link below. Your responses are completely anonymous, and we’ll aim to address your suggestions daily throughout the week.\nProvide Your Feedback Here\nThank you for helping us make this event the best it can be!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bridging the Gap Hackathon",
-    "section": "",
-    "text": "The “Bridging the Gap Hackathon” is a 5-day event to bring together public health decision-makers, developers, technical experts, and academics and researchers to create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.\n\nBackground\nExperiences during the COVID-19 pandemic highlighted the challenges decision makers face in interpreting and using analytics for public health policy. To respond to these challenges, researchers at the MRC Centre for Global Infectious Disease Analysis (MRC-GIDA) at Imperial College London and the Center for Epidemiological Modelling and Analysis (CEMA) at the University of Nairobi are currently conducting a research study to explore how the gap between quantitative scientists and policymakers, especially in resource-constrained settings can be bridged.\n\n\nWho Should Attend\nThe hackathon aims to include a diverse audience, who will either contribute to idea generation or developing the identified software tools. The latter activity will include core training on collaborative coding best practices, which will be strengthened by the delivery of pre-hackathon virtual training courses and teaching material for enrolled participants.\n\nHealth Decision-Makers & Providers: Ministry of Health officials, health organizations and public health specialists who provide insights based on real-world public health needs and/or ensure developed tools address practical challenges.\nDevelopers and Technical Experts: Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.\nAcademics and Researchers: Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.\n\n\n\nHackathon Schedule\n\nDay 1: Foundations and Group Formation\n\nIntroductions, icebreaker activities, and team building exercises.\nSharing of real-world challenges presented by Ministry of Health, health organizations and/or public health specialists.\nFormation of interdisciplinary teams focused on specific public health challenges.\n\nDays 2-3: Coding and Collaboration\n\nOverview of Git, Github and collaborative coding practices (GitHub training should have been completed before attending the course).\nDedicated project work time with guidance from experienced facilitators.\nContinuous interaction and feedback sessions to refine ideas and approaches.\n\nDay 4: Presentation and Feedback\n\nTeams present their minimum viable products to Ministry of Health representatives and other stakeholders.\nConstructive feedback and discussions on the relevance and potential impact of the tools developed.\n\nDay 5: Refinement and Next Steps\n\nProject refinement based on the feedback received.\nPlanning for further development, implementation, and potential scaling of the tools.\nClosing remarks and celebration of achievements.\n\n\n\n\nVenue\nThe hackathon will be hosted by the Center for Epidemiological Modelling and Analysis (CEMA), and will take place at:\nNairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya Google Maps\n\n\nSponsors\nWe are extremely grateful to our sponsors for the hackathon:\n\nMRC Centre for Global Infectious Disease Analysis at Imperial College London (MR/X020258/1) for their support of the hackathon, including supporting researchers from Kenya and the United Kingdom to attend and providing resources for the hackathon.\nWellcome for funding the study inspiring the hackathon (“Leveraging forecasts to optimise decision making” - 228271/Z/23/Z), which supported the original Ideathon team to travel for the hackathon.\nThe Gates Foundation (INV-044079) for supporting involvement of CEMA staff in the hackathon. ### Sponsors\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "conference.html",
-    "href": "conference.html",
-    "title": "Hackathon Outcomes and Opportunities",
-    "section": "",
-    "text": "Our hackathon is designed not only to address immediate public health challenges but also to inspire long-term innovation and collaboration. We hope that the groups formed during the event will continue their work, potentially refining their projects into impactful tools or ideas. One way to showcase your work further is by submitting to relevant conferences, sharing insights with the broader scientific and public health community.\nTo help, we’ve gathered a list of potential conferences where you could present your work. Explore the map below to see the locations of these conferences and learn more about them.\n\n\n\n\n\n\n\n\n\n\n\nWe encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities.\n\n\n\nIf there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
-  },
-  {
-    "objectID": "conference.html#submit-your-work",
-    "href": "conference.html#submit-your-work",
-    "title": "Hackathon Outcomes and Opportunities",
-    "section": "",
-    "text": "We encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities."
-  },
-  {
-    "objectID": "conference.html#thinking-about-other-conferences",
-    "href": "conference.html#thinking-about-other-conferences",
-    "title": "Hackathon Outcomes and Opportunities",
-    "section": "",
-    "text": "If there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-1-download-and-install-git",
-    "href": "slides/git_install_windows.html#step-1-download-and-install-git",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 1: Download and Install Git",
-    "text": "Step 1: Download and Install Git\n\nGo to the Git website: https://git-scm.com.\nClick on Download for Windows.\nRun the downloaded .exe file.\nFollow the installation steps:\n\nUse the default settings.\nClick “Next” for all options unless you have specific requirements.\n\nClick Finish when done."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-2-check-git-is-installed",
-    "href": "slides/git_install_windows.html#step-2-check-git-is-installed",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 2: Check Git is Installed",
-    "text": "Step 2: Check Git is Installed\n\nOpen the Command Prompt:\n\nPress Win + R, type cmd, and press Enter.\n\nType the following command and press Enter:\ngit --version\nYou should see a version number, e.g., git version 2.x.x.\n\nIf you see an error, repeat the installation steps."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-3-generate-an-ssh-key",
-    "href": "slides/git_install_windows.html#step-3-generate-an-ssh-key",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 3: Generate an SSH Key",
-    "text": "Step 3: Generate an SSH Key\n\nOpen the Git Bash application (installed with Git).\nRun the following command:\nssh-keygen -t ed25519 -C \"your_email@example.com\"\n\nReplace your_email@example.com with your GitHub email address.\n\nWhen prompted:\n\nPress Enter to save the key to the default location.\n(Optional) Enter a passphrase for added security.\n\nYour SSH key will be saved to a default location, e.g., C:\\Users\\YourName\\.ssh\\id_ed25519."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-4-add-the-ssh-key-to-github",
-    "href": "slides/git_install_windows.html#step-4-add-the-ssh-key-to-github",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 4: Add the SSH Key to GitHub",
-    "text": "Step 4: Add the SSH Key to GitHub\n\nDisplay your public SSH key:\n\nRun the following command in Git Bash:\ncat ~/.ssh/id_ed25519.pub\nCopy the output (Ctrl + C).\n\nLog in to your GitHub account.\nGo to Settings &gt; SSH and GPG keys.\nClick New SSH key:\n\nTitle: Give your key a name (e.g., “My Laptop”).\nKey: Paste the copied key into the text box.\n\nClick Add SSH key.\nConfirm your password if prompted."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-5-test-the-ssh-connection",
-    "href": "slides/git_install_windows.html#step-5-test-the-ssh-connection",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 5: Test the SSH Connection",
-    "text": "Step 5: Test the SSH Connection\n\nOpen Git Bash.\nRun the following command:\nssh -T git@github.com\nIf successful, you will see a message like:\nHi username! You've successfully authenticated, but GitHub does not provide shell access.\n\nIf there’s an error, check that the SSH key was added correctly."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-6-link-ssh-key-with-rstudio",
-    "href": "slides/git_install_windows.html#step-6-link-ssh-key-with-rstudio",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 6: Link SSH Key with RStudio",
-    "text": "Step 6: Link SSH Key with RStudio\n\nOpen RStudio.\nGo to Tools &gt; Global Options.\nIn the left-hand menu, click on Git/SVN.\nCheck the box labeled Enable version control interface for RStudio.\nUnder the Git executable field, ensure the path points to the Git installation, e.g., C:\\Program Files\\Git\\bin\\git.exe.\nClick Apply and then OK."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-7-configure-ssh-key-in-rstudio",
-    "href": "slides/git_install_windows.html#step-7-configure-ssh-key-in-rstudio",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 7: Configure SSH Key in RStudio",
-    "text": "Step 7: Configure SSH Key in RStudio\n\nOpen the Terminal tab in RStudio (found at the bottom-right of the screen).\nVerify the SSH key is correctly set up by running:\nssh -T git@github.com\nIf successful, proceed to the next step."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#step-8-clone-a-repository-in-rstudio",
-    "href": "slides/git_install_windows.html#step-8-clone-a-repository-in-rstudio",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Step 8: Clone a Repository in RStudio",
-    "text": "Step 8: Clone a Repository in RStudio\n\nGo to your GitHub repository.\nClick the green Code button and select SSH.\nCopy the SSH link (e.g., git@github.com:username/repo.git).\nIn RStudio, go to File &gt; New Project &gt; Version Control &gt; Git.\nPaste the SSH link into the Repository URL field.\nChoose a directory to save the project and click Create Project."
-  },
-  {
-    "objectID": "slides/git_install_windows.html#congratulations",
-    "href": "slides/git_install_windows.html#congratulations",
-    "title": "Setting Up Git and GitHub on Windows",
-    "section": "Congratulations!",
-    "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
-  },
-  {
     "objectID": "slides/intro_slides.html#karibu-sana-welcome",
     "href": "slides/intro_slides.html#karibu-sana-welcome",
     "title": "Bridging The Gap Hackathon",
@@ -1041,6 +271,825 @@
     "title": "Bridging The Gap Hackathon",
     "section": "Debrief The Day - Feedback",
     "text": "Debrief The Day - Feedback\n\n\n\nSharing updates with everyone:\n\n\nEach group will present any updates/questions\n\n\nSharing feedback with organisers:\n\n\nThroughout the hackathon, please use the feedback page to share your feedback or ask any questions that you would like answered:\n\nhttps://mrc-ide.github.io/cema-mrc-hackathon/feedback.html\n\nAt the end of the day, please also share any feedback as a group, which we will review overnight ready for the next day."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-1-download-and-install-git",
+    "href": "slides/git_install_windows.html#step-1-download-and-install-git",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 1: Download and Install Git",
+    "text": "Step 1: Download and Install Git\n\nGo to the Git website: https://git-scm.com.\nClick on Download for Windows.\nRun the downloaded .exe file.\nFollow the installation steps:\n\nUse the default settings.\nClick “Next” for all options unless you have specific requirements.\n\nClick Finish when done."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-2-check-git-is-installed",
+    "href": "slides/git_install_windows.html#step-2-check-git-is-installed",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 2: Check Git is Installed",
+    "text": "Step 2: Check Git is Installed\n\nOpen the Command Prompt:\n\nPress Win + R, type cmd, and press Enter.\n\nType the following command and press Enter:\ngit --version\nYou should see a version number, e.g., git version 2.x.x.\n\nIf you see an error, repeat the installation steps."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-3-generate-an-ssh-key",
+    "href": "slides/git_install_windows.html#step-3-generate-an-ssh-key",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 3: Generate an SSH Key",
+    "text": "Step 3: Generate an SSH Key\n\nOpen the Git Bash application (installed with Git).\nRun the following command:\nssh-keygen -t ed25519 -C \"your_email@example.com\"\n\nReplace your_email@example.com with your GitHub email address.\n\nWhen prompted:\n\nPress Enter to save the key to the default location.\n(Optional) Enter a passphrase for added security.\n\nYour SSH key will be saved to a default location, e.g., C:\\Users\\YourName\\.ssh\\id_ed25519."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-4-add-the-ssh-key-to-github",
+    "href": "slides/git_install_windows.html#step-4-add-the-ssh-key-to-github",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 4: Add the SSH Key to GitHub",
+    "text": "Step 4: Add the SSH Key to GitHub\n\nDisplay your public SSH key:\n\nRun the following command in Git Bash:\ncat ~/.ssh/id_ed25519.pub\nCopy the output (Ctrl + C).\n\nLog in to your GitHub account.\nGo to Settings &gt; SSH and GPG keys.\nClick New SSH key:\n\nTitle: Give your key a name (e.g., “My Laptop”).\nKey: Paste the copied key into the text box.\n\nClick Add SSH key.\nConfirm your password if prompted."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-5-test-the-ssh-connection",
+    "href": "slides/git_install_windows.html#step-5-test-the-ssh-connection",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 5: Test the SSH Connection",
+    "text": "Step 5: Test the SSH Connection\n\nOpen Git Bash.\nRun the following command:\nssh -T git@github.com\nIf successful, you will see a message like:\nHi username! You've successfully authenticated, but GitHub does not provide shell access.\n\nIf there’s an error, check that the SSH key was added correctly."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-6-link-ssh-key-with-rstudio",
+    "href": "slides/git_install_windows.html#step-6-link-ssh-key-with-rstudio",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 6: Link SSH Key with RStudio",
+    "text": "Step 6: Link SSH Key with RStudio\n\nOpen RStudio.\nGo to Tools &gt; Global Options.\nIn the left-hand menu, click on Git/SVN.\nCheck the box labeled Enable version control interface for RStudio.\nUnder the Git executable field, ensure the path points to the Git installation, e.g., C:\\Program Files\\Git\\bin\\git.exe.\nClick Apply and then OK."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-7-configure-ssh-key-in-rstudio",
+    "href": "slides/git_install_windows.html#step-7-configure-ssh-key-in-rstudio",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 7: Configure SSH Key in RStudio",
+    "text": "Step 7: Configure SSH Key in RStudio\n\nOpen the Terminal tab in RStudio (found at the bottom-right of the screen).\nVerify the SSH key is correctly set up by running:\nssh -T git@github.com\nIf successful, proceed to the next step."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#step-8-clone-a-repository-in-rstudio",
+    "href": "slides/git_install_windows.html#step-8-clone-a-repository-in-rstudio",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Step 8: Clone a Repository in RStudio",
+    "text": "Step 8: Clone a Repository in RStudio\n\nGo to your GitHub repository.\nClick the green Code button and select SSH.\nCopy the SSH link (e.g., git@github.com:username/repo.git).\nIn RStudio, go to File &gt; New Project &gt; Version Control &gt; Git.\nPaste the SSH link into the Repository URL field.\nChoose a directory to save the project and click Create Project."
+  },
+  {
+    "objectID": "slides/git_install_windows.html#congratulations",
+    "href": "slides/git_install_windows.html#congratulations",
+    "title": "Setting Up Git and GitHub on Windows",
+    "section": "Congratulations!",
+    "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
+  },
+  {
+    "objectID": "conference.html",
+    "href": "conference.html",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "",
+    "text": "Our hackathon is designed not only to address immediate public health challenges but also to inspire long-term innovation and collaboration. We hope that the groups formed during the event will continue their work, potentially refining their projects into impactful tools or ideas. One way to showcase your work further is by submitting to relevant conferences, sharing insights with the broader scientific and public health community.\nTo help, we’ve gathered a list of potential conferences where you could present your work. Explore the map below to see the locations of these conferences and learn more about them.\n\n\n\n\n\n\n\n\n\n\n\nWe encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities.\n\n\n\nIf there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
+  },
+  {
+    "objectID": "conference.html#submit-your-work",
+    "href": "conference.html#submit-your-work",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "",
+    "text": "We encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities."
+  },
+  {
+    "objectID": "conference.html#thinking-about-other-conferences",
+    "href": "conference.html#thinking-about-other-conferences",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "",
+    "text": "If there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bridging the Gap Hackathon",
+    "section": "",
+    "text": "The “Bridging the Gap Hackathon” is a 5-day event to bring together public health decision-makers, developers, technical experts, and academics and researchers to create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.\n\nBackground\nExperiences during the COVID-19 pandemic highlighted the challenges decision makers face in interpreting and using analytics for public health policy. To respond to these challenges, researchers at the MRC Centre for Global Infectious Disease Analysis (MRC-GIDA) at Imperial College London and the Center for Epidemiological Modelling and Analysis (CEMA) at the University of Nairobi are currently conducting a research study to explore how the gap between quantitative scientists and policymakers, especially in resource-constrained settings can be bridged.\n\n\nWho Should Attend\nThe hackathon aims to include a diverse audience, who will either contribute to idea generation or developing the identified software tools. The latter activity will include core training on collaborative coding best practices, which will be strengthened by the delivery of pre-hackathon virtual training courses and teaching material for enrolled participants.\n\nHealth Decision-Makers & Providers: Ministry of Health officials, health organizations and public health specialists who provide insights based on real-world public health needs and/or ensure developed tools address practical challenges.\nDevelopers and Technical Experts: Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.\nAcademics and Researchers: Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.\n\n\n\nHackathon Schedule\n\nDay 1: Foundations and Group Formation\n\nIntroductions, icebreaker activities, and team building exercises.\nSharing of real-world challenges presented by Ministry of Health, health organizations and/or public health specialists.\nFormation of interdisciplinary teams focused on specific public health challenges.\n\nDays 2-3: Coding and Collaboration\n\nOverview of Git, Github and collaborative coding practices (GitHub training should have been completed before attending the course).\nDedicated project work time with guidance from experienced facilitators.\nContinuous interaction and feedback sessions to refine ideas and approaches.\n\nDay 4: Presentation and Feedback\n\nTeams present their minimum viable products to Ministry of Health representatives and other stakeholders.\nConstructive feedback and discussions on the relevance and potential impact of the tools developed.\n\nDay 5: Refinement and Next Steps\n\nProject refinement based on the feedback received.\nPlanning for further development, implementation, and potential scaling of the tools.\nClosing remarks and celebration of achievements.\n\n\n\n\nVenue\nThe hackathon will be hosted by the Center for Epidemiological Modelling and Analysis (CEMA), and will take place at:\nNairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya Google Maps\n\n\nSponsors\nWe are extremely grateful to our sponsors for the hackathon:\n\nMRC Centre for Global Infectious Disease Analysis at Imperial College London (MR/X020258/1) for their support of the hackathon, including supporting researchers from Kenya and the United Kingdom to attend and providing resources for the hackathon.\nWellcome for funding the study inspiring the hackathon (“Leveraging forecasts to optimise decision making” - 228271/Z/23/Z), which supported the original Ideathon team to travel for the hackathon.\nThe Gates Foundation (INV-044079) for supporting involvement of CEMA staff in the hackathon. ### Sponsors\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "feedback.html",
+    "href": "feedback.html",
+    "title": "Daily Feedback",
+    "section": "",
+    "text": "We hope you’re enjoying the hackathon and having a great time collaborating, learning, and innovating. Your feedback is crucial in helping us improve and make this event even better for everyone.\n\n\nWe’d love to hear your thoughts—whether it’s about the logistics, content, or anything else. Please take a moment to share your feedback through the link below. Your responses are completely anonymous, and we’ll aim to address your suggestions daily throughout the week.\nProvide Your Feedback Here\nThank you for helping us make this event the best it can be!"
+  },
+  {
+    "objectID": "feedback.html#we-value-your-feedback",
+    "href": "feedback.html#we-value-your-feedback",
+    "title": "Daily Feedback",
+    "section": "",
+    "text": "We hope you’re enjoying the hackathon and having a great time collaborating, learning, and innovating. Your feedback is crucial in helping us improve and make this event even better for everyone.\n\n\nWe’d love to hear your thoughts—whether it’s about the logistics, content, or anything else. Please take a moment to share your feedback through the link below. Your responses are completely anonymous, and we’ll aim to address your suggestions daily throughout the week.\nProvide Your Feedback Here\nThank you for helping us make this event the best it can be!"
+  },
+  {
+    "objectID": "participants/stephanie-kamunya.html",
+    "href": "participants/stephanie-kamunya.html",
+    "title": "Stephanie Kamunya",
+    "section": "",
+    "text": "Stephanie is a postdoctoral research fellow at CEMA with a PhD focusing on antimalarial drug discovery, currently applying her experience in malaria research to mathematical modelling.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/annah-mudamba.html",
+    "href": "participants/annah-mudamba.html",
+    "title": "Annah Mudamba",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/paula-christen.html",
+    "href": "participants/paula-christen.html",
+    "title": "Paula Christen",
+    "section": "",
+    "text": "Paula Christen is social scientist and infectious disease epidemiologist specialized in researching, identifying and developing interventions enabling knowledge translation from infectious disease models to public health policy and programs.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/peninna-mwongeli-nzoka.html",
+    "href": "participants/peninna-mwongeli-nzoka.html",
+    "title": "Peninna Mwongeli Nzoka",
+    "section": "",
+    "text": "Peninna Nzoka is a post-graduate researcher in Health Systems Strengthening (HSS) and a Health Policymaker/ Manager at the Ministry of Health, Kenya advocating for the translation of policy content into action.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/pius-kariuki.html",
+    "href": "participants/pius-kariuki.html",
+    "title": "Pius Kariuki",
+    "section": "",
+    "text": "Pius Kariuki is a digital health engineer at IntelliSOFT consulting, working with cross sectional data with tools like DHIS2. I am also an interoperability and integrations expert working with standards like FHIR and FHIR-data-pipes to report patient data.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/evans-omondi.html",
+    "href": "participants/evans-omondi.html",
+    "title": "Evans Omondi",
+    "section": "",
+    "text": "Evans Omondi is a mathematician and Post-Doctoral Research Scientist (Mathematical modeler) at the African Population and Health Research Center (APHRC) in Kenya. I have a broad background in the application of mathematical modeling applied to biology, with particular expertise in dynamical systems and stochastic processes for modeling infectious diseases.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/waithera-mwangi.html",
+    "href": "participants/waithera-mwangi.html",
+    "title": "Waithera Mwangi",
+    "section": "",
+    "text": "Waithera is an Administration Officer at CEMA, dedicated to ensuring smooth operations and effective coordination for trainings that take place at the organisation.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/mumbua-mutunga.html",
+    "href": "participants/mumbua-mutunga.html",
+    "title": "Mumbua Mutunga",
+    "section": "",
+    "text": "Mumbua Mutunga is a PhD student at the University of Nairobi, working on rabies and the various ways to optimise the disease interventions towards accelerating disease elimination in Kenya.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/moses-muriithi.html",
+    "href": "participants/moses-muriithi.html",
+    "title": "Moses Muriithi",
+    "section": "",
+    "text": "Moses Muriithi is an health economist and an associate professor at the university of Nairobi department of economics and development studies cost effectiveness of various diseases interventions in the era of digital technology.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/jackline-mosinya-nyaberi.html",
+    "href": "participants/jackline-mosinya-nyaberi.html",
+    "title": "Jackline Mosinya Nyaberi",
+    "section": "",
+    "text": "Nyaberi is a public health and health systems expert researcher at the School of Public Health, Jomo Kenyatta University of Agriculture and Technology. She is an accomplished Global Health leader and advisor. She is an inaugural Fellow of the Kofi Annan (She is a such a resource for the continent and beyond). She is a 24/7 mentor to aspiring leaders in professional and Personal Development. She is a holistic trainer, mentor and coach at Authentic Leadership for Development (ALD) for Corporate Solutions. She is an author of “101 Authentic Leadership Lessons: Impacting African Leaders. Jackline’s career has focused on strengthening ethics, leadership and governance, health systems, and public health leadership to improve infectious disease preparedness and to reduce mortality, morbidity, and disability in vulnerable communities. Her career accomplishments include formulating new health programs, policies, and strategies in 55 Africa Union Member states to support pandemic preparedness plans, health workforce planning, leadership and governance, and strengthening health systems. Jackline is inspired to mentor adolescents, women, and girls, provides basic school items for low-income children in rural settings, and founded Ayanna Health Foundation, a non-profit which provides mentorship, empowerment and health services to vulnerable populations and mentorship. Jackline holds a Master of Public Health from Maseno University in Kenya, a Master of Global Bioethics from Anahuac University in Mexico, and a Ph.D. in Public Health from Kenyatta University in Kenya. Jackline was named a 2021 Inaugural Kofi Annan Global Health Leadership Fellow by the Kofi Annan Foundation, Africa CDC and African Union. Long term, Jackline hopes to continue her work in strengthening public health systems in Africa and beyond and to activate the next generation to become transformational leaders. She dreams to support not only health systems in Africa to experience a paradigm shift in governance and leadership, but also to support all interconnected ecosystems of all stakeholders to foster health and wellbeing for all generations. jnyaberij@gmail.com https://www.linkedin.com/in/mosinyanyaberi/\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/stanley-sayianka.html",
+    "href": "participants/stanley-sayianka.html",
+    "title": "Stanley Sayianka",
+    "section": "",
+    "text": "Stanley Sayianka is a Data Science Research Assistant at the Centre for Epidemiological Modelling and Analysis (CEMA). His work focuses on the statistical modeling of mortality indicators.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/ivy-kombe.html",
+    "href": "participants/ivy-kombe.html",
+    "title": "Ivy Kombe",
+    "section": "",
+    "text": "Ivy Kombe is a computational epidemiologist at the Kenya Medical Research Institute - Wellcome Trust, specializing in mathematical models of infectious disease dynamics, with experience in modeling HIV, COVID-19, and respiratory syncytial virus.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/triza-shigoli.html",
+    "href": "participants/triza-shigoli.html",
+    "title": "Triza Shigoli",
+    "section": "",
+    "text": "Triza Shigoli is a Project Management and Organizational Development professional, and the Administrative Manager at the Center for Epidemiological Modelling and Analysis (CEMA), with experience in supporting the delivery of health research projects in collaboration with a multidisciplinary team of scientists and technical experts.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/kariithi-anne-wanjiku.html",
+    "href": "participants/kariithi-anne-wanjiku.html",
+    "title": "Kariithi Anne Wanjiku",
+    "section": "",
+    "text": "Anne is a computer at the Center for Epidemiological Modelling and Analysis, developing data algorithms, pipelines, and database management systems to support public health policymaking. She hopes to advance her studies in biomedical engineering to improve patient outcomes through innovative applications in computational bioengineering. By integrating her engineering expertise with her passion for healthcare accessibility, she aims to advance healthcare technology, especially in underserved communities.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/tabitha-okech.html",
+    "href": "participants/tabitha-okech.html",
+    "title": "Tabitha Okech",
+    "section": "",
+    "text": "Tabitha Okech is a dedicated Public Health Practitioner and Pharmacist based in Nairobi, Kenya, with over a decade of experience in managing preventive and promotive public health programs.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/thumbi-mwangi.html",
+    "href": "participants/thumbi-mwangi.html",
+    "title": "Thumbi Mwangi",
+    "section": "",
+    "text": "Thumbi Mwangi Co-Director & Group Lead (Applied Epidemiology) at CEMA, leading efforts in epidemiological modelling and public health policy in Africa. He is an infectious disease epidemiologist combining classical epidemiology, applied epidemiological modelling and data science to improve the speed and quality of policy decision making in human and animal health\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/dominic-makana-ocharo.html",
+    "href": "participants/dominic-makana-ocharo.html",
+    "title": "Dominic Makana Ocharo",
+    "section": "",
+    "text": "Dominic Makana Ocharo is a telecommunications engineer and data scientist based in Kenya, specializing in developing AI-driven solutions and data analytics tools to address public health challenges and optimize decision-making in resource-constrained settings.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/emmanuel-okunga.html",
+    "href": "participants/emmanuel-okunga.html",
+    "title": "Emmanuel Okunga",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/john-ojal.html",
+    "href": "participants/john-ojal.html",
+    "title": "John Ojal",
+    "section": "",
+    "text": "John Ojal is a post-doctoral researcher at the Kenya Medical Research Institute - Wellcome Trust, focusing on epidemiological modeling and health economics, with contributions to studies on pneumococcal vaccination and COVID-19 in Kenya\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/geoffrey-githinji.html",
+    "href": "participants/geoffrey-githinji.html",
+    "title": "Geoffrey Githinji",
+    "section": "",
+    "text": "Geoffrey is a research fellow at CEMA working of models of malaria interventions. In this role, he is supporting national malaria control programs by leveraging disease modelling and data analytics to inform strategic decisions and operational plans.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/amika-patel.html",
+    "href": "participants/amika-patel.html",
+    "title": "Amika Patel",
+    "section": "",
+    "text": "I am Amika Patel, a data analyst at the Nairobi West Hospital. With experience in healthcare operations and a passion for using data to drive evidence-based policies, I am keen to bridge the gap between analytics and real-world decision-making.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/cosmas-biwott.html",
+    "href": "participants/cosmas-biwott.html",
+    "title": "Cosmas Biwott",
+    "section": "",
+    "text": "Cosmas Biwott is a statistician at the University of Nairobi’s Centre for Epidemiological Modelling and Analysis (UoN-CEMA). Specializing in applying advanced statistical methods to health data, driving evidence-based decision-making to improve public health outcomes.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/veronicah-gathoni.html",
+    "href": "participants/veronicah-gathoni.html",
+    "title": "Veronicah Gathoni",
+    "section": "",
+    "text": "veronica chege is a software engineer focused on identifying and addressing gaps in the healthcare system. With a strong problem-solving mindset, she collaborates with subject-matter experts to apply engineering solutions to improve healthcare outcomes.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/katy-gaythorpe.html",
+    "href": "participants/katy-gaythorpe.html",
+    "title": "Katy Gaythorpe",
+    "section": "",
+    "text": "Dr Katy Gaythorpe is the research lead of the Vaccine Impact Modelling Consortium (VIMC, https://www.vaccineimpact.org/) and a lecturer in the epidemiology of vaccine-preventable diseases (VPDs) at Imperial College London. Her research focuses on developing mathematical models of infectious diseases such as yellow fever and others to assess the health impacts of vaccination. Dr Gaythorpe is particularly interested in the implications of climate change for climate-sensitive VPD control.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/fathiyah-hamumy.html",
+    "href": "participants/fathiyah-hamumy.html",
+    "title": "Fathiyah Hamumy",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/mutono-nyamai.html",
+    "href": "participants/mutono-nyamai.html",
+    "title": "Mutono Nyamai",
+    "section": "",
+    "text": "Mutono is a data scientist currently using applied epidemiological modelling techniques to provide evidence for control and elimination of Neglected Tropical Diseases.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/purity-kwamboka.html",
+    "href": "participants/purity-kwamboka.html",
+    "title": "Purity Kwamboka",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/augustine-masinde.html",
+    "href": "participants/augustine-masinde.html",
+    "title": "Augustine Masinde",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Shared Slides",
+    "section": "",
+    "text": "Day 1 Slides\nDay 2 Slides\nDay 3 Slides\n\n\n\n\n\nIntroduction to Git & Github\nTutorial: Git, SSH Keys, Github on Mac\nTutorial: Git, SSH Keys, Github on Windows\n\n\n\n\n\nResearch Topic Presentations"
+  },
+  {
+    "objectID": "materials.html#presentations-associated-with-this-hackathon",
+    "href": "materials.html#presentations-associated-with-this-hackathon",
+    "title": "Shared Slides",
+    "section": "",
+    "text": "Day 1 Slides\nDay 2 Slides\nDay 3 Slides"
+  },
+  {
+    "objectID": "materials.html#presentations-on-github-training",
+    "href": "materials.html#presentations-on-github-training",
+    "title": "Shared Slides",
+    "section": "",
+    "text": "Introduction to Git & Github\nTutorial: Git, SSH Keys, Github on Mac\nTutorial: Git, SSH Keys, Github on Windows"
+  },
+  {
+    "objectID": "materials.html#resources-and-documents-associated-with-this-hackathon",
+    "href": "materials.html#resources-and-documents-associated-with-this-hackathon",
+    "title": "Shared Slides",
+    "section": "",
+    "text": "Research Topic Presentations"
+  },
+  {
+    "objectID": "preread.html",
+    "href": "preread.html",
+    "title": "Pre-Hackathon Reading Material",
+    "section": "",
+    "text": "To ensure all participants are equipped to make the most of the hackathon, we’ve compiled a list of pre-read materials and resources. These resources cover essential skills for collaborative coding, R programming, and Git/GitHub workflows.\n\n\n\nGit and GitHub: Collaborative coding will be a core component of the hackathon. Please review the following materials to ensure you’re familiar with these tools:\n\nIntroduction to GitHub\nGitHub for Beginners\nMore GitHub Tips\n\nR Programming: Many of the hackathon activities will involve R. The following resources will help you get up to speed:\n\nIntroduction to R\nR for Data Science\n\nR Package Development: For those interested in contributing to package development or using custom R packages:\n\nR Packages Book\n\n\n\n\n\nBefore the event, ensure the following are installed and set up on your laptop:\n\nR\nRStudio\nGit\n\nIf you need assistance with installation, refer to the guides linked above, or feel free to reach out to us prior to the hackathon.\n\n\n\nFor any queries about the resources or preparation, contact:\n\nWaithera Mwangi: waithera.mwangi@cema.africa\nNoel Likalamu: noel.likalamu@cema.africa\n\nFor any queries about setting your software up, contact:\n\nOJ Watson: o.watson15@imperial.ac.uk\n\nBy familiarising yourself with these resources, you’ll be ready to contribute effectively and make the most of your hackathon experience.\nWe look forward to seeing you all in Nairobi soon!"
+  },
+  {
+    "objectID": "preread.html#prepare-for-the-hackathon",
+    "href": "preread.html#prepare-for-the-hackathon",
+    "title": "Pre-Hackathon Reading Material",
+    "section": "",
+    "text": "To ensure all participants are equipped to make the most of the hackathon, we’ve compiled a list of pre-read materials and resources. These resources cover essential skills for collaborative coding, R programming, and Git/GitHub workflows.\n\n\n\nGit and GitHub: Collaborative coding will be a core component of the hackathon. Please review the following materials to ensure you’re familiar with these tools:\n\nIntroduction to GitHub\nGitHub for Beginners\nMore GitHub Tips\n\nR Programming: Many of the hackathon activities will involve R. The following resources will help you get up to speed:\n\nIntroduction to R\nR for Data Science\n\nR Package Development: For those interested in contributing to package development or using custom R packages:\n\nR Packages Book\n\n\n\n\n\nBefore the event, ensure the following are installed and set up on your laptop:\n\nR\nRStudio\nGit\n\nIf you need assistance with installation, refer to the guides linked above, or feel free to reach out to us prior to the hackathon.\n\n\n\nFor any queries about the resources or preparation, contact:\n\nWaithera Mwangi: waithera.mwangi@cema.africa\nNoel Likalamu: noel.likalamu@cema.africa\n\nFor any queries about setting your software up, contact:\n\nOJ Watson: o.watson15@imperial.ac.uk\n\nBy familiarising yourself with these resources, you’ll be ready to contribute effectively and make the most of your hackathon experience.\nWe look forward to seeing you all in Nairobi soon!"
+  },
+  {
+    "objectID": "participants/preston-osoro.html",
+    "href": "participants/preston-osoro.html",
+    "title": "Preston Osoro",
+    "section": "",
+    "text": "Preston is a software developer with expertise in building APIs and data management systems, including patient management APIs. He is passionate about leveraging technology to solve real-world public health challenges.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/florence-akinyi.html",
+    "href": "participants/florence-akinyi.html",
+    "title": "Florence Akinyi",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/noel-likalamu.html",
+    "href": "participants/noel-likalamu.html",
+    "title": "Noel Likalamu",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/john-nalwa.html",
+    "href": "participants/john-nalwa.html",
+    "title": "John Nalwa",
+    "section": "",
+    "text": "John Wakhungu is a software developer at InnoSoft Technologies, specializing in custom software development, data analysis, and web applications. He is passionate about leveraging technology to solve real-world challenges, including public health innovation and data-driven solutions.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/salmon-gowa.html",
+    "href": "participants/salmon-gowa.html",
+    "title": "Salmon Gowa",
+    "section": "",
+    "text": "Salmon Gowa is a software developer with a passion for using technology to address public health challenges. Proficient in software development and data analysis, he’s eager to create impactful, open-source tools to support evidence-based policymaking in Kenya.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/pete-winskill.html",
+    "href": "participants/pete-winskill.html",
+    "title": "Pete Winskill",
+    "section": "",
+    "text": "Pete Winskill is a Bill & Melinda Gates Foundation-funded research fellow at the MRC Centre for Global Infectious Disease Analysis, Imperial College London and the Director of the Translational Modelling Hub. He leads the development of a global malaria modelling framework, linking the Imperial malariasimulation model to primary data to support global, national, and sub-national malaria modelling requests.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/kibet-immanuel-ngeno.html",
+    "href": "participants/kibet-immanuel-ngeno.html",
+    "title": "Kibet Immanuel Ngeno",
+    "section": "",
+    "text": "I am kibet Immanuel, a full-stack software engineer with a passion for developing innovative solutions that bridge technology and real-world needs. My expertise lies in creating scalable and impactful software especially in collaborative environments.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/muchiri-antony-mutwiri.html",
+    "href": "participants/muchiri-antony-mutwiri.html",
+    "title": "Muchiri Antony Mutwiri",
+    "section": "",
+    "text": "Muchiri Antony M is a software engineer intern at CEMA, where he works on optimizing various aspects of the CEMA Analytics Hub. With a strong foundation in technology and problem-solving, he is dedicated to developing impactful solutions that address real-world challenges.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/martin-m-thendu.html",
+    "href": "participants/martin-m-thendu.html",
+    "title": "Martin M Thendu",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/peter-mugo.html",
+    "href": "participants/peter-mugo.html",
+    "title": "Peter Mugo",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/jeanette-dawa.html",
+    "href": "participants/jeanette-dawa.html",
+    "title": "Jeanette Dawa",
+    "section": "",
+    "text": "Jeanette Dawa (MBChB, MSc, PhD) is a public health specialist/epidemiologist with a background in medicine, public health and infectious disease modelling.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/ryan-musasia.html",
+    "href": "participants/ryan-musasia.html",
+    "title": "Ryan Musasia",
+    "section": "",
+    "text": "I’m a freshly minted Data Scientist who just escaped the clutches of academia and is ready to conquer the data-driven world with wit, charm, and a whole lot of Python magic. My expertise lies in unraveling intricate data puzzles rather than solving crimes. My core competencies revolve around employing machine learning, statistical analysis, and advanced methodologies to extract valuable insights from complex datasets. My passion lies in uncovering concealed information within data and converting it into actionable intelligence that drives informed decision-making. Rest assured, there’s no sorcery involved (well, at least not beyond the occasional code magic).\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/fred-nyamitago-monari.html",
+    "href": "participants/fred-nyamitago-monari.html",
+    "title": "Fred Nyamitago Monari",
+    "section": "",
+    "text": "Fred Nyamitago Monari is a statistician and lecturer at Kisii University with extensive expertise in applied statistics, epidemiological modeling, and public health data analysis. His work focuses on leveraging advanced statistical methods and interdisciplinary collaboration to address pressing challenges in health, climate, and environmental research.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/michelle-mumbua.html",
+    "href": "participants/michelle-mumbua.html",
+    "title": "Michelle Mumbua",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/oliver-watson.html",
+    "href": "participants/oliver-watson.html",
+    "title": "Oliver (OJ) Watson",
+    "section": "",
+    "text": "OJ Watson is a lecturer and Schmidt AI in science fellow at Imperial College London, with a background in infectious disease modelling in malaria, and interest in pandemic preparedness.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/paul-lietar.html",
+    "href": "participants/paul-lietar.html",
+    "title": "Paul Lietar",
+    "section": "",
+    "text": "Paul Liétar is a senior research software engineer at Imperial College London, working on building software tools to assist scientists in their research.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/george-kamundia-mbugua.html",
+    "href": "participants/george-kamundia-mbugua.html",
+    "title": "George Kamundia Mbugua",
+    "section": "",
+    "text": "George Kamundia is a data science intern at the Center for Epidemiological Modelling and Analysis (CEMA), applying data analytics to inform public health decision-making. He focuses on developing predictive models and tools that bridge the gap between data science and health policy, contributing to more effective disease control and prevention strategies.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/omar-ahmed.html",
+    "href": "participants/omar-ahmed.html",
+    "title": "Omar Ahmed",
+    "section": "",
+    "text": "My name is Omar Ahmed, and I am currently pursuing my Master’s in Public Health. I work in public health in Mombasa County, where I focus on designing and implementing health programs to improve community well-being. My thesis research explores the association between malaria prevalence in children under five and demographic, socio-economic, and environmental factors in Mogadishu. I am passionate about using evidence-based approaches to tackle public health challenges, especially in vulnerable populations. I’m excited to be here and look forward to learning and collaborating with all of you.”\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/bonventure-ameyo.html",
+    "href": "participants/bonventure-ameyo.html",
+    "title": "Bonventure Ameyo",
+    "section": "",
+    "text": "Dr. Ameyo has gathered experience both in the practice and delivery of healthcare, its programming and management in the public sector in Kenya, currently working as the deputy director medical services in Turkana County, Kenya.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/sabine-van-elsland.html",
+    "href": "participants/sabine-van-elsland.html",
+    "title": "Sabine Van Elsland",
+    "section": "",
+    "text": "Sabine van Elsland is the external relationships and communications manager at the MRC Centre for Global Infectious Disease Analysis at Imperial College London. Sabine is a trained infectious disease epidemiologist with a background in public health and health systems research. She has a passion for sustainable knowledge translation (evidence to policy decision making) and transparent, accessible science communication.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/arani-bonsoul.html",
+    "href": "participants/arani-bonsoul.html",
+    "title": "Arani Bonsoul",
+    "section": "",
+    "text": "I am Bonsoul Arani Bosire, a data scientist and analyst with over three years of experience in the data industry. I specialize in leveraging machine learning, statistical analysis, and scalable Python solutions to drive business growth and deliver actionable insights. My expertise spans data visualization, competitive analysis, and sales forecasting, enabling me to improve processes, optimize resources, and enhance decision-making.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/lilith-whittles.html",
+    "href": "participants/lilith-whittles.html",
+    "title": "Lilith Whittles",
+    "section": "",
+    "text": "Lilith Whittles is a researcher at Imperial College London, studying the transmission of infectious diseases through human populations. Her work spans a broad spectrum: from epidemic response to mpox, COVID-19 and group A streptococcus in the UK and Europe, to reducing the impact of globally endemic sexually transmitted infections such as gonorrhoea, HIV and HSV-2.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/francis-ondicho-motiri.html",
+    "href": "participants/francis-ondicho-motiri.html",
+    "title": "Francis Ondicho Motiri",
+    "section": "",
+    "text": "Francis Motiri is a postgraduate in the field of epidemiology and a holder of a master of science in medical statistics from the University of Nairobi. Currently working in the ministry of health as health work force analyst .\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/ruth-mc-cabe.html",
+    "href": "participants/ruth-mc-cabe.html",
+    "title": "Ruth Mc Cabe",
+    "section": "",
+    "text": "Ruth McCabe is a statistician and mathematical modeller at Imperial College London specialising in outbreak response at the science-policy interface.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/vincent-mariita.html",
+    "href": "participants/vincent-mariita.html",
+    "title": "Vincent Mariita",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/philip-muchemi.html",
+    "href": "participants/philip-muchemi.html",
+    "title": "Philip Muchemi",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "participants/giovanni-charles.html",
+    "href": "participants/giovanni-charles.html",
+    "title": "Giovanni Charles",
+    "section": "",
+    "text": "Giovanni Charles is a software/ML engineer working on surrogates for infectious disease transmission models for inference and optimisation. He is interested in normalising flows, LLM interfaces for ID models, surrogate modelling, Bayesian inference, time-series prediction, differentiable agent based modelling and JAX.\n\n\n Back to top"
+  },
+  {
+    "objectID": "participants/lydiah-khalayi.html",
+    "href": "participants/lydiah-khalayi.html",
+    "title": "Lydiah Khalayi",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "flow.html",
+    "href": "flow.html",
+    "title": "Hackathon Process",
+    "section": "",
+    "text": "Hackathon Stages\nThe hackathon process consisted of eight key stages, each crucial for ensuring the success of the event and its long-term impact. Below is a flow diagram outlining these stages, with space to add more information about each.\n\n\n\n\n\n\n\nHackathonFlow\n\n\n\nStep1\n\n1. Challenge Topic Identification\nby CEMA\n\n\n\nStep2\n\n2. Open Call for Participant\nApplications\n\n\n\nStep1-&gt;Step2\n\n\n\n\n\nnote1\n\nDetails:\n- Identify public health challenges\n- Align with CEMA expertise\n\n\n\nStep1-&gt;note1\n\n\n\n\nStep3\n\n3. Identification of technical mentors\n\n\n\nStep2-&gt;Step3\n\n\n\n\n\nnote2\n\nDetails:\n- Open application for diverse participants\n- Outreach to researchers and developers\n\n\n\nStep2-&gt;note2\n\n\n\n\nStep4\n\n4. Participant Welcome\n\n\n\nStep3-&gt;Step4\n\n\n\n\n\nnote3\n\nDetails:\n- Matching challenge areas to Kenyan \n+ Imperial facilitators\n\n\n\nStep3-&gt;note3\n\n\n\n\nStep5\n\n5. Challenge Refinement\n\n\n\nStep4-&gt;Step5\n\n\n\n\n\nnote4\n\nDetails:\n- Orientation session\n- Overview of goals and logistics\n\n\n\nStep4-&gt;note4\n\n\n\n\nStep6\n\n6. Team Formation\n\n\n\nStep5-&gt;Step6\n\n\n\n\n\nnote5\n\nDetails:\n- Clarify challenges with input\n- Finalise scope and focus\n\n\n\nStep5-&gt;note5\n\n\n\n\nStep7\n\n7. Supported Group Work\n\n\n\nStep6-&gt;Step7\n\n\n\n\n\nnote6\n\nDetails:\n- Form teams with balanced expertise\n- Match participants by interests\n\n\n\nStep6-&gt;note6\n\n\n\n\nStep8\n\n8. Dissemination to Decision-Makers\n\n\n\nStep7-&gt;Step8\n\n\n\n\n\nnote7\n\nDetails:\n- Mentor-supported teamwork\n- Iterative solution development\n\n\n\nStep7-&gt;note7\n\n\n\n\nStep9\n\n9. Future Work\n\n\n\nStep8-&gt;Step9\n\n\n\n\n\nnote8\n\nDetails:\n- Present solutions to decision-makers\n- Gather actionable feedback\n\n\n\nStep8-&gt;note8\n\n\n\n\nnote9\n\nDetails:\n- Encourage continued project work\n- Explore conference submissions\n\n\n\nStep9-&gt;note9\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Hackathon Program",
+    "section": "",
+    "text": "Bridging the Gap: Applied Infectious Disease Epidemiology Tools to Support Evidence-Informed Decision-Making\n\nDate: 20 – 24 January 2025\nLocation: Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya\nLocation Map"
+  },
+  {
+    "objectID": "schedule.html#ℹ-event-details",
+    "href": "schedule.html#ℹ-event-details",
+    "title": "Hackathon Program",
+    "section": "",
+    "text": "Bridging the Gap: Applied Infectious Disease Epidemiology Tools to Support Evidence-Informed Decision-Making\n\nDate: 20 – 24 January 2025\nLocation: Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya\nLocation Map"
+  },
+  {
+    "objectID": "schedule.html#breaks",
+    "href": "schedule.html#breaks",
+    "title": "Hackathon Program",
+    "section": "☕ & 🍴 Breaks",
+    "text": "☕ & 🍴 Breaks\n\n☕️: Tea breaks: 10.30 – 11.00, 15.30 – 16.00\n🍴: Lunch breaks: 13.00 – 14.00"
+  },
+  {
+    "objectID": "schedule.html#schedule",
+    "href": "schedule.html#schedule",
+    "title": "Hackathon Program",
+    "section": "🗓 Schedule",
+    "text": "🗓 Schedule\n\nDay 1: Foundations and Team Formation\n\n8.30 – 9.00: Registration\n9.00 – 10.30: Introductions & Ice breaker activity\n11.00 – 12.00: Topic presentations\n\nTopic Presentations\n\n12.00 – 13.00: Topic ideation activity\n14.00 – 15.30: Skills matching & team building\n16.00 – 17.00: End of Day 1 Recap\n\n\n\nDays 2-3: Coding and Collaboration\n\n8.30 – 9.00: Grounding and plan for the day\n9.00 – 10.00 (Day 2 only): Git and GitHub refresher\n8.30 – 17.00: Dedicated time for project work, with guidance from facilitators.\n16.00 – 17.00: Daily group update and plan for the next day\n\n\n\nDay 4: Presentation and Feedback\n\n8.30 – 13.00: Dedicated time for project work, with guidance from facilitators.\n14.00 – 17.00: Presentations and feedback\n18.30: Social/Dinner at Gaucho (Gaucho - Nairobi)\n\n\n\nDay 5: Refinement and Next Steps\n\n8.30 – 16.00: Project refinement based on feedback received. Planning for further development and implementation of the tools.\n17.00: Closing remarks and thanks"
+  },
+  {
+    "objectID": "register.html",
+    "href": "register.html",
+    "title": "Registration - Closed",
+    "section": "",
+    "text": "• We want to: Create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.\n• We are looking for:\n\nPublic Health Decision-Makers: Ministry of Health officials and public health specialists who provide insights based on real-world public health needs and ensure developed tools address practical challenges.\nDevelopers and Technical Experts: Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.\nAcademics and Researchers: Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.\n\n• We aim to: maximize diversity in skills, experiences, and people.\n• Applications close on the 5th December 2024.\n\n\nThere is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form.\n\n\n\nRegistration Is Now Closed!\nPlease register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds."
+  },
+  {
+    "objectID": "register.html#join-us",
+    "href": "register.html#join-us",
+    "title": "Registration - Closed",
+    "section": "",
+    "text": "• We want to: Create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.\n• We are looking for:\n\nPublic Health Decision-Makers: Ministry of Health officials and public health specialists who provide insights based on real-world public health needs and ensure developed tools address practical challenges.\nDevelopers and Technical Experts: Individuals proficient in R programming, version control using Git and GitHub, epidemiological modelling, and software development.\nAcademics and Researchers: Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.\n\n• We aim to: maximize diversity in skills, experiences, and people.\n• Applications close on the 5th December 2024.\n\n\nThere is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form.\n\n\n\nRegistration Is Now Closed!\nPlease register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#introduction",
+    "href": "slides/git_install_mac.html#introduction",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to the guide for setting up Git and GitHub on Mac. This guide assumes no prior coding or Git experience.\nWe will cover:\n\nDownloading and installing Git.\nVerifying the installation.\nGenerating an SSH key.\nAdding the SSH key to GitHub.\nLinking the SSH key with RStudio."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-1-install-git",
+    "href": "slides/git_install_mac.html#step-1-install-git",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 1: Install Git",
+    "text": "Step 1: Install Git\n\nOpen the Terminal application on your Mac.\nCheck if Git is already installed by running:\ngit --version\nIf Git is not installed, you will see a prompt to install the Xcode Command Line Tools:\n\nClick Install and follow the on-screen instructions.\n\nOnce installed, verify Git by running:\ngit --version\n\nYou should see a version number, e.g., git version 2.x.x."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-2-generate-an-ssh-key",
+    "href": "slides/git_install_mac.html#step-2-generate-an-ssh-key",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 2: Generate an SSH Key",
+    "text": "Step 2: Generate an SSH Key\n\nOpen the Terminal application.\nRun the following command:\nssh-keygen -t ed25519 -C \"your_email@example.com\"\n\nReplace your_email@example.com with your GitHub email address.\n\nWhen prompted:\n\nPress Enter to save the key to the default location.\n(Optional) Enter a passphrase for added security.\n\nYour SSH key will be saved to a default location, e.g., /Users/YourName/.ssh/id_ed25519."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-3-add-the-ssh-key-to-github",
+    "href": "slides/git_install_mac.html#step-3-add-the-ssh-key-to-github",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 3: Add the SSH Key to GitHub",
+    "text": "Step 3: Add the SSH Key to GitHub\n\nDisplay your public SSH key:\n\nRun the following command in Terminal:\ncat ~/.ssh/id_ed25519.pub\nCopy the output (Cmd + C).\n\nLog in to your GitHub account.\nGo to Settings &gt; SSH and GPG keys.\nClick New SSH key:\n\nTitle: Give your key a name (e.g., “My Mac”).\nKey: Paste the copied key into the text box.\n\nClick Add SSH key.\nConfirm your password if prompted."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-4-test-the-ssh-connection",
+    "href": "slides/git_install_mac.html#step-4-test-the-ssh-connection",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 4: Test the SSH Connection",
+    "text": "Step 4: Test the SSH Connection\n\nOpen the Terminal application.\nRun the following command:\nssh -T git@github.com\nIf successful, you will see a message like:\nHi username! You've successfully authenticated, but GitHub does not provide shell access.\n\nIf there’s an error, check that the SSH key was added correctly."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-5-link-ssh-key-with-rstudio",
+    "href": "slides/git_install_mac.html#step-5-link-ssh-key-with-rstudio",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 5: Link SSH Key with RStudio",
+    "text": "Step 5: Link SSH Key with RStudio\n\nOpen RStudio.\nGo to Tools &gt; Global Options.\nIn the left-hand menu, click on Git/SVN.\nCheck the box labeled Enable version control interface for RStudio.\nUnder the Git executable field, ensure the path points to the Git installation, e.g., /usr/bin/git.\nClick Apply and then OK."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-6-configure-ssh-key-in-rstudio",
+    "href": "slides/git_install_mac.html#step-6-configure-ssh-key-in-rstudio",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 6: Configure SSH Key in RStudio",
+    "text": "Step 6: Configure SSH Key in RStudio\n\nOpen the Terminal tab in RStudio (found at the bottom-right of the screen).\nVerify the SSH key is correctly set up by running:\nssh -T git@github.com\nIf successful, proceed to the next step."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#step-7-clone-a-repository-in-rstudio",
+    "href": "slides/git_install_mac.html#step-7-clone-a-repository-in-rstudio",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Step 7: Clone a Repository in RStudio",
+    "text": "Step 7: Clone a Repository in RStudio\n\nGo to your GitHub repository.\nClick the green Code button and select SSH.\nCopy the SSH link (e.g., git@github.com:username/repo.git).\nIn RStudio, go to File &gt; New Project &gt; Version Control &gt; Git.\nPaste the SSH link into the Repository URL field.\nChoose a directory to save the project and click Create Project."
+  },
+  {
+    "objectID": "slides/git_install_mac.html#congratulations",
+    "href": "slides/git_install_mac.html#congratulations",
+    "title": "Setting Up Git and GitHub on Mac",
+    "section": "Congratulations!",
+    "text": "Congratulations!\nYou have successfully:\n\nInstalled Git.\nVerified the installation.\nCreated and added an SSH key to GitHub.\nLinked the SSH key with RStudio.\n\nYou are now ready to use the Git GUI in RStudio to manage your projects and collaborate effectively!"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#introduction-to-git",
+    "href": "slides/git_intro_slides.html#introduction-to-git",
+    "title": "Introduction to Git",
+    "section": "Introduction to Git",
+    "text": "Introduction to Git\n\nGit is a version control software (VCS).\nVCS: Takes a picture of what your files look like and stores that in memory.\nThis allows us to look back and see how our files have changed over time."
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#why-do-we-need-version-control",
+    "href": "slides/git_intro_slides.html#why-do-we-need-version-control",
+    "title": "Introduction to Git",
+    "section": "Why do we need version control?",
+    "text": "Why do we need version control?"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#version-control-metadata-history",
+    "href": "slides/git_intro_slides.html#version-control-metadata-history",
+    "title": "Introduction to Git",
+    "section": "Version control: metadata + history",
+    "text": "Version control: metadata + history\n\nwho: name of person making changes\nwhen: date and time change\nwhat: contents of files changed\nwhy: motivation for the change"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#is-it-just-like-a-backup",
+    "href": "slides/git_intro_slides.html#is-it-just-like-a-backup",
+    "title": "Introduction to Git",
+    "section": "Is it just like a backup?",
+    "text": "Is it just like a backup?\n\nWhy not just use Dropbox?\nOr Google Drive?\nThese are also great to use, and Google docs for example has version control where changes are tracked.\nHowever, Git and Github are made specifically for tracking how codebases have changed."
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#installing-git",
+    "href": "slides/git_intro_slides.html#installing-git",
+    "title": "Introduction to Git",
+    "section": "Installing Git",
+    "text": "Installing Git\nGit supports all operating systems. You can install it using command-line tools or directly download and install the setup.\nhttps://git-scm.com/book/en/v2/Getting-Started-Installing-Git\n\nLinux\n\nFor Debian/Ubuntu-based operating systems use apt-get install git or similar.\n\nmacOS\n\nIf you have homebrew installed, use this command to download and install Git: brew install git.\n\nWindows\n\nInstalling Git on Windows is hassle-free. Just go to the download page"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#how-to-check-if-you-have-installed-git",
+    "href": "slides/git_intro_slides.html#how-to-check-if-you-have-installed-git",
+    "title": "Introduction to Git",
+    "section": "How to check if you have installed Git?",
+    "text": "How to check if you have installed Git?\nOpen a terminal, type git --version and press enter"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#link-git-to-your-github",
+    "href": "slides/git_intro_slides.html#link-git-to-your-github",
+    "title": "Introduction to Git",
+    "section": "Link Git to your Github",
+    "text": "Link Git to your Github\ngit config --global user.name \"your-user-name\"\ngit config --global user.email \"your@email.com\""
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#basic-git-terms",
+    "href": "slides/git_intro_slides.html#basic-git-terms",
+    "title": "Introduction to Git",
+    "section": "Basic git terms",
+    "text": "Basic git terms\n\nrepository: (or “repo”) git’s database. Might be local or on GitHub\nworking copy: all the files you actually work with\ncommit:\n\nas a noun: a snapshot of all the files in the repository\nas a verb: create a snapshot\n\nhash: fingerprint of a file/repository"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#git-history",
+    "href": "slides/git_intro_slides.html#git-history",
+    "title": "Introduction to Git",
+    "section": "Git history",
+    "text": "Git history"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#interacting-with-git",
+    "href": "slides/git_intro_slides.html#interacting-with-git",
+    "title": "Introduction to Git",
+    "section": "Interacting with Git",
+    "text": "Interacting with Git\n\nFrom the command line - always good to be comfortable with this\nFrom a GUI\n\nRStudio has one built-in\nMost IDEs do now (e.g. VSCode or Positron)\n\nVia GitHub"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#basic-git-commands",
+    "href": "slides/git_intro_slides.html#basic-git-commands",
+    "title": "Introduction to Git",
+    "section": "Basic git commands",
+    "text": "Basic git commands\n\ngit init: initialise a repository\ngit add: stage files\ngit commit: add staged files to the repository by making a commit\ngit log: see an overview of what changed\ngit diff: see details of what changed"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#end-of-part-1",
+    "href": "slides/git_intro_slides.html#end-of-part-1",
+    "title": "Introduction to Git",
+    "section": "End of part 1",
+    "text": "End of part 1"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#what-makes-a-commit",
+    "href": "slides/git_intro_slides.html#what-makes-a-commit",
+    "title": "Introduction to Git",
+    "section": "What makes a commit?",
+    "text": "What makes a commit?"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#ideally",
+    "href": "slides/git_intro_slides.html#ideally",
+    "title": "Introduction to Git",
+    "section": "Ideally",
+    "text": "Ideally\n\nOne set of related changes\nCommit message explains why they were needed\nShort title (&lt;60 characters)\nBlank line, then any further discussion"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#not-everything-goes-in-git",
+    "href": "slides/git_intro_slides.html#not-everything-goes-in-git",
+    "title": "Introduction to Git",
+    "section": "Not everything goes in git",
+    "text": "Not everything goes in git\n\nLarge files\nPasswords\nOutputs (sometimes)\nUse .gitignore"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#remote-git-commands",
+    "href": "slides/git_intro_slides.html#remote-git-commands",
+    "title": "Introduction to Git",
+    "section": "Remote git commands",
+    "text": "Remote git commands\n\ngit clone: download a repository\ngit fetch: update remote changes but don’t apply them\ngit pull: update remote changes and do apply them\ngit push: send your changes upstream\ngit remote: inspect / change details of upstream repositories\ngit branch: inspect / create a branch\ngit checkout -b: create a branch and change to it (yes this is stupid)\ngit merge: merge branches"
+  },
+  {
+    "objectID": "slides/git_intro_slides.html#rstudio-and-github",
+    "href": "slides/git_intro_slides.html#rstudio-and-github",
+    "title": "Introduction to Git",
+    "section": "Rstudio and GitHub",
+    "text": "Rstudio and GitHub\n\nNot all commands are supported but all you will likely need\nUse the shell for the rest"
+  },
+  {
+    "objectID": "slides/day5_slides.html#welcome-to-day-5",
+    "href": "slides/day5_slides.html#welcome-to-day-5",
+    "title": "Day 5",
+    "section": "Welcome to Day 5",
+    "text": "Welcome to Day 5\n\nChallenge Presentation Day\nStructure for the presentations:\n\n15 minutes for presentation\n5 minutes for question\n\nWe will break for tea and coffee half way\nAfter the presentations we will conclude with a set of thanks and reflections on the hackathon."
+  },
+  {
+    "objectID": "slides/day5_slides.html#what-aspects-made-the-hackathon-effective",
+    "href": "slides/day5_slides.html#what-aspects-made-the-hackathon-effective",
+    "title": "Day 5",
+    "section": "1. What aspects made the hackathon effective?",
+    "text": "1. What aspects made the hackathon effective?\n\nKey Themes:\n\nTeam Diversity: Cross-disciplinary groups brought different perspectives and skillsets.\nClear Goals: Having structured daily goals and well-defined problem statements was valued.\nInteractive Environment: Activities like icebreakers, debriefs and engaging decision-makers fostered collaboration.\n\nSupporting Quotes:\n\n“Being paired up with people of different backgrounds and skills was useful for cohesion of the team.” — Fred Nyamitago Monari\n“The challenges were clearly defined, making it easy to hit the ground running.” — Pete Winskill\n“Regular breaks, ice breaking, collaboration, Hacking itself and Debriefing.” — Tabitha Okech"
+  },
+  {
+    "objectID": "slides/day5_slides.html#what-aspects-of-the-hackathon-could-have-been-improved",
+    "href": "slides/day5_slides.html#what-aspects-of-the-hackathon-could-have-been-improved",
+    "title": "Day 5",
+    "section": "2. What aspects of the hackathon could have been improved?",
+    "text": "2. What aspects of the hackathon could have been improved?\n\nKey Themes:\n\nMore Time: Many participants wanted extended durations for deeper work.\nPre-event Preparation: Better onboarding and earlier dissemination of problem statements.\nEnvironment: Preferences for better-lit and outdoor spaces for breaks.\n\nSupporting Quotes:\n\n“Hopefully, the real work could start sooner, by day 1 or 2 latest to allow more time to build the models and achieve quality work.” — Fred Nyamitago Monari\n“We should increase the time of the hackathon to 2 weeks to allow effective deliverables.” — Lilith Whittles\n“The venue was good, but a room with daylight would be extremely beneficial to the state of the participants.” — Anonymous"
+  },
+  {
+    "objectID": "slides/day5_slides.html#what-aspects-helped-teams-to-collaborate-effectively",
+    "href": "slides/day5_slides.html#what-aspects-helped-teams-to-collaborate-effectively",
+    "title": "Day 5",
+    "section": "3. What aspects helped teams to collaborate effectively?",
+    "text": "3. What aspects helped teams to collaborate effectively?\n\nKey Themes:\n\nInterdisciplinary Collaboration: Teams with diverse roles (developers, policymakers, facilitators) functioned effectively.\nIcebreakers and Social Activities: Jenga and informal group activities eased communication barriers.\nDecision-Maker Involvement: Having decision-makers within teams improved the relevance of outcomes.\n\nSupporting Quotes:\n\n“The team organisation balance… a software engineer, data scientist, facilitators, and the decision maker in one table.” — Anonymous\n“Having the decision-makers in the room was excellent. Icebreaking activities helped us make progress.” — Anonymous\n“The family groups created with hackers, facilitators, and decision-makers captured the reality of the problems we were solving.” — John Ojal"
+  },
+  {
+    "objectID": "slides/day5_slides.html#what-were-the-merits-of-the-hackathon-for-participants",
+    "href": "slides/day5_slides.html#what-were-the-merits-of-the-hackathon-for-participants",
+    "title": "Day 5",
+    "section": "4. What were the merits of the hackathon for participants?",
+    "text": "4. What were the merits of the hackathon for participants?\n\nKey Themes:\n\nSkill Development: Practical learning in coding, modelling, and collaboration.\nNetworking Opportunities: Building connections with professionals across fields.\nEnjoyable Environment: Participants felt part of a family and enjoyed working in their families.\n\nSupporting Quotes:\n\n“Learning Git and GitHub, coding aspects like commit, push, pull, and merge.” — Katy Gaythorpe\n“Meeting, working, learning from, and teaching the team!” — Anonymous\nThe participants were well-motivated and great fun to work with—the Jenga and introductory sessions meant we had quite a relaxed atmosphere, and this really helped with generating ideas.” — Francis Motiri"
+  },
+  {
+    "objectID": "slides/day5_slides.html#what-components-were-effectivecould-be-improved-for-knowledge-translation",
+    "href": "slides/day5_slides.html#what-components-were-effectivecould-be-improved-for-knowledge-translation",
+    "title": "Day 5",
+    "section": "5. What components were effective/could be improved for knowledge translation?",
+    "text": "5. What components were effective/could be improved for knowledge translation?\n\nKey Themes:\n\nFocused Problem Statements: Clear and concise problems made the tools practical.\nLonger Working Time: Extended durations were suggested for deeper exploration and refinement.\nPre-event Planning: Early provision of datasets and structured pre-hackathon planning were beneficial (but could have been even earlier!).\n\nSupporting Quotes:\n\n“Focused problem statements streamline efforts and lead to more impactful outcomes.” — Anonymous\n“In the future, it could be helpful to have more time for testing and refining the final solutions. This will allow the participants to see the project through to a higher level of innovation.” — John Ojal\n“Plan and work pre-hackathon to help with working plans and structure.” — Peter Waweru Mugo\n“Receiving datasets ahead of time might have helped a little.” — Anonymous"
+  },
+  {
+    "objectID": "slides/day5_slides.html#hackathon-milestones-reached",
+    "href": "slides/day5_slides.html#hackathon-milestones-reached",
+    "title": "Day 5",
+    "section": "Hackathon Milestones Reached:",
+    "text": "Hackathon Milestones Reached:\n\nTotal number of Github Commits across groups:\n\n542 Commits 🎇\n\nTotal individuals who committed code:\n\n36 Individuals 💑\n\nTotal number of biscuits consumed:\n\n196 Biscuits (at least…) 🍪"
   },
   {
     "objectID": "slides/day2_slides.html#welcome-to-day-2",
