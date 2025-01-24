@@ -28,20 +28,15 @@ The hackathon aims to include a diverse audience, who will either contribute to 
   - Sharing of real-world challenges presented by Ministry of Health, health organizations and/or public health specialists.
   - Formation of interdisciplinary teams focused on specific public health challenges.
   
-- **Days 2-3: Coding and Collaboration**
+- **Days 2-4: Coding and Collaboration**
   - Overview of Git, Github and collaborative coding practices (GitHub training should have been completed before attending the course).
   - Dedicated project work time with guidance from experienced facilitators.
   - Continuous interaction and feedback sessions to refine ideas and approaches.
   
-- **Day 4: Presentation and Feedback**
+- **Day 5: Presentation, Feedback and Next Steps**
   - Teams present their minimum viable products to Ministry of Health representatives and other stakeholders.
   - Constructive feedback and discussions on the relevance and potential impact of the tools developed.
   
-- **Day 5: Refinement and Next Steps**
-  - Project refinement based on the feedback received.
-  - Planning for further development, implementation, and potential scaling of the tools.
-  - Closing remarks and celebration of achievements.
-
 ### Venue
 
 The hackathon will be hosted by the Center for Epidemiological Modelling and Analysis (CEMA), and will take place at:

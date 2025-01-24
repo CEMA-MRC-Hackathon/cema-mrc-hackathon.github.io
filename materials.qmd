@@ -11,6 +11,7 @@ from: markdown+emoji
 - [Day 1 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/intro_slides.html)
 - [Day 2 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/day2_slides.html)
 - [Day 3 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/day3_slides.html)
+- Day 4 Slides (same as Day 3)
 - [Day 5 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/day5_slides.html)
 
 ## Presentations on Github Training

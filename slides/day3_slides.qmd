@@ -1,7 +1,7 @@
 ---
 title: "Day 3"
 author: "OJ Watson"
-date: "2025-01-21"
+date: "2025-01-22"
 from: markdown+emoji
 format:
   revealjs:
@@ -11,7 +11,7 @@ format:
 
 ---
 
-## Welcome to Day 3  {.smaller}
+## Welcome to Day 3 {.smaller}
 
 :::: {.columns}
 
@@ -36,7 +36,7 @@ format:
 
 ---
 
-## Days 3 Schedule  {.smaller}
+## Day 3 Schedule  {.smaller}
 
 - Coding and Collaboration
   - **8.30 – 9.00:** Grounding and plan for the day
