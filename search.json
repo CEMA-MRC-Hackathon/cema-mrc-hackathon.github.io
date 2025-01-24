@@ -340,21 +340,49 @@
     "href": "conference.html",
     "title": "Hackathon Outcomes and Opportunities",
     "section": "",
-    "text": "Our hackathon is designed not only to address immediate public health challenges but also to inspire long-term innovation and collaboration. We hope that the groups formed during the event will continue their work, potentially refining their projects into impactful tools or ideas. One way to showcase your work further is by submitting to relevant conferences, sharing insights with the broader scientific and public health community.\nTo help, we’ve gathered a list of potential conferences where you could present your work. Explore the map below to see the locations of these conferences and learn more about them.\n\n\n\n\n\n\n\n\n\n\n\nWe encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities.\n\n\n\nIf there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
+    "text": "A GitHub repository has been created to house the outputs from all six working groups. It contains the code, data, and resources developed during the hackathon, ensuring these contributions remain accessible and reusable by the broader public health and scientific communities. You can explore it through the Github Orgnaization.\n\n\n\nA manuscript is being prepared to describe the lessons learned from this hackathon. This document aims to provide valuable insights and a practical guide for others who may wish to organise similar events in the future. It will include a detailed account of the methods, challenges faced, and solutions implemented during the hackathon.\n\n\n\nThe hackathon website serves as a central hub, hosting all the materials, slides, and resources used throughout the event. It provides participants and others interested in the hackathon with comprehensive access to the information needed to replicate or build upon the event. This website is an enduring resource that supports knowledge sharing and capacity building."
+  },
+  {
+    "objectID": "conference.html#github-repository",
+    "href": "conference.html#github-repository",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "",
+    "text": "A GitHub repository has been created to house the outputs from all six working groups. It contains the code, data, and resources developed during the hackathon, ensuring these contributions remain accessible and reusable by the broader public health and scientific communities. You can explore it through the Github Orgnaization."
+  },
+  {
+    "objectID": "conference.html#practice-manuscript",
+    "href": "conference.html#practice-manuscript",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "",
+    "text": "A manuscript is being prepared to describe the lessons learned from this hackathon. This document aims to provide valuable insights and a practical guide for others who may wish to organise similar events in the future. It will include a detailed account of the methods, challenges faced, and solutions implemented during the hackathon."
+  },
+  {
+    "objectID": "conference.html#hackathon-website",
+    "href": "conference.html#hackathon-website",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "",
+    "text": "The hackathon website serves as a central hub, hosting all the materials, slides, and resources used throughout the event. It provides participants and others interested in the hackathon with comprehensive access to the information needed to replicate or build upon the event. This website is an enduring resource that supports knowledge sharing and capacity building."
+  },
+  {
+    "objectID": "conference.html#conferences-map",
+    "href": "conference.html#conferences-map",
+    "title": "Hackathon Outcomes and Opportunities",
+    "section": "Conferences Map",
+    "text": "Conferences Map"
   },
   {
     "objectID": "conference.html#submit-your-work",
     "href": "conference.html#submit-your-work",
     "title": "Hackathon Outcomes and Opportunities",
-    "section": "",
-    "text": "We encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities."
+    "section": "Submit Your Work",
+    "text": "Submit Your Work\nWe encourage all teams to consider how their hackathon projects can have a lasting impact. Beyond presenting at conferences, think about collaborating with new partners, publishing in journals, or applying for funding to take your ideas further.\nStay tuned for more updates, and let us know if you have questions about submitting your work or applying for funding opportunities."
   },
   {
     "objectID": "conference.html#thinking-about-other-conferences",
     "href": "conference.html#thinking-about-other-conferences",
     "title": "Hackathon Outcomes and Opportunities",
-    "section": "",
-    "text": "If there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
+    "section": "Thinking about other conferences?",
+    "text": "Thinking about other conferences?\nIf there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the data/conferences.csv to share it."
   },
   {
     "objectID": "index.html",
