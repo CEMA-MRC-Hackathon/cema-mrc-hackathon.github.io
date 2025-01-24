@@ -1,0 +1,108 @@
+---
+title: "Day 5"
+author: "OJ Watson"
+date: "2025-01-24"
+from: markdown+emoji
+format:
+  revealjs:
+    incremental: true   
+---
+
+## Welcome to Day 5  {.smaller}
+
+- **Challenge Presentation Day**
+- Structure for the presentations:
+  - 15 minutes for presentation
+  - 5 minutes for question
+- We will break for tea and coffee half way
+- After the presentations we will conclude with a set of thanks and reflections on the hackathon.
+
+---
+
+# Presentation Slot
+
+---
+
+# Hackathon Feeback Sentiment Analysis
+
+---
+
+## [1. What aspects made the hackathon effective?]{.r-fit-text}{.smaller}
+
+- **Key Themes:**
+  - **Team Diversity:** Cross-disciplinary groups brought different perspectives and skillsets.
+  - **Clear Goals:** Having structured daily goals and well-defined problem statements was valued.
+  - **Interactive Environment:** Activities like icebreakers, debriefs and engaging decision-makers fostered collaboration.
+
+- **Supporting Quotes:**
+  - *"Being paired up with people of different backgrounds and skills was useful for cohesion of the team."* — Fred Nyamitago Monari
+  - *"The challenges were clearly defined, making it easy to hit the ground running."* — Pete Winskill
+  - *"Regular breaks, ice breaking, collaboration, Hacking itself and Debriefing."* — Tabitha Okech
+
+---
+
+## [2. What aspects of the hackathon could have been improved?]{.r-fit-text}{.smaller}
+
+- **Key Themes:**
+  - **More Time:** Many participants wanted extended durations for deeper work.
+  - **Pre-event Preparation:** Better onboarding and earlier dissemination of problem statements.
+  - **Environment:** Preferences for better-lit and outdoor spaces for breaks.
+
+- **Supporting Quotes:**
+  - *"Hopefully, the real work could start sooner, by day 1 or 2 latest to allow more time to build the models and achieve quality work."* — Fred Nyamitago Monari
+  - *"We should increase the time of the hackathon to 2 weeks to allow effective deliverables."* — Lilith Whittles
+  - *"The venue was good, but a room with daylight would be extremely beneficial to the state of the participants."* — Anonymous
+
+---
+
+## [3. What aspects helped teams to collaborate effectively?]{.r-fit-text}{.smaller}
+
+- **Key Themes:**
+  - **Interdisciplinary Collaboration:** Teams with diverse roles (developers, policymakers, facilitators) functioned effectively.
+  - **Icebreakers and Social Activities:** Jenga and informal group activities eased communication barriers.
+  - **Decision-Maker Involvement:** Having decision-makers within teams improved the relevance of outcomes.
+
+- **Supporting Quotes:**
+  - *"The team organisation balance... a software engineer, data scientist, facilitators, and the decision maker in one table."* — Anonymous
+  - *"Having the decision-makers in the room was excellent. Icebreaking activities helped us make progress."* — Anonymous
+  - *"The family groups created with hackers, facilitators, and decision-makers captured the reality of the problems we were solving."* — John Ojal
+
+---
+
+## [4. What were the merits of the hackathon for participants?]{.r-fit-text}{.smaller}
+
+- **Key Themes:**
+  - **Skill Development:** Practical learning in coding, modelling, and collaboration.
+  - **Networking Opportunities:** Building connections with professionals across fields.
+  - **Enjoyable Environment:** Participants felt part of a family and enjoyed working in their families.
+
+- **Supporting Quotes:**
+  - *"Learning Git and GitHub, coding aspects like commit, push, pull, and merge."* — Katy Gaythorpe
+  - *"Meeting, working, learning from, and teaching the team!"* — Anonymous
+  - *The participants were well-motivated and great fun to work with—the Jenga and introductory sessions meant we had quite a relaxed atmosphere, and this really helped with generating ideas."* — Francis Motiri
+
+---
+
+## [5. What components were effective/could be improved for knowledge translation?]{.r-fit-text}{.smaller}
+
+- **Key Themes:**
+  - **Focused Problem Statements:** Clear and concise problems made the tools practical.
+  - **Longer Working Time:** Extended durations were suggested for deeper exploration and refinement.
+  - **Pre-event Planning:** Early provision of datasets and structured pre-hackathon planning were beneficial (but could have been even earlier!).
+
+- **Supporting Quotes:**
+  - *"Focused problem statements streamline efforts and lead to more impactful outcomes."* — Anonymous
+  - *"In the future, it could be helpful to have more time for testing and refining the final solutions. This will allow the participants to see the project through to a higher level of innovation."* — John Ojal
+  - *"Plan and work pre-hackathon to help with working plans and structure."* — Peter Waweru Mugo
+  - *"Receiving datasets ahead of time might have helped a little."* — Anonymous
+
+---
+
+## Hackathon Milestones Reached:
+
+- Total number of Github Commits across groups:
+  - 542 Commits :sparkler:
+- Total individuals who committed code:
+  - 36 Individuals :couple_with_heart:
+- Total number of biscuits consumed:
+  - 196 Biscuits (at least...) :cookie:
