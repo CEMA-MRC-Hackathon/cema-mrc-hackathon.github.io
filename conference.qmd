@@ -4,6 +4,20 @@ format: html
 lightbox: true
 ---
 
+# Hackathon Outcomes
+
+## GitHub Repository
+
+A GitHub repository has been created to house the outputs from all six working groups. It contains the code, data, and resources developed during the hackathon, ensuring these contributions remain accessible and reusable by the broader public health and scientific communities. You can explore it through the [Github Orgnaization](https://github.com/CEMA-MRC-Hackathon).
+
+## Practice Manuscript
+
+A manuscript is being prepared to describe the lessons learned from this hackathon. This document aims to provide valuable insights and a practical guide for others who may wish to organise similar events in the future. It will include a detailed account of the methods, challenges faced, and solutions implemented during the hackathon.
+
+## Hackathon Website
+
+The hackathon website serves as a central hub, hosting all the materials, slides, and resources used throughout the event. It provides participants and others interested in the hackathon with comprehensive access to the information needed to replicate or build upon the event. This website is an enduring resource that supports knowledge sharing and capacity building.
+
 # From Hackathon to Impact
 
 Our hackathon is designed not only to address immediate public health challenges but also to inspire long-term innovation and collaboration. We hope that the groups formed during the event will continue their work, potentially refining their projects into impactful tools or ideas. One way to showcase your work further is by submitting to relevant conferences, sharing insights with the broader scientific and public health community.
@@ -45,3 +59,5 @@ Stay tuned for more updates, and let us know if you have questions about submitt
 ## Thinking about other conferences?
 
 If there are other meetings or conferences you are interested in, please let us know. And you can use your newly learnt Github skills to make a pull request to the `data/conferences.csv` to share it.  
+
+##

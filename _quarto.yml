@@ -28,7 +28,7 @@ website:
       - href: materials.qmd
         text: "Presentations"
       - href: conference.qmd
-        text: "Conferences"
+        text: "Outcomes"
 
       - href: feedback.qmd
         text: "Daily Feedback"
