@@ -151,25 +151,22 @@ ggplot(aes(x = date + lubridate::hours(3), y = cumulative_commits, colour = repo
                                            labels = scales::number_format(accuracy = 1))
 gg2
 
-# 5. Save figure to plots director
+# 5. Save figures to plots directory -----------
 commit_gg <- cowplot::plot_grid(
     gg1 + theme(legend.position = c(0.25,0.85), legend.background = element_rect()),
     gg2 + theme(legend.position = "none"),
     ncol = 2,
     rel_widths = c(0.4, 0.6), scale = 0.98, labels = "AUTO"
   )
-
 fig_save("commits", commit_gg, width = 18, height = 7, res = 600, plot_dir = "_manuscript_scripts/plots")
 
-
-# 5. Save figure to plots director
+# alternative style
 commit_gg2 <- cowplot::plot_grid(
   gg1 + theme(legend.position = c(0.15,0.65), legend.background = element_rect()),
   gg2 + theme(legend.position = "none", axis.text.x = element_text(size = 10)),
   ncol = 1,
   rel_heights = c(0.4, 0.6), scale = 0.98, labels = "AUTO"
 )
-
 fig_save("commits2", commit_gg2, width = 10, height = 9, res = 600, plot_dir = "_manuscript_scripts/plots")
 
 
