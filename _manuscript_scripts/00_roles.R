@@ -1,5 +1,47 @@
+# 1. Package loading and functions ------------
 
-# 1. Read data and create plot -----------
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+## function to save fig
+fig_save <- function(name,
+                     fig,
+                     width = 6,
+                     height = 6,
+                     plot_dir = file.path(here::here(), "analysis/plots"),
+                     pdf_plot = TRUE,
+                     font_family = "Helvetica",
+                     res = 300,
+                     ...) {
+
+  if(!is.null(font_family)) {
+    fig <- fig + ggplot2::theme(text = ggplot2::element_text(family = font_family))
+  }
+
+  dir.create(plot_dir, showWarnings = FALSE)
+  fig_path <- function(name) {paste0(plot_dir, "/", name)}
+
+  ragg::agg_png(fig_path(paste0(name,".png")),
+                width = width,
+                height = height,
+                units = "in",
+                res = res,
+                ...)
+  print(fig)
+  dev.off()
+
+  if(pdf_plot) {
+    pdf(file = fig_path(paste0(name,".pdf")), width = width, height = height)
+    print(fig)
+    dev.off()
+  }
+
+}
+
+
+# 2. Read data and create plot -----------
 data <- read.csv("_manuscript_scripts/data-raw/participants.csv")
 data <- data %>% filter(role != "Admin")
 
@@ -35,7 +77,7 @@ gg2 <- data %>% ggplot(aes(x = gender, fill = ethnicity)) +
                      labels = scales::number_format(accuracy = 1))
 gg2
 
-# 2. Save figures to plots directory -----------
+# 3. Save figures to plots directory -----------
 roles_gg <- cowplot::plot_grid(
   gg2 + theme(legend.position = "top") +
     guides(fill = guide_legend(nrow = 4, title.position="top")),
