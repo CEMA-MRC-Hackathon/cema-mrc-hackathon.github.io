@@ -69,7 +69,7 @@ gg1
 gg2 <- data %>% ggplot(aes(x = gender, fill = ethnicity)) +
   geom_bar() +
   theme_minimal(base_size = 14, base_family = "Helvetica") +
-  MetBrewer::scale_fill_met_d(palette_name = "Hokusai2", name = "Gender") +
+  MetBrewer::scale_fill_met_d(palette_name = "Hokusai2", name = "Ethnicity") +
   xlab("Gender") + ylab("Total") +
   theme(axis.line = element_line()) +
   scale_y_continuous(expand = expand_scale(mult = c(0, 0),
