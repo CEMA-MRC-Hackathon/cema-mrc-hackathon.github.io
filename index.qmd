@@ -2,8 +2,15 @@
 title: "Bridging the Gap Hackathon"
 subtitle: "20-24 January 2025, Nairobi, Kenya"
 title-block-banner: "#A6C7E1"
-sidebar: false
+format:
+  html:
+    page-layout: full
 ---
+
+<div id="site-header">
+  <img src="images/logos.png" alt="Hackathon Logo">
+</div>
+
 
 The "Bridging the Gap Hackathon" is a 5-day event to bring together public health decision-makers, developers, technical experts, and academics and researchers to create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya. 
 
@@ -53,5 +60,4 @@ We are extremely grateful to our sponsors for the hackathon:
 - Wellcome for funding the study inspiring the hackathon ("Leveraging forecasts to optimise decision making" - 228271/Z/23/Z), which supported the original Ideathon team to travel for the hackathon.
 
 - The Gates Foundation (INV-044079) for supporting involvement of CEMA staff in the hackathon.
-### Sponsors
 
