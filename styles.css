@@ -1,19 +1,39 @@
-/* Ensure consistent spacing and structure for logo and navbar */
+/* Ensure header has title & subtitle on the left and logo on the right */
 #site-header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: white; /* White background for logo */
-    padding: 15px 0;
+    background-color: white; /* White background for the header */
+    padding: 15px 30px;
+    box-sizing: border-box;
 }
 
-/* Adjust logo size and alignment */
-#site-header img {
-    max-width: 220px; /* Adjust size */
+/* Title and Subtitle Styling */
+#site-title {
+    text-align: left;
+    flex-grow: 1;
+}
+
+#site-title h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+#site-title h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+}
+
+/* Logo Styling - Positioned on the right */
+#site-logo {
+    max-width: 180px; /* Adjust size */
     height: auto;
-    display: block;
-    margin: 0 auto;
+    margin-left: auto;
 }
 
 /* Navbar Styling */
@@ -40,12 +60,7 @@
     transition: 0.3s ease-in-out;
 }
 
-/* Ensure logo remains visible even on the homepage */
-#title-block-header {
-    display: none !important; /* Hide default title block to avoid conflicts */
-}
-
-/* Add spacing between logo and navbar */
+/* Ensure proper spacing */
 #site-header + .navbar {
     margin-top: 10px;
 }
