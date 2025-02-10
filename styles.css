@@ -1,10 +1,10 @@
-/* Ensure title and subtitle appear properly */
+/* Header container */
 #title-block-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: white; /* White background for header */
+    background-color: white; /* White background */
     padding: 20px 30px;
     box-sizing: border-box;
 }
@@ -23,22 +23,23 @@
     color: #666;
 }
 
-/* Logo Styling */
+/* Logo Container */
 #site-logo-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 200px; /* Adjust width as needed */
+    width: 200px;
 }
 
+/* Logo Styling */
 #site-logo {
-    max-width: 180px; /* Adjust size */
+    max-width: 180px;
     height: auto;
 }
 
 /* Navbar Styling */
 .navbar {
-    background-color: #4A5864 !important; /* Keep navbar color */
+    background-color: #4A5864 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +49,7 @@
 
 /* Navbar Links */
 .nav-link {
-    color: white !important; /* Default navbar text color */
+    color: white !important;
     font-size: 16px;
     font-weight: 500;
     padding: 8px 12px;
