@@ -4,15 +4,10 @@ subtitle: "20-24 January 2025, Nairobi, Kenya"
 format:
   html:
     page-layout: full
-    toc: false
 ---
 
-:::{.content-visible}
-<div id="site-header">
-  <div id="site-logo-container">
-    <img id="site-logo" src="images/logos.png" alt="Hackathon Logo">
-  </div>
-</div>
+::: {.content-visible}
+![](images/logo.png){#site-logo}
 :::
 
 
