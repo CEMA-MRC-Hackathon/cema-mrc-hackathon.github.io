@@ -7,7 +7,7 @@ format:
 ---
 
 ::: {.content-visible}
-![](images/logo.png){#site-logo}
+![](images/logos.png){#site-logo}
 :::
 
 
