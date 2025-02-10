@@ -4,14 +4,16 @@ subtitle: "20-24 January 2025, Nairobi, Kenya"
 format:
   html:
     page-layout: full
+    toc: false
 ---
 
+:::{.content-visible}
 <div id="site-header">
   <div id="site-logo-container">
-    <img id="site-logo" src="images/logos.png" alt="Hackathon Logo">
+    <img id="site-logo" src="images/logo.png" alt="Hackathon Logo">
   </div>
 </div>
-
+:::
 
 
 The "Bridging the Gap Hackathon" is a 5-day event to bring together public health decision-makers, developers, technical experts, and academics and researchers to create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya. 
