@@ -1,51 +1,52 @@
-/* css styles */
-
-.quarto-title {
-  text-align: center;
+/* Ensure navbar has two sections (Logo + Menu) */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.quarto-title-banner {
-  padding-top: 1.8em;
-  padding-bottom: 1.5em;
+/* Top section (logo area) */
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white; /* White background for the logo */
+    padding: 10px 0;
 }
 
-.quarto-grid-item, .card-img {
-  border-radius: 10px!important;
+/* Adjust logo size */
+.navbar-brand img {
+    max-width: 220px;  /* Adjust the size */
+    height: auto;
 }
 
-#quarto-announcement {
-  align-items: self-end;
+/* Bottom section (menu items) */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #4A5864; /* Keep navbar background color */
+    width: 100%;
+    padding: 10px 0;
 }
 
-.title, .lead {
-  color: black!important;
-}
-
-.description {
-  text-align: center;
-}
-
-.listing-subtitle {
-  font-size: 80%;
-}
-
-.nav-link:hover, .nav-link:focus {
-  color: #A6C7E1;
-}
-
+/* Navbar Links */
 .nav-link {
-  padding-left: 0.9rem !important;
+    color: white !important; /* Default navbar text color */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
 }
 
-
-.quarto-title .quarto-categories{
-  display: inline-grid;
+/* Navbar Hover Effects */
+.nav-link:hover, .nav-link:focus {
+    color: #A6C7E1 !important;
+    transition: 0.3s ease-in-out;
 }
 
-.menu-text {
-  font-size: x-large;
-}
-
-.quarto-announcement-icon {
-  padding-left: 2em;
+/* Ensure navbar is spaced properly */
+.navbar-container + .navbar {
+    margin-top: 10px;
 }
