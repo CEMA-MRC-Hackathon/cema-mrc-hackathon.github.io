@@ -16,6 +16,8 @@ website:
     background: "#4A5864"
     alignment: "right"
     pinned: true
+    logo: images/logos.png  # Add this line pointing to your logo file
+
     left:
       - href: index.qmd
         text: Home
