@@ -15,10 +15,9 @@ website:
   title: ""
 
   navbar:
-    background: "#4A5864"  # Background color for navbar (menu part)
+    background: "#4A5864"  # Background color for the navbar
     alignment: "center"  # Center align menu items
     pinned: true
-    logo: images/logos.png  # Keep the logo in navbar (CSS will adjust placement)
     left:
       - href: index.qmd
         text: Home
