@@ -1,4 +1,4 @@
-/* Ensure header has title on the left and logo on the right */
+/* Ensure title and subtitle appear properly */
 #title-block-header {
     display: flex;
     justify-content: space-between;
@@ -9,10 +9,9 @@
     box-sizing: border-box;
 }
 
-/* Ensure title is displayed properly */
+/* Title Styling */
 #title-block-header .title {
     text-align: left;
-    flex-grow: 1;
     font-size: 32px;
     font-weight: bold;
     color: #333;
@@ -24,7 +23,7 @@
     color: #666;
 }
 
-/* Logo container for better alignment */
+/* Logo Styling */
 #site-logo-container {
     display: flex;
     justify-content: flex-end;
@@ -32,7 +31,6 @@
     width: 200px; /* Adjust width as needed */
 }
 
-/* Logo Styling */
 #site-logo {
     max-width: 180px; /* Adjust size */
     height: auto;
