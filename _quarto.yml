@@ -14,16 +14,11 @@ website:
 
   title: ""
 
-  # Logo section separate from navbar
-  page-header:
-    background: white  # White background behind the logo
-    logo: images/logos.png  # Adjust the path to your logo
-    logo-alt: "Hackathon Logo"  # Alternative text for accessibility
-
   navbar:
-    background: "#4A5864"  # Background color of the navbar
-    alignment: "center"  # Align the menu items in the center
+    background: "#4A5864"  # Background color for navbar (menu part)
+    alignment: "center"  # Center align menu items
     pinned: true
+    logo: images/logo.png  # Keep the logo in navbar (CSS will adjust placement)
     left:
       - href: index.qmd
         text: Home
