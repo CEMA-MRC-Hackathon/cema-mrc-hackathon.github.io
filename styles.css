@@ -1,39 +1,41 @@
-/* Ensure header has title & subtitle on the left and logo on the right */
-#site-header {
+/* Ensure header has title on the left and logo on the right */
+#title-block-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: white; /* White background for the header */
-    padding: 15px 30px;
+    background-color: white; /* White background for header */
+    padding: 20px 30px;
     box-sizing: border-box;
 }
 
-/* Title and Subtitle Styling */
-#site-title {
+/* Ensure title is displayed properly */
+#title-block-header .title {
     text-align: left;
     flex-grow: 1;
-}
-
-#site-title h1 {
-    margin: 0;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     color: #333;
 }
 
-#site-title h2 {
-    margin: 0;
-    font-size: 18px;
+#title-block-header .subtitle {
+    font-size: 20px;
     font-weight: normal;
     color: #666;
 }
 
-/* Logo Styling - Positioned on the right */
+/* Logo container for better alignment */
+#site-logo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px; /* Adjust width as needed */
+}
+
+/* Logo Styling */
 #site-logo {
     max-width: 180px; /* Adjust size */
     height: auto;
-    margin-left: auto;
 }
 
 /* Navbar Styling */
@@ -61,6 +63,6 @@
 }
 
 /* Ensure proper spacing */
-#site-header + .navbar {
+#title-block-header + .navbar {
     margin-top: 10px;
 }
