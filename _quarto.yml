@@ -12,8 +12,7 @@ website:
     type: primary
     position: below-navbar
 
-  title: "Bridging the Gap Hackathon"
-  site-subtitle: "20-24 January 2025, Nairobi, Kenya"
+  title: "Bridging the Gap Hackathon - 20-24 January 2025, Nairobi, Kenya"
 
   navbar:
     background: "#4A5864"  # Background color for navbar (menu part)
