@@ -1,33 +1,27 @@
-/* Ensure navbar has two sections (Logo + Menu) */
-.navbar {
+/* Ensure consistent spacing and structure for logo and navbar */
+#site-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    background-color: white; /* White background for logo */
+    padding: 15px 0;
 }
 
-/* Top section (logo area) */
-.navbar-brand {
+/* Adjust logo size and alignment */
+#site-header img {
+    max-width: 220px; /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #4A5864 !important; /* Keep navbar color */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    background-color: white; /* White background for the logo */
-    padding: 10px 0;
-}
-
-/* Adjust logo size */
-.navbar-brand img {
-    max-width: 220px;  /* Adjust the size */
-    height: auto;
-}
-
-/* Bottom section (menu items) */
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    background-color: #4A5864; /* Keep navbar background color */
     width: 100%;
     padding: 10px 0;
 }
@@ -46,7 +40,12 @@
     transition: 0.3s ease-in-out;
 }
 
-/* Ensure navbar is spaced properly */
-.navbar-container + .navbar {
+/* Ensure logo remains visible even on the homepage */
+#title-block-header {
+    display: none !important; /* Hide default title block to avoid conflicts */
+}
+
+/* Add spacing between logo and navbar */
+#site-header + .navbar {
     margin-top: 10px;
 }
