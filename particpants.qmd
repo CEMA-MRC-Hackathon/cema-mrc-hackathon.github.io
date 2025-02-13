@@ -17,7 +17,7 @@ sidebar: false
 
 # Participants & Organisers
 
-The organising committee for the hackathon are listed below. Participants (Hackers or Decision Makers) as well as facilitators at the hackathon are being added below. Check out who is attending and let us know if you would like to [edit your page](https://github.com/mrc-ide/cema-mrc-hackathon/fork)!
+The organising committee for the hackathon are listed below. Participants (Hackers or Decision Makers) as well as facilitators at the hackathon are being added below. Check out who is attending and let us know if you would like to [edit your page](https://github.com/CEMA-MRC-Hackathon/cema-mrc-hackathon.github.io/fork)!
 
 ---
 

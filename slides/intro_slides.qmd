@@ -52,7 +52,7 @@ format:
 - Photographs:
   - We will be taking photos throughout for social media. Smile! 📷
 - Feedback and Questions:
-  - [https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html](https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html)
+  - [https://cema-mrc-hackathon.github.io/feedback.html](https://cema-mrc-hackathon.github.io/feedback.html)
 :::
 
 ::: {.column width="30%"}
@@ -194,7 +194,7 @@ Each day will close by reflecting in groups and sharing updates.
 
 4. **Sharing feedback with organisers:**
   - Throughout the hackathon, please use the feedback page to share your feedback or ask any questions that you would like answered:
-    - [https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html](https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html) 
+    - [https://cema-mrc-hackathon.github.io/feedback.html](https://cema-mrc-hackathon.github.io/feedback.html) 
   - At the end of the day, please also share any feedback as a group, which we will review overnight ready for the next day.
   
 :::
@@ -314,7 +314,7 @@ Enjoy a well-deserved break!
 
 - Have a read of the topic presentations as well for more information. 
 - All information is on the hackathon website:
-  - [https://mrc-ide.github.io/cema-mrc-hackathon/materials.html](https://mrc-ide.github.io/cema-mrc-hackathon/materials.html)
+  - [https://cema-mrc-hackathon.github.io/materials.html](https://cema-mrc-hackathon.github.io/materials.html)
 
 <div style="text-align: left;">
   <img src="images/topic_qr.png" class="fragment" width="300" height="300" />
@@ -555,7 +555,7 @@ Enjoy a well-deserved break!
 
 4. **Sharing feedback with organisers:**
   - Throughout the hackathon, please use the feedback page to share your feedback or ask any questions that you would like answered:
-    - [https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html](https://mrc-ide.github.io/cema-mrc-hackathon/feedback.html) 
+    - [https://cema-mrc-hackathon.github.io/feedback.html](https://cema-mrc-hackathon.github.io/feedback.html) 
   - At the end of the day, please also share any feedback as a group, which we will review overnight ready for the next day.
 :::
 

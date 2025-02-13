@@ -8,17 +8,17 @@ from: markdown+emoji
 
 ## Presentations associated with this hackathon
 
-- [Day 1 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/intro_slides.html)
-- [Day 2 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/day2_slides.html)
-- [Day 3 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/day3_slides.html)
+- [Day 1 Slides](https://cema-mrc-hackathon.github.io/slides/intro_slides.html)
+- [Day 2 Slides](https://cema-mrc-hackathon.github.io/slides/day2_slides.html)
+- [Day 3 Slides](https://cema-mrc-hackathon.github.io/slides/day3_slides.html)
 - Day 4 Slides (same as Day 3)
-- [Day 5 Slides](https://mrc-ide.github.io/cema-mrc-hackathon/slides/day5_slides.html)
+- [Day 5 Slides](https://cema-mrc-hackathon.github.io/slides/day5_slides.html)
 
 ## Presentations on Github Training
 
-- [Introduction to Git & Github](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_intro_slides.html)
-- [Tutorial: Git, SSH Keys, Github on Mac](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_install_mac.html)
-- [Tutorial: Git, SSH Keys, Github on Windows](https://mrc-ide.github.io/cema-mrc-hackathon/slides/git_install_windows.html)
+- [Introduction to Git & Github](https://cema-mrc-hackathon.github.io/slides/git_intro_slides.html)
+- [Tutorial: Git, SSH Keys, Github on Mac](https://cema-mrc-hackathon.github.io/slides/git_install_mac.html)
+- [Tutorial: Git, SSH Keys, Github on Windows](https://cema-mrc-hackathon.github.io/slides/git_install_windows.html)
 
 ## Resources and Documents associated with this hackathon
 
