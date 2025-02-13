@@ -1,15 +1,22 @@
 ---
-title: "Daily Feedback"
+title: "Feedback"
 ---
 
-## We Value Your Feedback! 📋
+# We Value Your Feedback! 📋
 
-We hope you're enjoying the hackathon and having a great time collaborating, learning, and innovating. Your feedback is crucial in helping us improve and make this event even better for everyone.
+We hope you're enjoying the hackathon and having a great time collaborating, learning, and innovating. Your feedback is crucial in helping us improve and make this event even better for everyone. Thank you for helping us make this event the best it can be!
 
-### How Can We Enhance Your Experience?
+## How Can We Enhance Your Hackathon Experience?
 
 We’d love to hear your thoughts—whether it’s about the logistics, content, or anything else. Please take a moment to share your feedback through the link below. Your responses are completely anonymous, and we’ll aim to address your suggestions daily throughout the week.
 
-[**Provide Your Feedback Here**](https://docs.google.com/forms/d/e/1FAIpQLSeA2Yo9QkgtmkhdoK-Br9A_VBHHoJ_U3GUWou-75tqLkVW_9A/viewform?usp=header)
+[**Provide Your Daily Feedback Here**](https://docs.google.com/forms/d/e/1FAIpQLSeAuiKo4E6yFq6-vtqIJpgzE1FihpCjUceFN4HLleWln-lExQ/viewform?usp=header)
 
-Thank you for helping us make this event the best it can be!
+## How Can We Improve the Next Hackathon?
+
+We are are keen to understand how we could have improved this hackathon, what worked well and what did not. Please take a moment at the end of Day 5 to share your feedback through the link below. 
+
+[**Provide Your End of Hackathon Feedback Here**](https://docs.google.com/forms/d/e/1FAIpQLSeA2Yo9QkgtmkhdoK-Br9A_VBHHoJ_U3GUWou-75tqLkVW_9A/viewform?usp=header)
+
+---
+

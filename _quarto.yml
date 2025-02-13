@@ -12,7 +12,6 @@ website:
     type: primary
     position: below-navbar
 
-  title: "Bridging the Gap Hackathon"
 
   navbar:
     background: "#4A5864"  # Background color for navbar (menu part)
@@ -32,10 +31,13 @@ website:
       - href: conference.qmd
         text: "Outcomes"
       - href: feedback.qmd
-        text: "Daily Feedback"
+        text: "Feedback"
 
   back-to-top-navigation: true
   google-analytics: G-N2S7VXS1QK
+  body-footer: |
+    ![](images/logos.png){ width=860px style="display: block; margin: 0 auto;" }
+
 
 format:
   html:
@@ -43,3 +45,5 @@ format:
     css: styles.css
     toc: false
     page-layout: full
+
+

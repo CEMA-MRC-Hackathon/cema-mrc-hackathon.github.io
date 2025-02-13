@@ -1,68 +1,52 @@
-/* Header container */
-#title-block-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: white; /* White background */
-    padding: 20px 30px;
-    box-sizing: border-box;
+/* css styles */
+
+.quarto-title {
+  text-align: center;
+  display: none !important;
 }
 
-/* Title Styling */
-#title-block-header .title {
-    text-align: left;
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
+.quarto-title-banner {
+  padding-top: 1.8em;
+  padding-bottom: 1.5em;
 }
 
-#title-block-header .subtitle {
-    font-size: 20px;
-    font-weight: normal;
-    color: #666;
+.quarto-grid-item, .card-img {
+  border-radius: 10px!important;
 }
 
-#site-logo-container {
-    display: flex;
-    justify-content: flex-end; /* Moves the logo to the right */
-    align-items: center;
-    width: 100%;
-    padding-right: 30px; /* Adds spacing from the right */
+#quarto-announcement {
+  align-items: self-end;
 }
 
-/* Double the size of the logo */
-#site-logo {
-    max-width: 360px; /* Doubled from 180px */
-    height: auto;
-    display: block;
+.title, .lead {
+  color: black!important;
 }
 
-/* Navbar Styling */
-.navbar {
-    background-color: #4A5864 !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 10px 0;
+.description {
+  text-align: center;
 }
 
-/* Navbar Links */
-.nav-link {
-    color: white !important;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 12px;
+.listing-subtitle {
+  font-size: 80%;
 }
 
-/* Navbar Hover Effects */
 .nav-link:hover, .nav-link:focus {
-    color: #A6C7E1 !important;
-    transition: 0.3s ease-in-out;
+  color: #A6C7E1;
 }
 
-/* Ensure proper spacing */
-#title-block-header + .navbar {
-    margin-top: 10px;
+.nav-link {
+  padding-left: 0.9rem !important;
+}
+
+
+.quarto-title .quarto-categories{
+  display: inline-grid;
+}
+
+.menu-text {
+  font-size: x-large;
+}
+
+.quarto-announcement-icon {
+  padding-left: 2em;
 }

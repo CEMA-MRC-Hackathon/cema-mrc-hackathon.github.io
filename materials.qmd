@@ -23,3 +23,5 @@ from: markdown+emoji
 ## Resources and Documents associated with this hackathon
 
 - [Research Topic Presentations](https://docs.google.com/document/d/e/2PACX-1vSCnA6v5e8kXdZIIJuxiwvFIYElBKH0tNczezd-GJnR40tIc0B3XVPQrTmqIUw7P1ApT941ku0QnJDW/pub)
+
+---

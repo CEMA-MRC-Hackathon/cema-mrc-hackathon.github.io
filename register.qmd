@@ -2,7 +2,7 @@
 title: "Registration - Closed"
 ---
 
-## Join us!
+# Join us!
 
 • **We want to**: Create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya.
 
@@ -18,13 +18,14 @@ title: "Registration - Closed"
 
 • **Applications close on the 5th December 2024**.
 
-### Cost
+## Cost
 
 There is no cost to attend the hackathon, however, there are a limited number of places available for the hackathon. While we do have some funds to support travel and attendance for participants from outside Nairobi and from MRC-GIDA at Imperial College London, these funds are limited. If you require financial support to attend, please indicate this in the registration form. 
 
-### Registration
+## Registration
 
 [**Registration Is Now Closed!**](/https://forms.gle/HaLCj3RaaC8E36UA9)
 
 Please register your interest for the hackathon using the link above by 3 December 24. We will then be in touch to confirm participant funding and attendance, which will be allocated to ensure a diverse range of participants and backgrounds.
 
+---

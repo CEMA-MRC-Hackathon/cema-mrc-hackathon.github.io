@@ -2,9 +2,9 @@
 title: Hackathon Program
 ---
 
-## ℹ️ Event Details
+# ℹ️ Event Details
 
-**Bridging the Gap: Applied Infectious Disease Epidemiology Tools to Support Evidence-Informed Decision-Making**
+## **Bridging the Gap Hackathon**
 
 - **Date:** 20 – 24 January 2025
 - **Location:** Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya
@@ -37,3 +37,4 @@ title: Hackathon Program
 - **10.00 – 13.00:** Presentations and questions
 - **13.00 - 13.30:** Closing remarks and thanks 
 
+---

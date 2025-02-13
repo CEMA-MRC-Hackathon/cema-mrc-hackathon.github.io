@@ -6,18 +6,26 @@ format:
     page-layout: full
 ---
 
-::: {.content-visible}
-![](images/logo.png){#site-logo width=540px}
-:::
+
+<div style="text-align: center;">
+  <h1>Bridging the Gap Hackathon</h1>
+  <p class="subtitle lead">20-24 January 2025, Nairobi, Kenya</p>
+</div>
+
+---
+
+![](images/logos.png){ width=860px style="display: block; margin: 0 auto;" }
+
+---
 
 
 The "Bridging the Gap Hackathon" is a 5-day event to bring together public health decision-makers, developers, technical experts, and academics and researchers to create free, open-source resources to support and facilitate evidence-informed decision making and address health policy needs in Kenya. 
 
-### Background
+## Background
 
 Experiences during the COVID-19 pandemic highlighted the challenges decision makers face in interpreting and using analytics for public health policy. To respond to these challenges, researchers at the [MRC Centre for Global Infectious Disease Analysis (MRC-GIDA) at Imperial College London](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/) and the [Center for Epidemiological Modelling and Analysis (CEMA)](https://cema-africa.uonbi.ac.ke/) at the University of Nairobi are currently conducting a research study to explore how the gap between quantitative scientists and policymakers, especially in resource-constrained settings can be bridged. 
 
-### Who Should Attend
+## Who Should Attend
 
 The hackathon aims to include a diverse audience, who will either contribute to idea generation or developing the identified software tools. The latter activity will include core training on collaborative coding best practices, which will be strengthened by the delivery of pre-hackathon virtual training courses and teaching material for enrolled participants.
 
@@ -27,7 +35,7 @@ The hackathon aims to include a diverse audience, who will either contribute to 
 
 - **Academics and Researchers:** Participants from various Kenyan institutions, not limited to CEMA, who are involved in infectious disease modelling and public health data analysis.
 
-### Hackathon Schedule
+## Hackathon Schedule
 
 - **Day 1: Foundations and Group Formation**
   - Introductions, icebreaker activities, and team building exercises.
@@ -43,14 +51,14 @@ The hackathon aims to include a diverse audience, who will either contribute to 
   - Teams present their minimum viable products to Ministry of Health representatives and other stakeholders.
   - Constructive feedback and discussions on the relevance and potential impact of the tools developed.
   
-### Venue
+## Venue
 
 The hackathon will be hosted by the Center for Epidemiological Modelling and Analysis (CEMA), and will take place at:
 
 Nairobi Safari Club by Swiss-Belhotel, University Wy, Nairobi, Kenya
 [Google Maps](https://maps.app.goo.gl/nnbjmZAPkvvUXsog7)
 
-### Sponsors
+## Sponsors
 
 We are extremely grateful to our sponsors for the hackathon:
 
@@ -60,3 +68,4 @@ We are extremely grateful to our sponsors for the hackathon:
 
 - The Gates Foundation (INV-044079) for supporting involvement of CEMA staff in the hackathon.
 
+---

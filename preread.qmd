@@ -5,14 +5,14 @@ editor:
     wrap: 72
 ---
 
-## Prepare for the Hackathon
+# Prepare for the Hackathon
 
 To ensure all participants are equipped to make the most of the
 hackathon, we’ve compiled a list of pre-read materials and resources.
 These resources cover essential skills for collaborative coding, R
 programming, and Git/GitHub workflows.
 
-### Pre-Reading Materials
+## Pre-Reading Materials
 
 -   **Git and GitHub**: Collaborative coding will be a core component of
     the hackathon. Please review the following materials to ensure
@@ -34,7 +34,7 @@ programming, and Git/GitHub workflows.
     
     -   [R Packages Book](https://r-pkgs.org/)
 
-### Software Setup
+## Software Setup
 
 Before the event, ensure the following are installed and set up on your
 laptop:
@@ -48,7 +48,7 @@ laptop:
 If you need assistance with installation, refer to the guides linked
 above, or feel free to reach out to us prior to the hackathon.
 
-### Questions?
+## Questions?
 
 For any queries about the resources or preparation, contact:
 
@@ -66,3 +66,5 @@ By familiarising yourself with these resources, you'll be ready to
 contribute effectively and make the most of your hackathon experience.
 
 We look forward to seeing you all in Nairobi soon!
+
+---
