@@ -50,3 +50,7 @@
 .quarto-announcement-icon {
   padding-left: 2em;
 }
+
+.quarto-about-jolla.column-page img[src="images/logos.png"] {
+  display: none !important;
+}
