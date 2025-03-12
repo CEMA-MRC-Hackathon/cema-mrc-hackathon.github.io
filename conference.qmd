@@ -12,7 +12,13 @@ A GitHub repository has been created to house the outputs from all six working g
 
 ## Practice Manuscript
 
-A manuscript is being prepared to describe the lessons learned from this hackathon. This document aims to provide valuable insights and a practical guide for others who may wish to organise similar events in the future. It will include a detailed account of the methods, challenges faced, and solutions implemented during the hackathon.
+We're delighted to share that our manuscript describing the lessons learned from the recent hackathon is now published and available online!
+
+This manuscript provides valuable insights and serves as a practical guide for anyone interested in organising similar events in the future. It includes a comprehensive account of the methods used, challenges encountered, and effective solutions implemented during the hackathon.
+
+You can access the manuscript here: [https://osf.io/preprints/socarxiv/tcjqs_v1](https://osf.io/preprints/socarxiv/tcjqs_v1)
+
+A huge thank you to all the authors, participants, and contributors who made this possible—your efforts and collaboration were essential to the success of this project!
 
 ## Hackathon Website
 

@@ -8,7 +8,7 @@ website:
   announcement:
     icon: megaphone
     dismissable: true
-    content: "Registration is closed now - check back for updates on the outputs of the Hackathon!"
+    content: "Hackathon Manuscript Pre-Print Published: <a href='https://osf.io/preprints/socarxiv/tcjqs_v1'>https://osf.io/preprints/socarxiv/tcjqs_v1</a>"
     type: primary
     position: below-navbar
 
